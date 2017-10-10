@@ -1,0 +1,123 @@
+    /* Add a gray background color and some padding to the footer */
+    footer {     
+      background-color: #3399CC;
+      padding: 25px;
+      
+    }
+    .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      min-height: 200px;
+    }
+    /* Hide the carousel text when the screen is less than 600 pixels wide */
+    @media (max-width: 600px) {
+      .carousel-caption {
+        display: none; 
+    }
+
+}.tm-green-btn{
+        background-color: #fff;
+        border: none;
+        color: #3399CC;
+        padding: 5px 5px;
+        font-family: 'Kanit', sans-serif;
+        margin-top: -5px;
+
+}.tm-green-btn:hover,
+            .tm-green-btn:focus {
+        background-color: #3399CC;
+        border: solid;
+        border-width: 1px;
+        border-color: #fff;
+        color:#fff;
+        margin-top: -5px;
+      } .well p{
+        text-indent: 20px;
+      }a{
+        color: #FF9900;
+      }a:hover{
+        color: #ff3f00;
+      }#bgCard{
+        background:#cccccc;
+        background-repeat: no-repeat;
+        background-image: url("assets/images/tep.jpg");
+        background-position: 100% 100%;
+        width: 25%;
+
+      }#bgHeader{
+        background-repeat: no-repeat;
+        background-image: url("assets/images/bg2.jpg");
+        background-position: 0% 100%;
+        
+      }.nav>li>a{
+        color: white;
+      }.nav>li>a:hover,.nav>li>a:focus{
+        color: #3399CC;
+      }.carousel-caption>h1{
+        color:white;
+        text-shadow: 0.1em 0.1em 0.2em black;
+      }.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.container:before, .container:after {
+  content: " ";
+  display: table;
+}
+.container:after {
+  clear: both;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 960px;
+  }
+}
+
+
+
+.container-fluid:after {
+  clear: both;
+}
+
+
+
+.footer-service-link {
+    padding: 0;
+    margin-top: 20px;
+    width: 100%;
+    list-style: none;
+}
+.footer-service-link::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+.footer-service-link > li {
+    display: block;
+    float: left;
+    width: 33.33%;
+}
+.footer-service-link > li > strong {
+    display: inline-block;
+    margin-bottom: 10px;
+    font-family: 'thaisans_neuebold';
+    font-size: 1.5em;
+    font-weight: 400;
+}
+.footer-service-link > li > ul {
+    padding: 0;
+    list-style: none;
+}.row .col-md-3 > h5{
+  color: white;
+}
