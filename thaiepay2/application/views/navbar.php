@@ -41,7 +41,7 @@
           <li><a href="<?php echo base_url();?>merchant/merchant/payment">ชำระเงิน/ต่ออายุบริการ</a></li>
           <li><a href="<?php echo base_url();?>merchant/merchant/adminSystem">ระบบจัดการร้านค้า</a></li>
           <li><a href="<?php echo base_url();?>merchant/merchant/download">ดาวน์โหลด</a></li>
-          <li><a href="<?php echo base_url();?>merchant/merchant/forgotPassword">ลืมรหัสผ่าน</a></li>
+          <li><a href="<?php echo base_url();?>buyer/buyer/forgotPassword">ลืมรหัสผ่าน</a></li>
         </ul>
       </li>
         <li><a href="<?php echo base_url();?>service/service/servicePage">บริการ</a></li>
