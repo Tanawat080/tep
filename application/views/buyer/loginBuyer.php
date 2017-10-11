@@ -4,32 +4,39 @@
   <br>
   <div class="row">
     <div class="col-sm-12">
-
+ <form method="post" action="#">
       	<h1 align="left">เข้าสู่ระบบ</h1>
-      	<p align="left">กรุณากรอกชื่ออีเมลและรหัสผ่านเพื่อเข้าสู่ระบบ หรือหากไม่มีบัญชีกับเรามาก่อน โปรดทำการลงทะเบียน</p><br>
+      	<p align="left" class="indent">กรุณากรอกชื่ออีเมลและรหัสผ่านเพื่อเข้าสู่ระบบ หรือหากไม่มีบัญชีกับเรามาก่อน โปรดทำการลงทะเบียน</p><br>
        </div><br><br>
-       <div class="col-sm-3"></div>
-		<div class="col-sm-3">
+       <div class="col-sm-2"></div>
+		<div class="col-sm-4">
 			<p align="left"><b>ผู้ซื้อเก่า</b></p>
 			<hr>
-
 			<p align="left">โปรดกรอกอีเมลและรหัสผ่าน เพื่อเข้าสู่ระบบผู้ซื้อ</p>
+     
 			<div class="form-group">
 			<input type="email" class="form-control" name="email" placeholder="Email">
 			</div>
 			<div class="form-group">
-			<input type="password" class="form-control" name="email" placeholder="Password">
+			<input type="password" class="form-control" name="password" placeholder="Password">
 			</div>
-			<p align="right"><a href="#">ลืมรหัสผ่าน?</a></p>
+			<p align="right">ลืมรหัสผ่าน?</p>
 			<button type="submit" class="btn btn-primary">Sign In</button>
+    </form>
 		</div>
-      	<div class="col-sm-3">
+      	<div class="col-sm-4">
       		<p align="left"><b>ผู้ซื้อใหม่</b></p>
       		<hr>
+<<<<<<< HEAD
       		<P align="left">สำหรับผู้ซื้อใหม่ โปรดคลิก Creat Account เพื่อทำการลงทะเบียน</P>
       		<a href="#"><button type="button" class="btn btn-primary">Create Account</button></a>
       	</div>
         <div class="col-sm-3"></div>
+=======
+      		<P align="left">สำหรับผู้ซื้อใหม่ โปรดคลิก Create Account เพื่อทำการลงทะเบียน</P>
+      		<a href="<?php echo base_url()?>/buyer/buyer/regisBuyer"><button type="button" class="btn btn-primary">Create Account</button></a>
+      	</div><div class="col-sm-2"></div>
+>>>>>>> dc47ab8cb99cd88c92f6aeb894dbdcf486c707c8
 
       </div>
   </div>

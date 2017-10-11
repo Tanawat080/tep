@@ -11,6 +11,11 @@ class shoppingmall extends CI_Controller {
 		$this->load->view("navbar");
 		$this->load->view("shoppingmall/regisShoppingmall");
 		$this->load->view("footer");
+	}public function regisShoppingmall2()
+	{
+		$this->load->view("navbar");
+		$this->load->view("shoppingmall/regisShoppingmall2");
+		$this->load->view("footer");
 	}
 }
 ?>

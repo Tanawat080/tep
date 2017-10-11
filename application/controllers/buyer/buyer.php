@@ -23,6 +23,11 @@ class buyer extends CI_Controller {
 		$this->load->view("navbar");
 		$this->load->view("buyer/forgotPassword");
 		$this->load->view("footer");
+	}public function regisBuyer()
+	{
+		$this->load->view("navbar");
+		$this->load->view("buyer/regisBuyer");
+		$this->load->view("footer");
 	}
 
 }
