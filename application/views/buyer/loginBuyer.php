@@ -28,7 +28,8 @@
       		<hr>
       		<P align="left">สำหรับผู้ซื้อใหม่ โปรดคลิก Creat Account เพื่อทำการลงทะเบียน</P>
       		<a href="#"><button type="button" class="btn btn-primary">Create Account</button></a>
-      	</div><div class="col-sm-3"></div>
+      	</div>
+        <div class="col-sm-3"></div>
 
       </div>
   </div>

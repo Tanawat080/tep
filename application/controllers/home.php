@@ -12,6 +12,19 @@ class home extends CI_Controller {
 		$this->load->view("header");
 		$this->load->view("homepage");
 		$this->load->view("footer");
+	}public function whyThaiepay()
+	{
+		$this->load->view("navbar");
+		$this->load->view("whyThaiepay");
+		$this->load->view("footer");
 	}
+	
+	public function securities()
+	{
+		$this->load->view("navbar");
+		$this->load->view("securities");
+		$this->load->view("footer");
+	}
+
 }
 ?>

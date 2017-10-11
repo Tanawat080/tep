@@ -31,8 +31,8 @@
        <a href=""><B>รายละเอียดเพิ่มเติม</B></a>
      </div>
       </div>
-
     </div>
+
     <div class="col-sm-6">
       <div class="well">
         <h4 align="left"><B>eModules</B></h4>
@@ -45,11 +45,26 @@
        <a href=""><B>รายละเอียดเพิ่มเติม</B></a>
      </div>
       </div>
-
     </div>  
+
+    <div class="col-sm-6">
+      <div class="well">
+        <h4 align="left"><B>ทำไมต้องใช้ไทยอีเพย์?</B></h4>
+        <div align="left">
+       <p>เนื่องจากมีผู้สอบถามมาเป็นจำนวนมาก และอยากให้ไทยอีเพย์ทำสรุปจุดเด่นเปรียบเทียบระบบการให้บริการของเรา เทียบกับผู้ให้บริการรายอื่น ดังนั้นไทยอีเพย์จึงได้จัดทำข้อมูลเปรียบเทียบ โดยสรุปจุดเด่นของเราเป็นข้อๆ ดังนี้.</p>
+      
+       <a class="whyThaiepay" href="<?php echo base_url();?>home/whyThaiepay"><B>รายละเอียดเพิ่มเติม</B></a>
+     </div>
+      </div>
+    </div>  
+
+
   </div>
   <hr>
 </div>
+
+
+
 <div class="container text-center">    
   <h4 align="left"><B>รองรับระบบ CMS ได้หลากหลายหน้า ในหน้า Download...</B></h4>
   <br>
