@@ -1,18 +1,6 @@
 <head>
 
 <style>
-table {
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
-}
-
-td, th {
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
-}
-
 
 div.gallery {
     border: 1px solid #ccc;
@@ -32,9 +20,7 @@ div.desc {
     text-align: center;
 }
 
-* {
-    box-sizing: border-box;
-}
+
 
 .responsive {
     padding: 0 6px;
@@ -186,9 +172,6 @@ div.desc {
                             ภาพตัวอย่างระบบคำนวณความเสี่ยงของไทยอีเพย์</i>
                     </div>
                  </div>
-
-<div class="gototop">
-                <a id="ctl00_CphBody_LnkGotoTop" href="#content"><img  alt="Top" style="border-width:0px;" /></a></div>
                 <br>
 
               </div>
