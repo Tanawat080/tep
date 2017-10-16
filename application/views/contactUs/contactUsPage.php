@@ -1,6 +1,4 @@
 <html>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
 <head>
 <style>
 #myImg {
@@ -12,7 +10,7 @@
 #myImg:hover {opacity: 0.7;}
 
 /* The Modal (background) */
-.modal1 {
+.modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
@@ -27,7 +25,7 @@
 }
 
 /* Modal Content (image) */
-.modal1-content1 {
+.modal-content {
     margin: auto;
     display: block;
     width: 80%;
@@ -35,7 +33,7 @@
 }
 
 /* Caption of Modal Image */
-#caption1 {
+#caption {
     margin: auto;
     display: block;
     width: 80%;
@@ -47,7 +45,7 @@
 }
 
 /* Add Animation */
-.modal1-content1, #caption1 {    
+.modal-content, #caption {    
     -webkit-animation-name: zoom;
     -webkit-animation-duration: 0.6s;
     animation-name: zoom;
@@ -65,7 +63,7 @@
 }
 
 /* The Close Button */
-.close1 {
+.close {
     position: absolute;
     top: 15px;
     right: 35px;
@@ -84,14 +82,35 @@
 
 /* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 700px){
-    .modal1-content1 {
+    .modal-content {
         width: 100%;
     }
 }
 </style>
 
 
-			
+			<script>
+			// Get the modal
+			var modal = document.getElementById('myModal');
+
+			// Get the image and insert it inside the modal - use its "alt" text as a caption
+			var img = document.getElementById('myImg');
+			var modalImg = document.getElementById("img01");
+			var captionText = document.getElementById("caption");
+			img.onclick = function(){
+			    modal.style.display = "block";
+			    modalImg.src = this.src;
+			    captionText.innerHTML = this.alt;
+			}
+
+			// Get the <span> element that closes the modal
+			var span = document.getElementsByClassName("close")[0];
+
+			// When the user clicks on <span> (x), close the modal
+			span.onclick = function() { 
+			    modal.style.display = "none";
+			}
+			</script>
 </head>
 
 <form >
@@ -105,22 +124,24 @@
       	
       	<div class="col-sm-12">
       	<h1 align="left">ติดต่อเรา</h1>
-      	<p align="left">&nbsp;&nbsp;&nbsp;ลูกค้าทุกท่านสามารถติดต่อ THAIEPAY ได้หลายทาง ทั้งเดินทางด้วยตนเองมาที่บริษัท ติดต่อผ่านโทรศัพท์ หรือติดต่อทางอีเมล ซึ่งเจ้าหน้าที่ของเราทุกคน ยินดีให้ข้อมูล คำปรึกษา พร้อมความช่วยเหลือเป็นอย่างดี รายละเอียดช่องทางในการติดต่อกับเราเป็นดังนี้
+      	<p align="left" class="indent">ลูกค้าทุกท่านสามารถติดต่อ THAIEPAY ได้หลายทาง ทั้งเดินทางด้วยตนเองมาที่บริษัท ติดต่อผ่านโทรศัพท์ หรือติดต่อทางอีเมล ซึ่งเจ้าหน้าที่ของเราทุกคน ยินดีให้ข้อมูล คำปรึกษา พร้อมความช่วยเหลือเป็นอย่างดี รายละเอียดช่องทางในการติดต่อกับเราเป็นดังนี้
 		</p><br><br>
+        </div>
+        <div class="col-sm-12 text-left">
+             <p><b>ที่อยู่และแผนที่</b></p>
+             <hr>
+                <p><b>บริษัท เพย์ โซลูชั่น จำกัด</b></p>
         </div>
 
 
-
-            <div class="col-sm-6" align="left">
-             <h3>ที่อยู่และแผนที่</h3>
-             <hr>
-                <h4>บริษัท เพย์ โซลูชั่น จำกัด</h4>
-        		<p>&nbsp;&nbsp;&nbsp;522 ซอยรัชดาภิเษก 26  ถนนรัชดาภิเษก แขวงสามเสนนอก เขตห้วยขวาง  กรุงเทพฯ 10310 ประเทศไทย <br />
+            <div class="col-sm-6 text-left" >
+            
+        		<p class="indent">522 ซอยรัชดาภิเษก 26  ถนนรัชดาภิเษก แขวงสามเสนนอก เขตห้วยขวาง  กรุงเทพฯ 10310 ประเทศไทย <br />
         		โทร 0 2515  2324 ,  09 5372 2151, 09 5372 2152, 09 5372 2153  <br />
 				แฟกซ์  0 2541 4098 </p>
 				 <p>ติดต่อทาง LINE@ :<a href="https://line.me/R/ti/p/%40pay.sn" target="_blank"> คลิกที่นี่</a></p>
-             <h5> เลขประจำตัวผู้เสียภาษีอากร  0-1055-56096-53-7</h5><br />
-                <h5>อีเมล:</h5>
+             <p><b>เลขประจำตัวผู้เสียภาษีอากร  0-1055-56096-53-7</b></p><br />
+                <p><b>อีเมล:</b></p>
                 <fieldset>
                 <ul>
                     <li><label>สอบถามข้อมูล</label><a id="ctl00_CphBody_LnkEmailInfo" href="contactus.aspx#contactform"> info@thaiepay.com</a></li>
@@ -129,27 +150,26 @@
                 
                 </ul>
                 </fieldset>
-            </div><br><br><br><br><br><br><br><br><br><br><br><br>
+            </div>
 
+            <div class="col-sm-6" align="right" id="myModal">
 
-            <div class="col-sm-6">
-                      
+                
 
-                        <img id="myImg" title="แผนที่ THAIEPAY (คลิกเพื่อขยายขนาดภาพใหญ่)" src="../../assets/images/maps_TH.jpg" alt="แผนที่ THAIEPAY (คลิกเพื่อขยายขนาดภาพใหญ่)" width="300" height="200">
+            <img id="myImg" title="แผนที่ THAIEPAY (คลิกเพื่อขยายขนาดภาพใหญ่)"  src="../../assets/images/maps_TH.jpg" alt="แผนที่ THAIEPAY (คลิกเพื่อขยายขนาดภาพใหญ่)" width="300" height="200">
 
-                          <!-- The Modal -->
-                          <div id="myModal1" class="modal1">
-                            <span class="close">&times;</span>
-                            <img class="modal1-content1" id="img01">
-                            <div id="caption1"></div>
-                          </div>
+			<!-- The Modal -->
+			<div id="myModal" class="modal">
+			  <span class="close">&times;</span>
+			  <img class="modal-content" id="img01">
+			  <div id="caption"></div>
+			</div>
 
-                    </div>
-
+			</div>
 
 			<div class ="col-sm-12" align= "Center">
 			
-            <h4>Google Maps</h4>
+            <p><B>Google Maps</B></p>
            <iframe width="650" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=th&amp;geocode=&amp;q=522+%E0%B8%AD%E0%B8%B2%E0%B8%84%E0%B8%B2%E0%B8%A3%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94+%E0%B8%94%E0%B8%AD%E0%B8%97+%E0%B8%84%E0%B8%AD%E0%B8%A1+%E0%B8%96%E0%B8%99%E0%B8%99%E0%B8%A3%E0%B8%B1%E0%B8%8A%E0%B8%94%E0%B8%B2%E0%B8%A0%E0%B8%B4%E0%B9%80%E0%B8%A9%E0%B8%81+%E0%B9%81%E0%B8%82%E0%B8%A7%E0%B8%87%E0%B8%AA%E0%B8%B2%E0%B8%A1%E0%B9%80%E0%B8%AA%E0%B8%99%E0%B8%99%E0%B8%AD%E0%B8%81+%E0%B9%80%E0%B8%82%E0%B8%95%E0%B8%AB%E0%B9%89%E0%B8%A7%E0%B8%A2%E0%B8%82%E0%B8%A7%E0%B8%B2%E0%B8%87++%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%AF+&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=38.911557,86.572266&amp;ie=UTF8&amp;hq=522+%E0%B8%AD%E0%B8%B2%E0%B8%84%E0%B8%B2%E0%B8%A3%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94+%E0%B8%94%E0%B8%AD%E0%B8%97+%E0%B8%84%E0%B8%AD%E0%B8%A1+%E0%B8%96%E0%B8%99%E0%B8%99%E0%B8%A3%E0%B8%B1%E0%B8%8A%E0%B8%94%E0%B8%B2%E0%B8%A0%E0%B8%B4%E0%B9%80%E0%B8%A9%E0%B8%81+%E0%B9%81%E0%B8%82%E0%B8%A7%E0%B8%87%E0%B8%AA%E0%B8%B2%E0%B8%A1%E0%B9%80%E0%B8%AA%E0%B8%99%E0%B8%99%E0%B8%AD%E0%B8%81+%E0%B9%80%E0%B8%82%E0%B8%95%E0%B8%AB%E0%B9%89%E0%B8%A7%E0%B8%A2%E0%B8%82%E0%B8%A7%E0%B8%B2%E0%B8%87++%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%AF&amp;hnear=&amp;radius=15000&amp;ll=13.799594,100.575842&amp;spn=0.011669,0.021136&amp;t=m&amp;z=14&amp;iwloc=A&amp;cid=4992800752286621502&amp;output=embed"></iframe><br />
            <small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=th&amp;geocode=&amp;q=522+%E0%B8%AD%E0%B8%B2%E0%B8%84%E0%B8%B2%E0%B8%A3%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94+%E0%B8%94%E0%B8%AD%E0%B8%97+%E0%B8%84%E0%B8%AD%E0%B8%A1+%E0%B8%96%E0%B8%99%E0%B8%99%E0%B8%A3%E0%B8%B1%E0%B8%8A%E0%B8%94%E0%B8%B2%E0%B8%A0%E0%B8%B4%E0%B9%80%E0%B8%A9%E0%B8%81+%E0%B9%81%E0%B8%82%E0%B8%A7%E0%B8%87%E0%B8%AA%E0%B8%B2%E0%B8%A1%E0%B9%80%E0%B8%AA%E0%B8%99%E0%B8%99%E0%B8%AD%E0%B8%81+%E0%B9%80%E0%B8%82%E0%B8%95%E0%B8%AB%E0%B9%89%E0%B8%A7%E0%B8%A2%E0%B8%82%E0%B8%A7%E0%B8%B2%E0%B8%87++%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%AF+&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=38.911557,86.572266&amp;ie=UTF8&amp;hq=522+%E0%B8%AD%E0%B8%B2%E0%B8%84%E0%B8%B2%E0%B8%A3%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94+%E0%B8%94%E0%B8%AD%E0%B8%97+%E0%B8%84%E0%B8%AD%E0%B8%A1+%E0%B8%96%E0%B8%99%E0%B8%99%E0%B8%A3%E0%B8%B1%E0%B8%8A%E0%B8%94%E0%B8%B2%E0%B8%A0%E0%B8%B4%E0%B9%80%E0%B8%A9%E0%B8%81+%E0%B9%81%E0%B8%82%E0%B8%A7%E0%B8%87%E0%B8%AA%E0%B8%B2%E0%B8%A1%E0%B9%80%E0%B8%AA%E0%B8%99%E0%B8%99%E0%B8%AD%E0%B8%81+%E0%B9%80%E0%B8%82%E0%B8%95%E0%B8%AB%E0%B9%89%E0%B8%A7%E0%B8%A2%E0%B8%82%E0%B8%A7%E0%B8%B2%E0%B8%87++%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%AF&amp;hnear=&amp;radius=15000&amp;ll=13.799594,100.575842&amp;spn=0.011669,0.021136&amp;t=m&amp;z=14&amp;iwloc=A&amp;cid=4992800752286621502" style="color:#0000FF;text-align:left" target="_blank">View Larger Map</a></small>
            <input type="hidden" name="ctl00$CphBody$HdnLang" id="ctl00_CphBody_HdnLang" value="TH" />
@@ -157,18 +177,19 @@
 			</div>
 
 
-			<div class="col-sm-12" align = "center" >
+			<div class="col-sm-12 text-left" align = "center" >
 				<a name="contactform"></a><br><br>
-            <h3>แบบฟอร์มกรอกข้อมูลเพื่อติดต่อเรา</h3><hr>
-            <P align = "left"> &nbsp;&nbsp;&nbsp;คุณสามารถกรอกข้อมูลคำถาม หรือข้อความที่ต้องการติดต่อทีมงานของเราผ่านแบบฟอร์มดังต่อไปนี้ ระบบจะจัดส่งข้อความของคุณไปยังเจ้าหน้าที่ของเราโดยตรง และจะดำเนินการในลำดับต่อไป</p>
+            <p><B>แบบฟอร์มกรอกข้อมูลเพื่อติดต่อเรา</B></p><hr>
+            <P class="indent">คุณสามารถกรอกข้อมูลคำถาม หรือข้อความที่ต้องการติดต่อทีมงานของเราผ่านแบบฟอร์มดังต่อไปนี้ ระบบจะจัดส่งข้อความของคุณไปยังเจ้าหน้าที่ของเราโดยตรง และจะดำเนินการในลำดับต่อไป</p>
     		
 
             </div >
-
-            <div class="col-sm-5" align = "center">
+            <div class="col-sm-3">
+            </div>
+            <div class="col-sm-6" align = "center">
 	    
                 
-                <ul ><br>
+               <br>
                 	
 
                 	<div class="form-group" >
@@ -209,8 +230,7 @@
 			 	
 			         	    
 
-			                </ul>
-			                
+			             
 			               
 			                
 			               
@@ -229,30 +249,7 @@
       </div>
   </div>
 </div>
-<script>
-// Get the modal
-var modal1 = document.getElementById('myModal1');
-
-// Get the image and insert it inside the modal - use its "alt" text as a caption
-var img = document.getElementById('myImg');
-var modalImg = document.getElementById("img01");
-var captionText = document.getElementById("caption");
-img.onclick = function(){
-    modal1.style.display = "block";
-    modalImg.src = this.src;
-    captionText.innerHTML = this.alt;
-}
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() { 
-    modal1.style.display = "none";
-}
-</script>
-    
 </body>
-</html>
+</form>
 
 

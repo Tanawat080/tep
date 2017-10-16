@@ -209,7 +209,7 @@
     border: 1px solid orange;
     border-radius: 8px;
     padding: 5px;
-}.indent>p,p.indent{
+}.indent>p,p.indent,hr.indent,.indent>hr{
     text-indent:50px;
   }.indent-2>p,p.indent-2{
     text-indent:25px;
@@ -278,4 +278,17 @@ div.messageblue div.idea label
 }input.border-input,select.border-select{
   border: 1px red solid;
 
+}.border-3{
+  border: double;
+    border-color: #3399CC;
+    border-radius: 8px;
+    padding-top:  15px;
+}input:focus,textarea:focus{
+   border: 1px #3366CC solid;
+   background-color: #d8e5ff;
+   color: #3366CC;
+   
+}select:focus{
+    border: 1px #3366CC solid;
+   color: #3366CC;
 }

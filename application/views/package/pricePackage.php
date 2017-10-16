@@ -1,15 +1,12 @@
 <head>
 <style>
 table {
-    font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 100%;
 }
 
 td, th {
     border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
 }
 
 
@@ -26,34 +23,29 @@ td, th {
       	<p align="left">&nbsp;&nbsp;&nbsp;สำหรับในส่วนของค่าบริการและแพคเกจต่างๆที่ไทยอีเพย์ให้บริการอยู่ในขณะนี้นั้น เราจะแบ่งออกตาม 2 ระบบหลักคือ eModules และ Shopping Mall คุณสามารถตรวจสอบรายละเอียดได้จากตารางข้างนี้</p><br><br>
         
         <div class="col-sm-12" align="left">
-        <h3>eModules</h3>
+        <p><B>eModules</B></p>
         <hr>
-        <p>&nbsp;&nbsp;&nbsp;บริการ eModules นั้นถูกออกแบบมาสำหรับร้านค้าที่มีเว็บไซต์อยู่แล้ว แต่ต้องการเติมเต็มธุรกิจออนไลน์ของคุณด้วยระบบชำระเงินออนไลน์และระบบอีคอมเมิร์ซอื่น เช่น ระบบตะกร้าสินค้า และระบบจองห้องพักออนไลน์ โดยค่าบริการได้ถูกแบ่งตามที่ระบบที่คุณเลือกใช้ ตามตารางข้างล่างนี้</p>
+        <p class="indent">บริการ eModules นั้นถูกออกแบบมาสำหรับร้านค้าที่มีเว็บไซต์อยู่แล้ว แต่ต้องการเติมเต็มธุรกิจออนไลน์ของคุณด้วยระบบชำระเงินออนไลน์และระบบอีคอมเมิร์ซอื่น เช่น ระบบตะกร้าสินค้า และระบบจองห้องพักออนไลน์ โดยค่าบริการได้ถูกแบ่งตามที่ระบบที่คุณเลือกใช้ ตามตารางข้างล่างนี้</p>
     	</div>
-<table id="col-sm-12">
+        <table class="table-responsive" >
             <tr>
                 <th>
-                    <h4>
-                        รายละเอียด / ระบบ</h4>
+                    <p align="center">รายละเอียด / ระบบ</p>
                 </th>
                     <th>
-                        <h4>
-                            ePayment</h4>
+                        <p align="center">ePayment</p>
                     </th>
                     <th>
-                        <h4>
-                            eBooking</h4>
+                        <p align="center">eBooking</p>
                     </th>
                     <th>
-                        <h4>
-                            eCart</h4>
+                        <p align="center">eCart</p>
                     </th>
                     <th>
-                        <h4>
-                            eCharity</h4>
+                        <p align="center">eCharity</p>
                     </th>
                 </tr>
-                <tr>
+                <tr >
                     <th class="spec">
                         ค่าบริการรายเดือน(บาท/เดือน)
                     </th>
@@ -80,7 +72,7 @@ td, th {
                     <td class="alt">
                         1185
                     </td>
-                    <td class="alt">
+                    <td >
                         1485
                     </td>
 

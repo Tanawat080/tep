@@ -101,7 +101,7 @@
            	<div class="col-md-3">
                 <h5> Award & Securities</h5>
                 <div >
-                    <a id="ctl00_UcFooter_HyperLink4" href="securities.aspx"><img src="<?php echo base_url();?>assets/images/footer/allaward.png" style="border-width:0px;" /></a>
+                    <a id="ctl00_UcFooter_HyperLink4" href="<?php echo base_url()?>home/Securities"><img src="<?php echo base_url();?>assets/images/footer/allaward.png" style="border-width:0px;" /></a>
                     
                 </div>
                 </div>

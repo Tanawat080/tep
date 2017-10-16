@@ -27,16 +27,9 @@
       	<div class="col-sm-4">
       		<p align="left"><b>ผู้ซื้อใหม่</b></p>
       		<hr>
-<<<<<<< HEAD
-      		<P align="left">สำหรับผู้ซื้อใหม่ โปรดคลิก Creat Account เพื่อทำการลงทะเบียน</P>
-      		<a href="#"><button type="button" class="btn btn-primary">Create Account</button></a>
-      	</div>
-        <div class="col-sm-3"></div>
-=======
       		<P align="left">สำหรับผู้ซื้อใหม่ โปรดคลิก Create Account เพื่อทำการลงทะเบียน</P>
       		<a href="<?php echo base_url()?>/buyer/buyer/regisBuyer"><button type="button" class="btn btn-primary">Create Account</button></a>
       	</div><div class="col-sm-2"></div>
->>>>>>> dc47ab8cb99cd88c92f6aeb894dbdcf486c707c8
 
       </div>
   </div>

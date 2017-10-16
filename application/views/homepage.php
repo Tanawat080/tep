@@ -47,7 +47,7 @@
       </div>
     </div>  
 
-<<<<<<< HEAD
+
     <div class="col-sm-6">
       <div class="well">
         <h4 align="left"><B>ทำไมต้องใช้ไทยอีเพย์?</B></h4>
@@ -60,11 +60,11 @@
     </div>  
 
 
-=======
+
     </div>
 
       
->>>>>>> dc47ab8cb99cd88c92f6aeb894dbdcf486c707c8
+
   </div>
   <hr>
 </div>

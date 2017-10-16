@@ -29,6 +29,11 @@ class merchant extends CI_Controller {
 		$this->load->view("navbar");
 		$this->load->view("merchant/forgotPassword");
 		$this->load->view("footer");
+	}public function merchantInfo()
+	{
+		$this->load->view("navbar");
+		$this->load->view("merchant/merchantInfo");
+		$this->load->view("footer");
 	}
 }
 ?>
