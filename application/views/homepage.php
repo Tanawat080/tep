@@ -48,8 +48,9 @@
            
             </div>
         </div>
-      </div>  
-      <div class="col-sm-6 ">
+      </div>
+
+      <div class="col-sm-6 "><br><br>  
         <div class="">
           <h4 align="left"><B>ทำไมต้องใช้ไทยอีเพย์?</B></h4>
             <div align="left">
