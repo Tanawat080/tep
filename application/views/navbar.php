@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="th">
 <head>
   <title>ระบบชำระเงินออนไลน์ - ร้านค้าออนไลน์</title>
   <meta charset="utf-8">
@@ -9,11 +9,11 @@
   <link rel="stylesheet" href="<?php echo base_url();?>assets/css/font.css">
   <script src="<?php echo base_url();?>assets/bootstrap/js/jquery.min.js"></script>
   <script src="<?php echo base_url();?>assets/bootstrap/js/bootstrap.min.js"></script>
-
 </head>
-<body>
 
-<nav class="navbar navbar-inverse">
+
+<body>
+<nav class="navbar navbar-inverse border-bottom-red">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -26,34 +26,65 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
         <li class="dropdown">
-        <a class="dropdown-toggle" data-toggle="dropdown" href="#">ผู้ซื้อ
-        <span class="caret"></span></a>
-        <ul class="dropdown-menu">
-          <li><a href="<?php echo base_url();?>buyer/buyer/loginBuyer">เข้าสู่ระบบ</a></li>
-          <li><a href="<?php echo base_url();?>buyer/buyer/checkOrders">ตรวจสอบรายการซื้อ</a></li>
-          <li><a href="<?php echo base_url();?>buyer/buyer/forgotPassword">ลืมรหัสผ่าน</a></li>
-        </ul>
-      </li>
-      <li class="dropdown">
-        <a class="dropdown-toggle" data-toggle="dropdown" href="#">ผู้ขาย/ร้านค้า
-        <span class="caret"></span></a>
-        <ul class="dropdown-menu">
-          <li><a href="<?php echo base_url();?>merchant/merchant/payment">ชำระเงิน/ต่ออายุบริการ</a></li>
-          <li><a href="<?php echo base_url();?>merchant/merchant/adminSystem">ระบบจัดการร้านค้า</a></li>
-          <li><a href="<?php echo base_url();?>merchant/merchant/download">ดาวน์โหลด</a></li>
-          <li><a href="<?php echo base_url();?>buyer/buyer/forgotPassword">ลืมรหัสผ่าน</a></li>
-        </ul>
-      </li>
-        <li><a href="<?php echo base_url();?>service/service/servicePage">บริการ</a></li>
-        <li><a href="<?php echo base_url();?>shoppingmall/shoppingmall/regisShoppingmall">ลงทะเบียน Shopping Mall</a></li>
-        <li><a href="<?php echo base_url();?>eModule/eModules/regiseModules">ลงทะเบียน eModules</a></li>
-        <li><a href="<?php echo base_url();?>package/package/pricePackage">ราคา/แพ็คเกจ</a></li>
-        <li><a href="<?php echo base_url();?>siteMap/siteMap/siteMapPage">แผนผังเว็บ</a></li>
-        <li><a href="<?php echo base_url();?>contactUs/contactUs/contactUsPage">ติดต่อเรา</a></li>
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#"><?php echo label('buyer',$this);?>
+          <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="<?php echo base_url();?>buyer/buyer/loginBuyer"><?php echo label('signIn',$this);?></a></li>
+              <li><a href="<?php echo base_url();?>buyer/buyer/checkOrders"><?php echo label('checkOrders',$this);?></a></li>
+              <li><a href="<?php echo base_url();?>buyer/buyer/forgotPassword"><?php echo label('forgotPassword',$this);?></a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#"><?php echo label('merchantSeller',$this);?>
+          <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="<?php echo base_url();?>merchant/merchant/payment"><?php echo label('paymentRenewal',$this);?></a></li>
+              <li><a href="<?php echo base_url();?>merchant/merchant/adminSystem"><?php echo label('adminSystem',$this);?></a></li>
+              <li><a href="<?php echo base_url();?>merchant/merchant/download"><?php echo label('download',$this);?></a></li>
+              <li><a href="<?php echo base_url();?>buyer/buyer/forgotPassword"><?php echo label('forgotPassword',$this);?></a></li>
+            </ul>
+        </li>
+          <li>
+            <a href="<?php echo base_url();?>service/service/servicePage"><?php echo label('serviceNav',$this);?></a>
+          </li>
+          <li>
+            <a href="<?php echo base_url();?>shoppingmall/shoppingmall/regisShoppingmall"><?php echo label('registerShoppingmall',$this);?></a>
+          </li>
+          <li>
+            <a href="<?php echo base_url();?>eModule/eModules/regiseModules"><?php echo label('registereModules',$this);?></a>
+          </li>
+          <li>
+            <a href="<?php echo base_url();?>package/package/pricePackage"><?php echo label('pricePackage',$this);?></a>
+          </li>
+          <li>
+            <a href="<?php echo base_url();?>siteMap/siteMap/siteMapPage"><?php echo label('siteMap',$this);?></a>
+          </li>
+          <li>
+            <a href="<?php echo base_url();?>contactUs/contactUs/contactUsPage"><?php echo label('contactUs',$this);?></a>
+          </li> 
+          <li>
+          <a href="<?php echo base_url();?>buyer/buyer/loginBuyer"><button class="tm-green-btn"><?php echo label('signIn',$this);?></button></a>
+          </li> 
+            <ul class="nav navbar-nav navbar-right ">
+                <li class="lang-divider visible-xs">เปลี่ยนภาษา</li>
+                  <li class="dropdown">
+                      <a href="#" class="dropdown-toggle lang" data-toggle="dropdown" role="button" aria-expanded="false"><span class="icon-lang <?php echo label('iconlang',$this)?>"></span> 
+                      <span class="lang-label"><?php echo label('language',$this); ?></span><span class="caret"></span></a>
+                          <ul class="dropdown-menu" role="menu">                              
+                            <li>
+                              <a href="<?php echo base_url();?>home/changeLang/thailand"><span class="icon-lang th"></span> ภาษาไทย</a>
+                            </li>
+                            <li>
+                              <a href="<?php echo base_url();?>home/changeLang/english"><span class="icon-lang en"></span> English</a>
+                            </li>
+                          </ul>
+                  </li>
+            </ul>
       </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="<?php echo base_url();?>buyer/buyer/loginBuyer"><button class="tm-green-btn">เข้าสู่ระบบ</button></a></li>
-      </ul>
+
+     
+       
+     
     </div>
   </div>
 </nav>

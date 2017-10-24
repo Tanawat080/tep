@@ -8,6 +8,8 @@ class contactUs extends CI_Controller {
       
     }public function contactUsPage()
 	{
+		$lang=$this->session->userdata('lang')==null?"thailand":$this->session->userdata('lang');
+		$this->lang->load($lang,$lang);
 		$this->load->view("navbar");
 		$this->load->view("contactUs/contactUsPage");
 		$this->load->view("footer");

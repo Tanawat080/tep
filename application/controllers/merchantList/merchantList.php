@@ -8,6 +8,8 @@ class merchantList extends CI_Controller {
       
     }public function merchantListPage()
 	{
+		$lang=$this->session->userdata('lang')==null?"thailand":$this->session->userdata('lang');
+		$this->lang->load($lang,$lang);
 		$this->load->view("navbar");
 		$this->load->view("merchantList/merchantListPage");
 		$this->load->view("footer");

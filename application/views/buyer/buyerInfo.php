@@ -1,7 +1,7 @@
 <div class="container text-left">    
 
   <br>
-  <div class="row">
+  <div class="row col-sm-12">
     <div class="col-sm-12">
       	<h1>Buyer</h1><br><br>
       	 	<div class="indent">

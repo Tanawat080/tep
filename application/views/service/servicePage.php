@@ -1,10 +1,10 @@
 <div class="container text-center">    
 
   <br>
-  <div class="row">
+  <div class="row col-sm-12">
     <div class="col-sm-12">
-      	<h1 align="left">บริการของเรา</h1><br>
-      	<p align="left" class="indent">ไทยอีเพย์ คือ ผู้ให้บริการระบบอีคอมเมิร์ซที่ครอบคลุมความต้องการอย่างครบถ้วน ตั้งแต่ระบบชำระเงินออนไลน์ผ่านบัตรเครดิต ระบบร้านค้าออนไลน์สำเร็จรูป ระบบช้อปปิ้งมอลล์ รวมไปถึงระบบการจองห้องพักออนไลน์ ที่ไทยอีเพย์ คุณสามารถเปิดร้านค้าออนไลน์ได้ทันที เพราะระบบของเราไม่มีความซับซ้อน ใช้งานง่าย และสามารถปรับแต่งได้อย่างอิสระ โดยบริการของเราถูกแยกออกตามรูปแบบการให้บริการและกลุ่มผู้ใช้งานดังนี้</p> <br><br>
+      	<h1 align="left"><?php echo label('service',$this);?></h1><br>
+      	<p align="left" class="indent"><?php echo label('serviceDetail',$this);?></p> <br><br>
        
       	<center><img src="<?php echo base_url()?>assets/images/service/diagram.png" class="img-responsive" usemap="#Map">
       		<map name="Map" id="Map">
@@ -19,7 +19,7 @@
 
 
       	</center><br>
-      	<p><b>แผนภาพแสดงบริการของไทยอีเพย์</b></p>
+      	<p><b><?php echo label('diagramService',$this);?></b></p>
       </div>
   </div>
 </div>

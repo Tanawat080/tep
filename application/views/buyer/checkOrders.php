@@ -2,7 +2,7 @@
 <div class="container text-center">    
 
   <br>
-  <div class="row">
+  <div class="row col-sm-12">
     <div class="col-sm-12">
      	<h1 align="left">ตรวจสอบสถานะรายการสั่งซื้อ</h1>
      	<p align="left" class="indent">โปรดกรอกหมายเลขการสั่งซื้อและอีเมลของคุณลงในแบบฟอร์มด้านล่างนี้ เพื่อตรวจสอบดูสถานะการสั่งซื้อและข้อมูลที่เกี่ยวข้อง</p>

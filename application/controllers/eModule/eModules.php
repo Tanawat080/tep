@@ -8,15 +8,20 @@ class eModules extends CI_Controller {
       
     }public function regiseModules()
 	{
+		$lang=$this->session->userdata('lang')==null?"thailand":$this->session->userdata('lang');
+		$this->lang->load($lang,$lang);
 		$this->load->view("navbar");
 		$this->load->view("eModule/regiseModules");
 		$this->load->view("footer");
 	}
 	public function index()
-	{
+	{	
+		$lang=$this->session->userdata('lang')==null?"thailand":$this->session->userdata('lang');
+		$this->lang->load($lang,$lang);
 		$radio_value = $this->input->post('eModules');
 
 		if($radio_value=='ePayment'){
+
 			$this->load->view("navbar");
 			$this->load->view("eModule/packageePayment");
 			$this->load->view("eModule/formeModule");
