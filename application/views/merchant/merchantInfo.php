@@ -12,7 +12,7 @@
     	<hr>
     	<div class="col-sm-10">
     		<p class="indent-2">It is an all-inclusive Online Shopping System that covers all E-commerce website needs. You only have the products plus with your creative idea. You can have your own complete online shop.</p>
-    		<a href="">Learn More &raquo;</a><br><br>
+    		<a href="<?php echo base_url();?>service/service/eShop">Learn More &raquo;</a><br><br>
     		<a href="<?php echo base_url();?>shoppingmall/shoppingmall/regisShoppingmall"><button type="button" class="btn btn-primary">Open Your Shop Now!</button></a><br><br>
     		<p><b>Already a shop owner?</b></p>
     		<p class="indent-2">For shop owner, you can access our systems such as Shop Administrative System, Renewal Payment, and others through the menus below.</p>
@@ -51,3 +51,4 @@
     </div>
   </div>
 </div>
+<br><br>

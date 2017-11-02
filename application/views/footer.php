@@ -1,36 +1,35 @@
- <br><br>
- <div class="border-bottom-hr"></div>
- <div class="container text-left">
-        <div class="col-sm-12 " >
+
+ <div class="border-bottom-hr" ></div>
+ <div class="bg-img2" id="content-footer" >
+ <div class="container text-left" >
+        <div class="col-sm-12 "  >
             <ul class="footer-service-link">
                 <li> 
                     <h4><B><?php echo label("service",$this)?></B></h4>
                         <ul class="col-sm-10">
+                            <div class="border-bottom"></div><br>
                         <div class="border-bottom">
                            <li>
                                 <img src="<?php echo base_url();?>assets/images/icons/new_epayment_s.png">
-                                <b><a href="<?php echo base_url()?>service/service/ePayment">ePayment</a></b><br><?php echo label("ePayment",$this);?>
+                                <b><a class="contentFoot" href="<?php echo base_url()?>service/service/ePayment">ePayment</a></b><br><?php echo label("ePayment",$this);?>
                             </li>
                         </div><br>
                         <div class="border-bottom">
                             <li>
                                  <img src="<?php echo base_url();?>assets/images/icons/ico_ecart_new.png">
                                 <b><a href="<?php echo base_url()?>service/service/eCart">eCart</a> </b><br><?php echo label("eCart",$this);?>
-
                             </li>
                         </div><br>
-                       
                             <li>
                                 <img src="<?php echo base_url();?>assets/images/icons/ico_ebooking_new.png">
                                 <b><a href="<?php echo base_url()?>service/service/eBooking">eBooking</a></b> <br><?php echo label("eBooking",$this);?>
                             </li>
-                        
                         </ul>
                 </li>
-            
                 <li>
                     <h4><B>ข่าวสารและโปรโมชั่นใหม่ๆ</B></h4>
                         <ul class="col-sm-10">
+                            <div class="border-bottom"></div><br>
                             <div class="border-bottom">
                             <li>
                                 <b><a ="ctl00_UcPageContext_UcNewsDetail_RptNewsDetail_ctl00_LnkNewsTopic" href="news/88/SMS_Order_Alert_Temporarily_Closed/">แจ้งปิดระบบแจ้งเตือนผลการชำระเงินทาง SMS (SMS Order Alert)</a></b><br> บริษัท เพย์ โซลูชั่น จำกัด ขอปิดระบบแจ้งเตืนผลการชำระเงินทาง SMS (SMS Order Alert) เป็นการชั่วคราว เพื่อทำการปรับปรุงระ...
@@ -41,62 +40,62 @@
                                 <b><a id="ctl00_UcPageContext_UcNewsDetail_RptNewsDetail_ctl01_LnkNewsTopic" href="news/87/Our_Line@_Official_Account/">เพิ่มช่องทางการติดต่อสื่อสารผ่าน LINE@ Official Account</a></b><br> อสารใหม่ ที่สามารถให้ทุกท่านได้ติดตามข่าวสาร สอบถามบริการ หรือแจ้งปัญหาการใช้งาน จากทางเราได้อีก 1 ช่องทาง คือทาง ...
                             </li>
                         </div><br>
-                        
                             <li>
                                 <b><a id="ctl00_UcPageContext_UcNewsDetail_RptNewsDetail_ctl02_LnkNewsTopic" href="news/84/Subject__Changing_New_Company_Telephone_No/">เรื่อง แจ้งเปลี่ยนหมายเลขโทรศัพท์ของบริษัท</a></b><br>   ่อสารใหม่  
                             ที่สามารถให้ทุกท่านได้ติดตามข่าวสาร สอบถามบริการ หรือแจ้งปัญหาการใช้งาน จากทางเราได้อีก 1 ช่องทาง คือทาง  
                             ...</p>
                             </li>
-                        
                         </ul>
                 </li>
-
                 <li>
                     <h4><B>บทความ</B></h4>
                         <ul class="col-sm-10">
+                            <div class="border-bottom"></div><br>
                             <div class="border-bottom">
                             <li>
-                                <b><a href="blogcat.aspx?id=1" >ความรู้ทั่วไป
+                                <b><a href="" >ความรู้ทั่วไป
                                 </a></b><br> ความรู้ทั่วไป เกี่ยวกับระบบ ข้อตกลงเบื้องต้น และการใช้บริการในส่วนต่างๆ
                             </li>
                         </div><br>
                         <div class="border-bottom">
                             <li>
-                                <b><a href="blogcat.aspx?id=2">ทิปและเทคนิค
+                                <b><a href="">ทิปและเทคนิค
                                 </a></b><br> ทิปและเทคนิคการใช้งานระบบ เป็นเทคนิคพิเศษที่คุณอาจจะไม่รู้ แต่เราอยากแนะนำ
                             </li>
                         </div><br>
                         <div class="border-bottom">
                             <li>
-                                <b><a href="blogcat.aspx?id=3">คำถามที่ถามบ่อย</a></b><br> คำถามที่ทีมงานถูกถามเป็นประจำ หรือปัญหาที่พบบ่อย
+                                <b><a href="">คำถามที่ถามบ่อย</a></b><br> คำถามที่ทีมงานถูกถามเป็นประจำ หรือปัญหาที่พบบ่อย
                             </li>
                         </div><br>
                         <div class="border-bottom">
                             <li>
-                                <b><a href="blogcat.aspx?id=4">ดาวน์โหลดคู่มือและโมดูล</a></b><br> ดาวน์โหลดคู่มือที่เป็นไฟล์เอกสาร หรือโมดูลต่างๆ พร้อมคำอธิบาย
+                                <b><a href="">ดาวน์โหลดคู่มือและโมดูล</a></b><br> ดาวน์โหลดคู่มือที่เป็นไฟล์เอกสาร หรือโมดูลต่างๆ พร้อมคำอธิบาย
                             </li>
                         </div><br>
-                    
                             <li>
-                                <b><a href="blogcat.aspx?id=5">อื่นๆ</a></b><br> บทความหรือข้อมูลอื่นๆ
+                                <b><a href="">อื่นๆ</a></b><br> บทความหรือข้อมูลอื่นๆ
                             </li>
-
                         </ul>
                     </li>
                 </ul>
-                <br>
-   
-        <div class="col-md-2 border-right">
+        </div>
+    </div>
+</div>
+<!-- ------------------------------------------------------ -->
+<div class="container text-left">
+   <div class="col-sm-12">
+        <div class="col-md-2 ">
             <h5>We also accept</h5>
             <img id="ctl00_UcFooter_ImgAllcard" src="<?php echo base_url();?>assets/images/footer/allcards2.png" style="border-width:0px;" />
         </div> 
-        <div class="col-md-4 border-right">
+        <div class="col-md-4 ">
             <h5> Award & Securities</h5>
                 <div >
                     <a id="ctl00_UcFooter_HyperLink4" href="<?php echo base_url()?>home/Securities"><img src="<?php echo base_url();?>assets/images/footer/allaward.png" style="border-width:0px;" /></a>  
                 </div>
         </div>               
-        <div class="col-md-2 border-right">
+        <div class="col-md-2 ">
             <h5>Follow Us</h5>
                 <a id="ctl00_UcFooter_HyperLink3"><img id="ctl00_UcFooter_ImgGoogleplus" src="<?php echo base_url();?>assets/images/footer/gplus_re.png" style="border-width:0px;" /></a>
                 <a id="ctl00_UcFooter_HyperLink1" href="http://www.facebook.com/THAIEPAY"><img id="ctl00_UcFooter_ImgFB" src="<?php echo base_url();?>assets/images/footer/fb2.png" style="border-width:0px;" /></a> 
@@ -112,8 +111,8 @@
         </div>
         </div>
     </div>
+    </div>
 <br>
-
 
 <footer class="container-fluid text-center border-top" >
     <div class="row" >
@@ -144,6 +143,9 @@
             <dd>
                 <a href="<?php echo base_url();?>aboutCompany/aboutCompany/policyPage"><font color="white"><?php echo label("privacy",$this)?></font></a>
             </dd>  
+            <dd>
+                <a href="<?php echo base_url();?>home/whyThaiepay"><font color="white">ทำไมต้องใช้ไทยอีเพย์?</font></a>
+            </dd>
         </dl>
       </div>
 
@@ -158,10 +160,8 @@
 
       </div>  
       <div class="col-md-2">
-        
       </div> 
       <div class="col-md-2">
-        
       </div> 
     </div>
   </div>
@@ -193,7 +193,7 @@ $(document).ready(function(){
 });
 
 </script>
-<a href="javascript:void(0);" id="scroll" title="BACK TO TOP" style="display: none;">Top<span></span></a>
+    <a href="javascript:void(0);" id="scroll" title="BACK TO TOP" style="display: none;">Top<span></span></a>
 <script>
 var amountScrolled = 300;
 $(window).scroll(function() {

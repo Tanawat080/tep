@@ -1,17 +1,3 @@
-<head>
-<style>
-table {
-    border-collapse: collapse;
-    width: 100%;
-}
-
-td, th {
-    border: 1px solid #dddddd;
-}
-
-
-</style>
-</head>
 
 <div class="container text-center">    
 
@@ -21,91 +7,48 @@ td, th {
       <div class="col-sm-12">
       	<h1 align="left">ราคา & แพคเกจ</h1>
       	<p align="left">&nbsp;&nbsp;&nbsp;สำหรับในส่วนของค่าบริการและแพคเกจต่างๆที่ไทยอีเพย์ให้บริการอยู่ในขณะนี้นั้น เราจะแบ่งออกตาม 2 ระบบหลักคือ eModules และ Shopping Mall คุณสามารถตรวจสอบรายละเอียดได้จากตารางข้างนี้</p><br><br>
-        
         <div class="col-sm-12" align="left">
-        <p><B>eModules</B></p>
+        <h4>eModules</h4>
         <hr>
         <p class="indent">บริการ eModules นั้นถูกออกแบบมาสำหรับร้านค้าที่มีเว็บไซต์อยู่แล้ว แต่ต้องการเติมเต็มธุรกิจออนไลน์ของคุณด้วยระบบชำระเงินออนไลน์และระบบอีคอมเมิร์ซอื่น เช่น ระบบตะกร้าสินค้า และระบบจองห้องพักออนไลน์ โดยค่าบริการได้ถูกแบ่งตามที่ระบบที่คุณเลือกใช้ ตามตารางข้างล่างนี้</p>
     	</div>
-        <table class="table-responsive" >
-            <tr>
-                <th>
-                    <p align="center">รายละเอียด / ระบบ</p>
-                </th>
-                    <th>
-                        <p align="center">ePayment</p>
-                    </th>
-                    <th>
-                        <p align="center">eBooking</p>
-                    </th>
-                    <th>
-                        <p align="center">eCart</p>
-                    </th>
-                    <th>
-                        <p align="center">eCharity</p>
-                    </th>
+        <table class="table table-bordered table-hover" id="mytable">
+            <thead>
+                <tr class="info">
+                    <th style="text-align:center"><h5>รายละเอียด / ระบบ</h5></th>
+                    <th style="text-align:center"><h5>ePayment</h5><th>
+                    <h5 style="text-align:center">eBooking</h5></th>
+                    <th style="text-align:center"><h5>eCart</h5></th>
+                    <th style="text-align:center"><h5>eCharity</h5></th>
                 </tr>
-                <tr >
-                    <th class="spec">
-                        ค่าบริการรายเดือน(บาท/เดือน)
-                    </th>
-                    <td>
-                        295
-                    </td>
-                    <td>
-                        395
-                    </td>
-                    <td>
-                        495
-                    </td>
-                    <td rowspan="4">
-                        <b style="color:#dd74ac;">Free!!</b>
+            </thead>
+                <tr>
+                    <th class="spec">ค่าบริการรายเดือน(บาท/เดือน)</th>
+                    <td>295</td>
+                    <td>395</td>
+                    <td>495</td>
+                    <td rowspan="4" class="free">
+                        <b>Free!!</b>
                     </td>
                 </tr>
                 <tr>
-                    <th class="specalt">
-                        ชำระราย 3 เดือน
+                    <th class="specalt">ชำระราย 3 เดือน
                     </th>
-                    <td class="alt">
-                        885
-                    </td>
-                    <td class="alt">
-                        1185
-                    </td>
-                    <td >
-                        1485
-                    </td>
-
+                    <td class="alt">885</td>
+                    <td class="alt">1185</td>
+                    <td >1485</td>
                 </tr>
                 <tr>
-                    <th class="spec">
-                        ชำระราย 6 เดือน
-                    </th>
-                    <td>
-                        1770
-                    </td>
-                    <td>
-                        2370
-                    </td>
-                    <td>
-                        2970
-                    </td>
-
+                    <th class="spec">ชำระราย 6 เดือน</th>
+                    <td>1770</td>
+                    <td>2370</td>
+                    <td>2970</td>
                 </tr>
                 <tr>
-                    <th class="specalt">
-                        ชำระราย 1 ปี
-                    </th>
-                    <td class="alt">
-                        2950
-                    </td>
-                    <td class="alt">
-                        3950
-                    </td>
-                    <td class="alt">
-                        4950
-                    </td>
-
+                    <th class="specalt">ชำระราย 1 ปี</th>
+                    <td class="alt">2950</td>
+                    <td class="alt">3950</td>
+                    <td class="alt">4950</td>
                 </tr>
         </table>
 

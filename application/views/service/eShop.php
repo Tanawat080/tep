@@ -16,14 +16,14 @@
       	</ul>
 		<br><br>
 		</div>
-		<b>ระบบนี้ประกอบด้วย</b>
+		<h4>ระบบนี้ประกอบด้วย</h4>
 			<ul>
 				<li>เว็บไซต์สำเร็จรูป</li>
 				<li>ระบบใบแจ้งชำระเงินเงินออนไลน์</li>
 				<li>ระบบชำระเงินผ่านบัตรเครดิตออนไลน์</li>
 			</ul>
 		<br><br>
-		<b>ระบบนี้เหมาะสำหรับ</b>
+		<h4>ระบบนี้เหมาะสำหรับ</h4>
 		<ul>
 			<li>ท่านที่สนใจเปิดเว็บไซต์เพื่อขายสินค้าออนไลน์ แต่ไม่รู้จะเริ่มต้นอย่างไร</li>
 			<li>ท่านต้องการประหยัดค่าใช้จ่ายในจัดทำเว็บไซต์และระบบชำระเงินออนไลน์</li>
@@ -31,7 +31,7 @@
 		</ul>
 		<br><br>
 
-		<p align="left"><b>คุณสมบัติเด่น</b></p>
+		<h4>คุณสมบัติเด่น</h4>
 		<hr>
 		<div class="w3-content" style="max-width:700px">
 			  <img class="mySlides" src="<?php echo base_url()?>assets/images/service/eShop/eshop_1.png" style="width:100%">
@@ -94,7 +94,7 @@
 				<li>ให้ระบบคำนวณอันดับสินค้าขายดีอัตโนมัติหรือ ตั้งอันดับสินค้าขายดีได้เอง และสามารถกำหนดแยกตามหมวดหมู่ได้อีกด้วย</li>
 			</ul>
 			<br><br>
-			<p align="left"><b>การทำงานของระบบ</b></p>
+			<h4>การทำงานของระบบ</h4>
 
 		<p align="left" class="indent">คุณควรเริ่มต้นที่การปรับแต่งหน้าตาร้านค้า เพิ่มรูปสินค้าและข้อมูลสินค้าต่างๆผ่านระบบ Shop Admin ก่อนเป็นอันดับแรก จนได้ร้านค้าที่สมบูรณ์พร้อมเปิดให้บริการ</p>
 		<ol>
@@ -107,7 +107,7 @@
 
 		</div>
 
-		<p align="left"><b>ค่าธรรมเนียมและอัตราค่าบริการ</b></p>
+		<h4>ค่าธรรมเนียมและอัตราค่าบริการ</h4>
 			<ol>
 				<li>ค่าบริการใช้งานระบบ : แพคเกจ M = 380 บาท/เดือน, L = 390 บาท/เดือน</li>
 				<li>ค่าธรรมเนียม : บัตร VISA, MasterCard, Japan Credit Bureau, China Unionpay 3.60% และ บัตร American Express 4.75% และ PayPal 4.75% (ยังไม่รวม Vat 7%) (กรณีที่ใช้ระบบชำระเงินผ่านบัตรเครดิตออนไลน์)</li>
@@ -122,14 +122,14 @@
  		<div class="col-sm-1">
       	</div>
 		<div class="col-sm-10"><br>
-			<table class="table table-bordered table-hover">
+			<table class="table table-bordered table-hover" id="mytable">
 			<caption>ตารางเปรียบเทียบคุณสมบัติและค่าบริการของแพ็กเกจแบบย่อ</caption>
 			    <thead >
 			      <tr class="info">
-			        <th width="55%" style="text-align:center">รายละเอียด / แพ็คเกจ</th>
-			        <th width="15%" style="text-align:center">FREE</th>
-			        <th width="15%" style="text-align:center">M</th>
-			        <th width="15%" style="text-align:center">L</th>
+			        <th width="55%" style="text-align:center"><h5>รายละเอียด / แพ็คเกจ</h5></th>
+			        <th width="15%" style="text-align:center" class="free">FREE</th>
+			        <th width="15%" style="text-align:center" class="sizeM">M</th>
+			        <th width="15%" style="text-align:center" class="sizeL">L</th>
 			      </tr>
 			    </thead>
 			    <tbody align="left">
@@ -159,17 +159,17 @@
 			    	</tr>
 			    </tbody>
 		    </table>
-		    <p align="right"><a href="">ข้อมูลแพ็คเกจเพิ่มเติม &raquo;</a></p><br><br>
+		    <p align="right"><a href="<?php echo base_url(); ?>service/service/comparePackage">ข้อมูลแพ็คเกจเพิ่มเติม &raquo;</a></p><br><br>
     	</div>
     	<div class="col-sm-12">
     		
-       <b>การรับเงินรายได้ร้านค้า (กรณีใช้ระบบชำระเงินออนไลน์)</b>
+      <h4>การรับเงินรายได้ร้านค้า (กรณีใช้ระบบชำระเงินออนไลน์)</h4>
 		<div class="indent text-left">
 			<p >ไทยอีเพย์จะสรุปยอดรายได้ของร้านค้าในแต่ละเดือน แล้วโอนยอดรายได้หลังจากหักค่าธรรมเนียมเข้าบัญชีของร้านค้าในวันที่ 10 ของเดือนถัดไป</p>
 			<p>เช่น ร้านค้าของคุณมียอดเงินรายได้เดือนมกราคมเป็นเงิน 10,000 บาท ไทยอีเพย์จะคำนวณค่าธรรมเนียมที่ต้องหักออกประมาณ 400 บาท และคงเหลือเงิน 9,600 บาท ซึ่งยอดเงินนี้จะถูกโอนเข้าบัญชีของร้านค้าในวันที่ 10 กุมภาพันธ์ (ยังไม่รวม Vat 7%)</p>
 		</div><br><br>
 
-		<p align="left"><b>การเพิ่มความถี่ในการรับเงินรายได้</b></p>
+		<h4>การเพิ่มความถี่ในการรับเงินรายได้</h4>
 
 		<p align="left" class="indent">ไทยอีเพย์ได้มีนโยบายเพิ่มเติมเกี่ยวกับเรื่อง การรับเงินรายได้ร้านค้า กล่าวคือ ร้านค้าที่เข้าเงื่อนไขดังต่อไปนี้ สามารถแจ้งขอปรับการรับเงินรายได้เป็นราย 15 วันหรือ รายสัปดาห์</p>
 		<ol>
@@ -185,7 +185,7 @@
 
 
   </div>
-</div>
+</div><br><br>
 <script>
 var slideIndex = 1;
 showDivs(slideIndex);

@@ -5,7 +5,7 @@
     <div class="col-sm-12">
       	<h1><?php echo label('siteMap',$this);?></h1><br><br>
       </div>
-      <div class="col-sm-12 border-3">
+      <div class="col-sm-12 border-4">
      <div class="col-sm-6 " >
 <ul>
   <li><a href="<?php echo base_url()?>home"><?php echo label("home",$this);?></a></a></li>
@@ -50,5 +50,5 @@
 </ul> 
 </div>
 </div>
-</div>
+</div><br><br>
 </div>

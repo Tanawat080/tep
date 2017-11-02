@@ -10,24 +10,24 @@
                     </div><br><br>
                     <div class="col-sm-2"></div>
                     <div class="col-sm-4">
-                        <p align="left"><b>ผู้ซื้อเก่า</b></p>
+                        <h4>ผู้ซื้อเก่า</h4>
                         <hr>
                         <p align="left">โปรดกรอกอีเมลและรหัสผ่าน เพื่อเข้าสู่ระบบผู้ซื้อ</p>
 
                         <div class="form-group">
-                            <?php echo label('email', $this); ?>
-                            <input type="email" class="form-control" name="email" placeholder="<?php echo label('email', $this); ?>">
+                            <?php //echo label('email', $this); ?>
+                            <input type="email" class="form-control" name="email" placeholder="<?php echo label('email', $this); ?>" required>
                         </div>
                         <div class="form-group">
-                            <?php echo label('password', $this); ?>
-                            <input type="password" class="form-control" name="password" placeholder="<?php echo label('password', $this); ?>">
+                            <?php //echo label('password', $this); ?>
+                            <input type="password" class="form-control" name="password" placeholder="<?php echo label('password', $this); ?>" required>
                         </div>
                         <p align="right"><a href="<?php echo base_url(); ?>buyer/buyer/forgotPassword">ลืมรหัสผ่าน?</a></p>
                         <center><button type="submit" class="btn btn-primary">Sign In</button></center>
                 </form>
             </div>
             <div class="col-sm-4">
-                <p align="left"><b>ผู้ซื้อใหม่</b></p>
+                <h4>ผู้ซื้อใหม่</h4>
                 <hr>
                 <P align="left">สำหรับผู้ซื้อใหม่ โปรดคลิก Create Account เพื่อทำการลงทะเบียน</P>
 

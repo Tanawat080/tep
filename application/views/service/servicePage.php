@@ -22,4 +22,4 @@
       	<p><b><?php echo label('diagramService',$this);?></b></p>
       </div>
   </div>
-</div>
+</div><br><br>

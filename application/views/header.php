@@ -11,9 +11,9 @@
       <!-- Wrapper for slides -->
       <div class="carousel-inner " role="listbox">
         <div class="item active">
-          <img src= "assets/images/header/h1-1.png" width="100%" alt="Image">
+          <img src= "assets/images/header/h1-5.jpg" width="100%" alt="Image">
             <div class="carousel-caption">
-              <?php echo label('header1',$this);?>
+              <?php echo label('header1',$this);?>             
             </div>  
         </div>
 

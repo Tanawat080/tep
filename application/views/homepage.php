@@ -1,6 +1,5 @@
 <!-- 
 <div id="bgCard" class="well">
-
       <h4><B>ทำไมต้องไทยอีเพย์?</B></h4>
       <p>&nbsp;&nbsp;&nbsp;เนื่องจากมีผู้สอบถามมาเป็นจำนวนมาก และอยากให้ไทยอีเพย์ทำสรุปจุดเด่นเปรียบเทียบระบบการให้บริการของเรา เทียบกับผู้ให้บริการรายอื่น ดังนั้นไทยอีเพย์จึงได้จัดทำข้อมูลเปรียบเทียบ โดยสรุปจุดเด่นของเราเป็นข้อๆ ดังนี้</p>
       <p>&nbsp;&nbsp;&nbsp;1. ไทยอีเพย์คือผู้บุกเบิกและเป็นต้นแบบ</p>
@@ -11,60 +10,83 @@
 <hr>
 </div> -->
 <br>
-<div class="bg-img">
-<div class="container text-left ">  
-
-  <div class="row col-sm-12">
-      <div class="col-sm-6 ">
-          <h4 align="left"><B>Shopping Mall</B></h4>
-          <p class="indent">บริการช้อปปิ้งมอลล์ของไทยอีเพย์ เหมาะสำหรับผู้ที่สนใจระบบอีคอมเมิร์ซแบบครบวงจร ซึ่งจะรวบรวมทุกส่วนที่ประกอบกันขึ้นเป็นเว็บไซต์อีคอมเมิร์ซมาอยู่ในบริการนี้ เพียงแค่คุณมีความคิดดีๆที่จะทำธุรกิจออนไลน์ ก็สามารถเปิดร้านค้าออนไลน์ได้ทันที บริการช้อปปิ้งมอลล์ของไทยอีเพย์</p>
-          <b>ระบบนี้เหมาะสำหรับ</B>
-            <ul>
-              <li>ท่านที่สนใจเปิดเว็บไซต์เพื่อขายสินค้าหรือให้บริการจองห้องพักออนไลน์ แต่ไม่รู้จะเริ่มต้นอย่างไร</li>
-              <li>ท่านต้องการประหยัดค่าใช้จ่ายในจัดทำเว็บไซต์และระบบชำระเงินออนไลน์</li>
-              <li>ท่านที่ต้องการความสะดวกสบายและความเป็นมืออาชีพในการทำธุรกิจออนไลน์</li>
-            </ul>
-          <B>บริการธุรกิจออนไลน์พร้อมระบบชำระเงิน</B>
-          <ul>
-            <li><a href="<?php echo base_url()?>service/service/eShop">eShop</a> ระบบร้านค้าออนไลน์ <font color="red">ฟรี.!</font></li>
-            <li><a href="<?php echo base_url()?>service/service/eBookingPlus">eBooking PLUS</a> ระบบจองโรงแรม/ที่พัก</li>
-            <li><a href="<?php echo base_url()?>service/service/eBusiness">eBusiness</a> เว็บไซต์สำเร็จรูปสำหรับองค์กรหรือบริษัท</li>
-          </ul>
-
-          <a href="<?php echo base_url();?>service/service/servicePage"><B>รายละเอียดเพิ่มเติม</B></a>
-      </div>
-      <div class="col-sm-6 ">
-        <div class="">
-          <h4 align="left"><B>eModules</B></h4>
-            <div align="left">
-              <p class="indent">บริการอีโมดูลส์ของเรา ออกแบบมาสำหรับร้านค้าที่มีเว็บไซต์อยู่แล้วและต้องการเติมเต็มธุรกิจออนไลน์ของด้วยระบบชำระเงิน หรือระบบจองห้องพักออนไลน์ ซึ่งบริการอีโมดูลส์ของเราได้ถูกแบ่งออกตามความเหมาะสมและประเภทของธุรกิจของลูกค้า.</p>
-              <B>ระบบนี้เหมาะสำหรับ</B>
+<div class="border-bottom-content">
+  <div class="container text-left ">  
+    <div class="row">
+        <div class="col-sm-6 ">
+            <h4>Shopping Mall</h4>
+            <p class="indent">บริการช้อปปิ้งมอลล์ของไทยอีเพย์ เหมาะสำหรับผู้ที่สนใจระบบอีคอมเมิร์ซแบบครบวงจร ซึ่งจะรวบรวมทุกส่วนที่ประกอบกันขึ้นเป็นเว็บไซต์อีคอมเมิร์ซมาอยู่ในบริการนี้ เพียงแค่คุณมีความคิดดีๆที่จะทำธุรกิจออนไลน์ ก็สามารถเปิดร้านค้าออนไลน์ได้ทันที บริการช้อปปิ้งมอลล์ของไทยอีเพย์</p>
+            <b>ระบบนี้เหมาะสำหรับ</B>
               <ul>
-                <li>ท่านที่มีเว็บไซต์อยู่แล้ว แต่ต้องการระบบตะกร้าสินค้าหรือระบบจองห้องพัก</li>
-                <li>ท่านที่ต้องการระบบชำระเงินออนไลน์และความรวดเร็วในการติดตั้งระบบ</li>
-                <li>ท่านที่มีความรู้ด้านโปรแกรมขั้นสูง หรือมีโปรแกรมเมอร์ดูแลการเชื่อมต่อ</li>
+                <li>ท่านที่สนใจเปิดเว็บไซต์เพื่อขายสินค้าหรือให้บริการจองห้องพักออนไลน์ แต่ไม่รู้จะเริ่มต้นอย่างไร</li>
+                <li>ท่านต้องการประหยัดค่าใช้จ่ายในจัดทำเว็บไซต์และระบบชำระเงินออนไลน์</li>
+                <li>ท่านที่ต้องการความสะดวกสบายและความเป็นมืออาชีพในการทำธุรกิจออนไลน์</li>
               </ul>
-              <a href="<?php echo base_url();?>service/service/servicePage"><B>รายละเอียดเพิ่มเติม</B></a>
-           
-            </div>
-        </div>
-      </div>
+            <B>บริการธุรกิจออนไลน์พร้อมระบบชำระเงิน</B>
+            <ul>
+              <li><a href="<?php echo base_url()?>service/service/eShop">eShop</a> ระบบร้านค้าออนไลน์ <font color="red">ฟรี.!</font></li>
+              <li><a href="<?php echo base_url()?>service/service/eBookingPlus">eBooking PLUS</a> ระบบจองโรงแรม/ที่พัก</li>
+              <li><a href="<?php echo base_url()?>service/service/eBusiness">eBusiness</a> เว็บไซต์สำเร็จรูปสำหรับองค์กรหรือบริษัท</li>
+            </ul>
 
-      <div class="col-sm-6 "><br><br>  
-        <div class="">
-          <h4 align="left"><B>ทำไมต้องใช้ไทยอีเพย์?</B></h4>
-            <div align="left">
-              <p class="indent">เนื่องจากมีผู้สอบถามมาเป็นจำนวนมาก และอยากให้ไทยอีเพย์ทำสรุปจุดเด่นเปรียบเทียบระบบการให้บริการของเรา เทียบกับผู้ให้บริการรายอื่น ดังนั้นไทยอีเพย์จึงได้จัดทำข้อมูลเปรียบเทียบ โดยสรุปจุดเด่นของเราเป็นข้อๆ ดังนี้.</p>
-              <a class="whyThaiepay" href="<?php echo base_url();?>home/whyThaiepay"><B>รายละเอียดเพิ่มเติม</B></a><br><br>
-            </div>
+            <a href="<?php echo base_url();?>service/service/servicePage"><B>รายละเอียดเพิ่มเติม</B></a><br><br>
         </div>
-      </div>  
-    </div>  <!-- end of content -->
-</b>
+        <div class="col-sm-6 ">
+            <h4 >eModules</h4>
+              <div align="left">
+                <p class="indent">บริการอีโมดูลส์ของเรา ออกแบบมาสำหรับร้านค้าที่มีเว็บไซต์อยู่แล้วและต้องการเติมเต็มธุรกิจออนไลน์ของด้วยระบบชำระเงิน หรือระบบจองห้องพักออนไลน์ ซึ่งบริการอีโมดูลส์ของเราได้ถูกแบ่งออกตามความเหมาะสมและประเภทของธุรกิจของลูกค้า.</p>
+                <B>ระบบนี้เหมาะสำหรับ</B>
+                <ul>
+                  <li>ท่านที่มีเว็บไซต์อยู่แล้ว แต่ต้องการระบบตะกร้าสินค้าหรือระบบจองห้องพัก</li>
+                  <li>ท่านที่ต้องการระบบชำระเงินออนไลน์และความรวดเร็วในการติดตั้งระบบ</li>
+                  <li>ท่านที่มีความรู้ด้านโปรแกรมขั้นสูง หรือมีโปรแกรมเมอร์ดูแลการเชื่อมต่อ</li>
+                </ul>
+                <a href="<?php echo base_url();?>service/service/servicePage"><B>รายละเอียดเพิ่มเติม</B></a>
+             
+              </div>
+        </div>  
+        <!-- 
+        <div class="col-sm-6 ">
+          <div class="">
+            <h4>ทำไมต้องใช้ไทยอีเพย์?</h4>
+              <div align="left">
+                <p class="indent">เนื่องจากมีผู้สอบถามมาเป็นจำนวนมาก และอยากให้ไทยอีเพย์ทำสรุปจุดเด่นเปรียบเทียบระบบการให้บริการของเรา เทียบกับผู้ให้บริการรายอื่น ดังนั้นไทยอีเพย์จึงได้จัดทำข้อมูลเปรียบเทียบ โดยสรุปจุดเด่นของเราเป็นข้อๆ ดังนี้.</p>
+                <a class="whyThaiepay" href="<?php echo base_url();?>home/whyThaiepay"><B>รายละเอียดเพิ่มเติม</B></a><br><br>
+              </div>
+          </div>
+        </div>  -->
+      </div>  <!-- end of content -->
+  </div>
+</div> <!-- background -->
+<div class="bg-color-blue" >
+<div class="container">
+  <div class="col-sm-12">
+    <br><br><br>
+  </div>
+  <div class="col-sm-12">
+    <div class="col-sm-3">
+         <img src="assets/images/whyThaiepay/Ycontent.png">
+    </div>
+    <div class="col-sm-9 font-white">
+        <br><br>
+        <ol>
+          <p class="indent">จุดเด่นเปรียบเทียบระบบการให้บริการของเรา เทียบกับผู้ให้บริการรายอื่น โดยสรุปจุดเด่นของเราเป็นข้อๆ ดังนี้</p>
+          <li>ไทยอีเพย์คือผู้บุกเบิกและเป็นต้นแบบ</li>
+          <li>ไทยอีเพย์มีระบบที่ดีกว่าและใช้งานได้ง่าย</li>
+          <li>ค่าบริการของไทยอีเพย์ถูกและคุ้มค่า</li>
+          <li>ไทยอีเพย์มีความปลอดภัยสูงสุด</li>
+        </ol>
+        <div class="form-group">
+          <br>
+          <center>
+          <a href="<?php echo base_url();?>buyer/buyer/regisBuyer"><button class="tm-red-btn">สมัครใช้บริการ</button></a>
+        </div>
+    </div>
+  </div>
 </div>
 </div>
 
-
+<div class="bg-img">
 <div class="container text-center">  
 <div class="col-sm-12">
  <br>
@@ -92,7 +114,9 @@
     </div> 
   </div>
 </div> <!-- end of support CMS system -->
-<br>
+<br><br>
+</div>
+
 
 
 
@@ -129,5 +153,89 @@
   <a href=""><B>ดูเพิ่มเติม</B></a>
 </div><br>
 -->
-
- 
+<!--
+  <div class="border-bottom-hr" ></div>
+ <div class="bg-img2" id="content-footer" >
+ <div class="container text-left" >
+        <div class="col-sm-12 "  >
+            <ul class="footer-service-link">
+                <li> 
+                    <h4><B><?php echo label("service",$this)?></B></h4>
+                        <ul class="col-sm-10">
+                            <div class="border-bottom"></div><br>
+                        <div class="border-bottom">
+                           <li>
+                                <img src="<?php echo base_url();?>assets/images/icons/new_epayment_s.png">
+                                <b><a class="contentFoot" href="<?php echo base_url()?>service/service/ePayment">ePayment</a></b><br><?php echo label("ePayment",$this);?>
+                            </li>
+                        </div><br>
+                        <div class="border-bottom">
+                            <li>
+                                 <img src="<?php echo base_url();?>assets/images/icons/ico_ecart_new.png">
+                                <b><a href="<?php echo base_url()?>service/service/eCart">eCart</a> </b><br><?php echo label("eCart",$this);?>
+                            </li>
+                        </div><br>
+                            <li>
+                                <img src="<?php echo base_url();?>assets/images/icons/ico_ebooking_new.png">
+                                <b><a href="<?php echo base_url()?>service/service/eBooking">eBooking</a></b> <br><?php echo label("eBooking",$this);?>
+                            </li>
+                        </ul>
+                </li>
+                <li>
+                    <h4><B>ข่าวสารและโปรโมชั่นใหม่ๆ</B></h4>
+                        <ul class="col-sm-10">
+                            <div class="border-bottom"></div><br>
+                            <div class="border-bottom">
+                            <li>
+                                <b><a ="ctl00_UcPageContext_UcNewsDetail_RptNewsDetail_ctl00_LnkNewsTopic" href="news/88/SMS_Order_Alert_Temporarily_Closed/">แจ้งปิดระบบแจ้งเตือนผลการชำระเงินทาง SMS (SMS Order Alert)</a></b><br> บริษัท เพย์ โซลูชั่น จำกัด ขอปิดระบบแจ้งเตืนผลการชำระเงินทาง SMS (SMS Order Alert) เป็นการชั่วคราว เพื่อทำการปรับปรุงระ...
+                            </li>
+                        </div><br>
+                        <div class="border-bottom">
+                            <li>
+                                <b><a id="ctl00_UcPageContext_UcNewsDetail_RptNewsDetail_ctl01_LnkNewsTopic" href="news/87/Our_Line@_Official_Account/">เพิ่มช่องทางการติดต่อสื่อสารผ่าน LINE@ Official Account</a></b><br> อสารใหม่ ที่สามารถให้ทุกท่านได้ติดตามข่าวสาร สอบถามบริการ หรือแจ้งปัญหาการใช้งาน จากทางเราได้อีก 1 ช่องทาง คือทาง ...
+                            </li>
+                        </div><br>
+                            <li>
+                                <b><a id="ctl00_UcPageContext_UcNewsDetail_RptNewsDetail_ctl02_LnkNewsTopic" href="news/84/Subject__Changing_New_Company_Telephone_No/">เรื่อง แจ้งเปลี่ยนหมายเลขโทรศัพท์ของบริษัท</a></b><br>   ่อสารใหม่  
+                            ที่สามารถให้ทุกท่านได้ติดตามข่าวสาร สอบถามบริการ หรือแจ้งปัญหาการใช้งาน จากทางเราได้อีก 1 ช่องทาง คือทาง  
+                            ...</p>
+                            </li>
+                        </ul>
+                </li>
+                <li>
+                    <h4><B>บทความ</B></h4>
+                        <ul class="col-sm-10">
+                            <div class="border-bottom"></div><br>
+                            <div class="border-bottom">
+                            <li>
+                                <b><a href="" >ความรู้ทั่วไป
+                                </a></b><br> ความรู้ทั่วไป เกี่ยวกับระบบ ข้อตกลงเบื้องต้น และการใช้บริการในส่วนต่างๆ
+                            </li>
+                        </div><br>
+                        <div class="border-bottom">
+                            <li>
+                                <b><a href="">ทิปและเทคนิค
+                                </a></b><br> ทิปและเทคนิคการใช้งานระบบ เป็นเทคนิคพิเศษที่คุณอาจจะไม่รู้ แต่เราอยากแนะนำ
+                            </li>
+                        </div><br>
+                        <div class="border-bottom">
+                            <li>
+                                <b><a href="">คำถามที่ถามบ่อย</a></b><br> คำถามที่ทีมงานถูกถามเป็นประจำ หรือปัญหาที่พบบ่อย
+                            </li>
+                        </div><br>
+                        <div class="border-bottom">
+                            <li>
+                                <b><a href="">ดาวน์โหลดคู่มือและโมดูล</a></b><br> ดาวน์โหลดคู่มือที่เป็นไฟล์เอกสาร หรือโมดูลต่างๆ พร้อมคำอธิบาย
+                            </li>
+                        </div><br>
+                            <li>
+                                <b><a href="">อื่นๆ</a></b><br> บทความหรือข้อมูลอื่นๆ
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <br>
+        </div>
+    </div>
+</div>
+-->

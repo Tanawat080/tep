@@ -69,6 +69,13 @@ class service extends CI_Controller {
 		$this->load->view("navbar");
 		$this->load->view("service/eBookingPlus");
 		$this->load->view("footer");
+	}public function comparePackage()
+	{
+		$lang=$this->session->userdata('lang')==null?"thailand":$this->session->userdata('lang');
+		$this->lang->load($lang,$lang);
+		$this->load->view("navbar");
+		$this->load->view("service/comparePackage");
+		$this->load->view("footer");
 	}
 
 }

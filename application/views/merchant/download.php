@@ -43,11 +43,11 @@
       <div class="col-sm-10"><br>
       <table class="table table-bordered table-hover">
     <thead>
-      <tr>
-        <th width="55%">ไฟล์</th>
-        <th width="15%">ชนิด</th>
-        <th width="15%">ขนาด</th>
-        <th width="15%">อัปเดทวันที่</th>
+      <tr class="info">
+        <th width="55%"><h5>ไฟล์</h5></th>
+        <th width="15%"><h5>ชนิด</h5></th>
+        <th width="15%"><h5>ขนาด</h5></th>
+        <th width="15%"><h5>อัปเดทวันที่</h5></th>
       </tr>
     </thead>
     <tbody align="left">
@@ -270,4 +270,5 @@
       <div class="col-sm-1">
       </div>
   </div>
+</div>
 </div>

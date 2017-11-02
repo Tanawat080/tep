@@ -8,25 +8,25 @@
      	<p align="left" class="indent">โปรดกรอกหมายเลขการสั่งซื้อและอีเมลของคุณลงในแบบฟอร์มด้านล่างนี้ เพื่อตรวจสอบดูสถานะการสั่งซื้อและข้อมูลที่เกี่ยวข้อง</p>
       </div>
      <div class="col-sm-4">
-	     <form name="frm">
+	     <form name="frm" action="">
 	     	<div class="form-group">
-	     		<input type="email" class="form-control" name="email" placeholder="Email">
+	     		<input type="email" class="form-control" name="email" placeholder="Email" required>
 	     	</div>
 
-	     		<p align="left">หมายเลขการสั่งซื้อ:*</p>
+	     		<h5>หมายเลขการสั่งซื้อ:*</h5>
 	     		<table><tr>
 	     		<td>
-	     		<input type="number" class="form-control" name="orderid"  >
+	     		<input type="number" class="form-control" name="orderid"  required>
 	     		</td>
 	     		<td><p>&nbsp;-&nbsp;</p></td>
 	     		<td>
-	     		<input type="number" class="form-control" name="orderid2" >
+	     		<input type="number" class="form-control" name="orderid2" required>
 	     		</td>
 	     		<td></td>
 	     		</tr>
 	     		</table>
 	     		<p align="left">(ตัวอย่าง 000111-123456 หรือ 000222-12345678)</p><br>
-	     		<a href="#"><button type="button" class="btn btn-primary">Create Account</button></a><br>
+	     		<button type="submit" class="btn btn-primary">Create Account</button><br>
 	
 	     </form>
 
