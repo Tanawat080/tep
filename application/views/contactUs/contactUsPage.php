@@ -50,61 +50,111 @@
                 <div class="col-sm-12 text-left" align = "center" >
                     <a name="contactform"></a><br><br>
                     <h4>แบบฟอร์มกรอกข้อมูลเพื่อติดต่อเรา</h4><hr>
-                    <P class="indent">คุณสามารถกรอกข้อมูลคำถาม หรือข้อความที่ต้องการติดต่อทีมงานของเราผ่านแบบฟอร์มดังต่อไปนี้ ระบบจะจัดส่งข้อความของคุณไปยังเจ้าหน้าที่ของเราโดยตรง และจะดำเนินการในลำดับต่อไป</p>
+                    <P class="indent-2">คุณสามารถกรอกข้อมูลคำถาม หรือข้อความที่ต้องการติดต่อทีมงานของเราผ่านแบบฟอร์มดังต่อไปนี้ ระบบจะจัดส่งข้อความของคุณไปยังเจ้าหน้าที่ของเราโดยตรง และจะดำเนินการในลำดับต่อไป</p>
                 </div >
                 <div class="col-sm-3">
                 </div>
                 <div class="col-sm-6">
                     <br>
                     <form id="form1" name="form1" method="post" action="">
-                        <div class="form-group" >
-                            <?php
+
+                        <div class="col-sm-4">
+                            <div class="form-group">
+                                <?php
                             echo label('name', $this);
                             echo "-";
                             echo label('surname', $this);
-                            ?> 
-                            <input type="text" class="form-control" name="ctl00$CphBody$TxtName" placeholder="<?php
-                            echo label('name', $this);
-                            echo "-";
-                            echo label('surname', $this);
-                            ?>" required>
+                            ?>
+                            :
+                            </div>
                         </div>
-                        <div class="form-group">
-                            <?php echo label('phoneNum', $this); ?>
-                            <input type="text" class="form-control" name="ctl00$CphBody$TxtPhoneNumber" placeholder="เบอร์โทร " required>
+                        <div class="col-sm-8">
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="ctl00$CphBody$TxtName" required>
+                            </div>
                         </div>
-                        <div class="form-group">
-                            <?php echo label('email', $this); ?>
-                            <input type="text" class="form-control" name="ctl00$CphBody$TxtEmail" placeholder="อีเมล" required>
+
+                        <div class="col-sm-4">
+                            <div class="form-group">
+                                <?php echo label('phoneNum', $this); ?> : 
+                            </div>
                         </div>
-                        <div class="form-group">
-                            <select  class="form-control" name="ctl00$CphBody$DdlSubject"  onchange="javascript:setTimeout( & #39; __doPostBack(\ & #39; ctl00$CphBody$DdlSubject\ & #39; , \ & #39; \ & #39; ) & #39; , 0)" id="ctl00_CphBody_DdlSubject" required>
+                        <div class="col-sm-8">
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="ctl00$CphBody$TxtPhoneNumber" required>
+                            </div>
+                        </div>
+
+
+                        <div class="col-sm-4">
+                            <div class="form-group">
+                                <?php echo label('email', $this); ?> : 
+                            </div>
+                        </div>
+                        <div class="col-sm-8">
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="ctl00$CphBody$TxtEmail" required>
+                            </div>
+                        </div>
+
+
+                                                <div class="col-sm-4">
+                            <div class="form-group">
+                                หัวข้อ : 
+                            </div>
+                        </div>
+                        <div class="col-sm-8">
+                            <div class="form-group">
+                                <select  class="form-control" name="ctl00$CphBody$DdlSubject"  onchange="javascript:setTimeout( & #39; __doPostBack(\ & #39; ctl00$CphBody$DdlSubject\ & #39; , \ & #39; \ & #39; ) & #39; , 0)" id="ctl00_CphBody_DdlSubject" required>
                                 <option selected="selected" value="0"><?php echo label('title', $this); ?></option>
                             </select>
-                        </div>                      
-                        <div class="form-group"> 
-                            <?php echo label('description', $this); ?>
-                            <textarea class="form-control" rows="4" cols="50" name="ctl00$CphBody$TxtBody" id="ctl00_CphBody_TxtBody"  placeholder="รายละเอียด" required></textarea>
+                            </div>
                         </div>
-                        <div class=" form-group text-center"> 
-                            <?php
-                            $_SESSION['num_to_check'][0] = rand(1, 9);
-                            $_SESSION['num_to_check'][1] = rand(1, 9);
-                            ?>
-                            <div id="verify_math" >
-                                <span class="digital" style="background-position:<?= ($_SESSION['num_to_check'][0] * -30) ?>px 0px; "></span>
-                                <span>+</span>
-                                <span class="digital" style="background-position:<?= ($_SESSION['num_to_check'][1] * -30) ?>px 0px;"></span>
-                                <span>
-                                    
-                                        <span>=</span>
-                                </div>
-                                <div class="col-sm-12">
-                                        <input name="i_verify" class="form-control" type="text" id="i_verify" required>
+
+                        <div class="col-sm-4">
+                            <div class="form-group">
+                                <?php echo label('description', $this); ?> : 
+                            </div>
+                        </div>
+                        <div class="col-sm-8">
+                            <div class="form-group">
+                                <textarea class="form-control" rows="4" cols="50" name="ctl00$CphBody$TxtBody" id="ctl00_CphBody_TxtBody"  placeholder="รายละเอียด" required></textarea>
+                            </div>
+                        </div>
+
+                                                <div class="col-sm-4">
+                            <div class="form-group">
+                                CAPTCHA :
+                            </div>
+                        </div>
+                        <div class="col-sm-8">
+                            <div class="col-sm-6" >
+                                <div class="form-group">
+                                    <?php
+                                $_SESSION['num_to_check'][0] = rand(1, 9);
+                                $_SESSION['num_to_check'][1] = rand(1, 9);
+                                ?>
+                                <div id="verify_math" >
+                                    <span class="digital" style="background-position:<?= ($_SESSION['num_to_check'][0] * -30) ?>px 0px; "></span>
+                                    <span>+</span>
+                                    <span class="digital" style="background-position:<?= ($_SESSION['num_to_check'][1] * -30) ?>px 0px;"></span>
+                                    <span>
+                                        
+                                            <span>=</span>
+                                            </span>
                                     </div>
-                                </span>
-                             <br /><br />
-                            <input type="submit" name="button2" class="btn btn-primary" id="button2" value="Submit" />
+                                </div>
+                            </div>
+                                <div class="col-sm-6" >
+                                    <input name="i_verify" class="form-control" type="text" id="i_verify" required><br><br>
+                                </div>
+                               
+                             <div class="form-group">
+                                <center><input type="submit" name="button2" class="btn btn-primary" id="button2" value="Submit" /></center>
+                            </div>
+                            <br><br><br><br>
+                                </div>
+                            </div>
                         </div>
                     </form>
                 </div> 
