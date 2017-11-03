@@ -14,11 +14,13 @@
             <div class="col-sm-2">
             </div>
             <div class="col-sm-8">
+                <div class="col-sm-12">
                     <div class="input-group">
                         <span class="input-group-addon">https://shop.thaiepay.com/</span>
                         <input id="shopName" type="text" class="form-control" name="shopName" placeholder="Shop Name" required>
-                    </div>
-                <br>
+                    </div><br/>
+                </div>
+                
                     <div class="col-sm-4">
                         <div class="form-group">  
                             <p><?php echo label('password', $this); ?> : </p>
@@ -53,8 +55,9 @@
                                 <option value="">แพ็คเกจ / Package</option>
                             </select>
                         </div>
-                    </div><br>
+                    </div><br/>
             </div>
+
             <div class="col-sm-2">
             </div>
             <br>
@@ -66,8 +69,10 @@
                             <label><input type="radio" name="main_theme" checked="checked">main_theme</label>
                         </div>
                         <a href=""><button type="button" class="btn btn-success" name="Preview"  id="Preview" >Preview</button></a>
-                    </center><br>
-                </div><br><center>
+                    </center><br/>
+                </div>
+                    <br/>
+                    <center>
                     <button type="submit" class="btn btn-primary" name="Submit"  id="Submit" >Submit</button>
             </div>
         </form>

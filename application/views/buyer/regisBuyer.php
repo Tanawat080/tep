@@ -16,7 +16,7 @@
                     <hr>
                     <div class="col-sm-4">
                         <div class="form-group">  
-                                <p><?php echo label('email', $this); ?></p>
+                                <p><?php echo label('email', $this); ?> : </p>
                         </div>
                     </div>
                     <div class="col-sm-8">
@@ -27,7 +27,7 @@
 
                     <div class="col-sm-4">
                         <div class="form-group">  
-                                <p><?php echo label('password', $this); ?></p>
+                                <p><?php echo label('password', $this); ?> : </p>
                         </div>
                     </div>
                     <div class="col-sm-8">
@@ -38,7 +38,7 @@
 
                     <div class="col-sm-4">
                         <div class="form-group">  
-                                <p><?php echo label('rePassword', $this); ?></p>
+                                <p><?php echo label('rePassword', $this); ?> : </p>
                         </div>
                     </div>
                     <div class="col-sm-8">
@@ -59,7 +59,7 @@
                   
                         <div class="col-sm-4 ">
                             <div class="form-group"> 
-                                <p><?php echo label('country', $this); ?> :</p>
+                                <p><?php echo label('country', $this); ?> : </p>
                             </div>
                         </div>
                         <div class="col-sm-8">
@@ -71,7 +71,7 @@
                     
                         <div class="col-sm-4 ">
                             <div class="form-group">  
-                                <p><?php echo label('name', $this); ?> :*</p>
+                                <p><?php echo label('name', $this); ?> :* </p>
                             </div>
                         </div>
                         <div class="col-sm-8">
@@ -83,7 +83,7 @@
 
                         <div class="col-sm-4 ">
                             <div class="form-group">  
-                                <p><?php echo label('surname', $this); ?> :*</p>
+                                <p><?php echo label('surname', $this); ?> :* </p>
                             </div>
                         </div>
                         <div class="col-sm-8">
@@ -94,7 +94,7 @@
                     
                         <div class="col-sm-4 ">
                             <div class="form-group">  
-                                <p><?php echo label('company', $this); ?> :</p>
+                                <p><?php echo label('company', $this); ?> : </p>
                             </div>
                         </div>
                         <div class="col-sm-8">
@@ -105,7 +105,7 @@
 
                     <div class="col-sm-4 ">
                             <div class="form-group">  
-                                <p><?php echo label('address', $this); ?> :*</p>
+                                <p><?php echo label('address', $this); ?> :* </p>
                             </div>
                         </div>
                         <div class="col-sm-8">
@@ -117,7 +117,7 @@
 
                     <div class="col-sm-4 ">
                         <div class="form-group">  
-                                <p><?php echo label('addressOptional', $this); ?></p>
+                                <p><?php echo label('addressOptional', $this); ?> : </p>
                         </div>
                     </div>
                     <div class="col-sm-8">
@@ -128,7 +128,7 @@
 
                     <div class="col-sm-4">
                         <div class="form-group">  
-                                <p><?php echo label('city', $this); ?> :*</p>
+                                <p><?php echo label('city', $this); ?> :* </p>
                         </div>
                     </div>
                     <div class="col-sm-8">
@@ -139,7 +139,7 @@
 
                     <div class="col-sm-4">
                         <div class="form-group">  
-                                <p><?php echo label('state', $this); ?></p>
+                                <p><?php echo label('state', $this); ?> : </p>
                         </div>
                     </div>
                     <div class="col-sm-8">
@@ -150,7 +150,7 @@
 
                     <div class="col-sm-4">
                         <div class="form-group">  
-                                <p><?php echo label('zipCode', $this); ?> *</p>
+                                <p><?php echo label('zipCode', $this); ?> :* </p>
                         </div>
                     </div>
                     <div class="col-sm-8">
@@ -161,7 +161,7 @@
 
                     <div class="col-sm-4">
                         <div class="form-group">  
-                                <p><?php echo label('phoneNum', $this); ?> *</p>
+                                <p><?php echo label('phoneNum', $this); ?> :* </p>
                         </div>
                     </div>
                     <div class="col-sm-8">
@@ -172,7 +172,7 @@
 
                     <div class="col-sm-4">
                         <div class="form-group">  
-                                <p><?php echo label('mobileNum', $this); ?></p>
+                                <p><?php echo label('mobileNum', $this); ?> : </p>
                         </div>
                     </div>
                     <div class="col-sm-8">
@@ -183,7 +183,7 @@
 
                     <div class="col-sm-4">
                         <div class="form-group">  
-                                <p><?php echo label('fax', $this); ?></p>
+                                <p><?php echo label('fax', $this); ?> : </p>
                         </div>
                     </div>
                     <div class="col-sm-8">

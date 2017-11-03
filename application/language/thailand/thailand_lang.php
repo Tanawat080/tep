@@ -40,9 +40,9 @@
 	$lang['register']='ลงทะเบียน';
 	//form 
 	$lang['email']='อีเมล์';
-	$lang['password']='สร้างรหัสผ่าน';
+	$lang['password']='รหัสผ่าน';
 	$lang['rePassword']='ยืนยันรหัสผ่าน';
-	$lang['recieveNews']='ต้องการรับข่วสารและโปรโมชั่นทางอีเมล';
+	$lang['recieveNews']='ต้องการรับข่าวสารและโปรโมชั่นทางอีเมล';
 	$lang['country']='ประเทศ';
 	$lang['name']='ชื่อ';
 	$lang['surname']='นามสกุล';
