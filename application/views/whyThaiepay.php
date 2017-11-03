@@ -1,9 +1,222 @@
-
 <html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <head>
+<style>
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+</style>
 
+
+<style>
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#myImg:hover {opacity: 0.7;}
+/* The Modal (background) */
+.modal1 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+/* Modal Content (image) */
+.modal1-content1 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+/* Caption of Modal Image */
+#caption1 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+/* Add Animation */
+.modal1-content1, #caption1 {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+/* The Close Button */
+.close1 {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal1-content1 {
+        width: 100%;
+    }
+}
+</style>
+
+
+<style>
+body {
+  font-family: Verdana, sans-serif;
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+}
+.row > .column {
+  padding: 0 8px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column {
+  float: left;
+  width: 25%;
+}
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1000px;
+}
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+.mySlides {
+  display: none;
+}
+.cursor {
+  cursor: pointer
+}
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  color:black;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+/* Number text (1/3 etc) */
+.numbertext {
+  color: black;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+img {
+  margin-bottom: -4px;
+}
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+.demo {
+  opacity: 0.6;
+}
+.active,
+.demo:hover {
+  opacity: 1;
+}
+img.hover-shadow {
+  transition: 0.3s
+}
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+</style>
 </head>
 
 <body>
@@ -38,7 +251,7 @@
                             <span class="close">&times;</span>
                             <img class="modal1-content1" id="img01">
                             <div id="caption1"></div>
-                          </div><i>ปี 2003 ไทยอีเพย์ได้เปิดตัวเว็บไซต์เวอร์ชันแรก</i>
+                          </div><i> ปี2003 ไทยอีเพย์ได้เปิดตัวเว็บไซต์เวอร์ชันแรก</i>
 
                     </div>
                     <div >
@@ -198,13 +411,13 @@
         <p>&nbsp;&nbsp;&nbsp; อัตราค่าบริการที่คงที่ จะสามารถช่วยให้คุณประเมินต้นทุน และค่าใช้จ่ายได้ ซึ่งต่างจากผู้ให้บริการบางแห่ง ที่มีการคิดค่าบริการเพิ่มเติม ตามจำนวนรายการสั่งซื้อ (Charge Per Transaction) อีก เราจะยกตัวอย่างผู้ให้บริการรายหนึ่งในไทย ที่คิดค่าธรรมเนียมเป็น 3.99% + 49 บาท/รายการ ลองคิดง่ายๆ ว่าถ้าเดือนหนึ่งคุณมีจำนวนรายการสั่งซื้อประมาณ 100 รายการ คุณจะต้องเสียค่าบริการเพิ่มเติมอีก (49x100) 4,900 บาท ซึ่งเป็นค่าบริการที่สูงมากทีเดียว (ดูตารางด้านล่าง)</p>
         <p>&nbsp;&nbsp;&nbsp;หรือถ้าคุณจะคิดในแง่ของ อัตราส่วนเปอร์เซนต์ การบวก 49 บาท/รายการ ก็คือการบวกอีก 4.9% ถ้าสินค้าของคุณราคา 1,000 บาทนั่นเอง ซึ่งถ้ารวมกับ 3.99% แล้ว คุณจะต้องเสียค่าธรรมเนียมสูงถึงเกือบ 9% ทีเดียว</p>
                     
-        <table class="table table-bordered table-hover col-sm-12">
-        <tr class="info">
-          <th><h5>ผู้ให้บริการ</h5></th>
-          <th><h5>ค่าบริการ</h5></th>
-          <th><h5>เปอร์เซนต์ยอดขาย</h5></th>
-          <th><h5>ซื้อ/ขาย 100 รายการ</h5></th>
-          <th><h5>ซื้อ/ขาย 500 รายการ</h5></th>
+                    <table class="col-sm-12">
+        <tr>
+        <th>ผู้ให้บริการ</th>
+        <th>ค่าบริการ</th>
+        <th>เปอร์เซนต์ยอดขาย</th>
+        <th>ซื้อ/ขาย 100 รายการ</th>
+        <th>ซื้อ/ขาย 500 รายการ</th>
         </tr>
         <tr>
         <td>ไทยอีเพย์</td>
@@ -249,11 +462,19 @@
                     </div>
                     <br />
                     <br />
+               
+           
+            
+
       </div> 
-<br>
-</div>    
+
+      
+            <br>
 </div>
-</div>  
+       
+</div>
+</div>
+       
 </div>
 
 
