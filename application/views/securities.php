@@ -7,7 +7,11 @@
   <div class="row">
     <div class="col-sm-12">
         <div class="col-sm-12">
-          	<h1 align="left">รางวัลและความปลอดภัย</h1>
+            <div class="text-center">
+          	     <h1 >รางวัลและความปลอดภัย</h1>
+                 <hr width="10%">
+                 <br/>
+            </div>
           	<p align="left" class="indent">ระบบของเราได้รับรางวัลการันตีคุณภาพและความปลอดภัยจากหลายๆ หน่วยงานรับรอง ซึ่งอาจจะกล่าวสรุปอย่างง่ายๆ เพื่อให้คุณทำความเข้าใจว่าการใช้งาน THAIEPAY นั้น ดีอย่างไร และปลอดภัยได้อย่างไร ดังนี้</p><br><br>
         </div>
         <div class="col-sm-12" align="left">

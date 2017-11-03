@@ -2,9 +2,13 @@
   <br>
   <div class="row">
     <div class="col-sm-12">
-      	<h1 align="left">เกี่ยวกับเรา</h1>
+      <div class="text-center">
+      	<h1 >เกี่ยวกับเรา</h1>
+        <hr width="10%">
+        <br/>
+      </div>
       	<center>
-        <img src="<?php echo base_url()?>assets/images/aboutus-porar.png" class="img-responsive"></center>
+        <img src="<?php echo base_url()?>assets/images/aboutus-porar.png" class="img-thumbnail"></center>
         <br><br>
       	 <ol type="1" class="text-left">
       	   <li class="indent-2">ยินดีต้อนรับเข้าสู่ "PORAR Community" ชุมชนธุรกิจออนไลน์ ที่ตอบสนองความต้องการของคุณครบวงจร แบบ One Stop Service บริษัท โพลาร์ เว็บแอปพลิเคชั่น จำกัด ของเราก่อตั้งขึ้นตั้งแต่ปี พ.ศ. 2544 โดยเริ่มต้นพัฒนาแอปพลิเคชั่น และซอฟท์แวร์จำหน่าย แล้วในขณะเดียวกัน ก็เริ่มเปิดให้ "บริการเว็บโฮสติ้ง <a href="https://www.porar.com/">PORAR</a>"เป็นรายแรกๆ ของประเทศไทย ธุรกิจเว็บโฮสติ้งจึงถือเป็นธุรกิจ เริ่มแรกและบุกเบิกที่บริษัทของเรา มีความเชี่ยวชาญ และตั้งใจทำเป็นอาชีพมาอย่างยาวนาน</li><br>

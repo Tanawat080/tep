@@ -85,7 +85,7 @@
 <!-- ------------------------------------------------------ -->
 <div class="container text-left">
    <div class="col-sm-12">
-        <div class="col-md-2 ">
+        <div class="col-md-2 col-md-offset-2 ">
             <h5>We also accept</h5>
             <img id="ctl00_UcFooter_ImgAllcard" src="<?php echo base_url();?>assets/images/footer/allcards2.png" style="border-width:0px;" />
         </div> 
@@ -101,14 +101,7 @@
                 <a id="ctl00_UcFooter_HyperLink1" href="http://www.facebook.com/THAIEPAY"><img id="ctl00_UcFooter_ImgFB" src="<?php echo base_url();?>assets/images/footer/fb2.png" style="border-width:0px;" /></a> 
                 <a id="ctl00_UcFooter_HyperLink2" href="http://twitter.com/#!/thaiepay"><img id="ctl00_UcFooter_ImgTW" src="<?php echo base_url();?>assets/images/footer/tweet2.png" style="border-width:0px;" /></a>
         </div>
-        <div class="col-md-4 ">
-            <h5>Group Sites</h5>
-                <a id="ctl00_UcFooter_LnkPorar" href="http://www.porar.com" target="_blank"><img id="ctl00_UcFooter_ImgLogoPorar" src="<?php echo base_url();?>assets/images/footer/welcome.png" style="border-width:0px;" /></a>&nbsp;&nbsp;
-                <a id="ctl00_UcFooter_LnkRankgo" href="http://www.rankgo.com" target="_blank"><img id="ctl00_UcFooter_ImgLogoRankgo" src="<?php echo base_url();?>assets/images/footer/rankgo_re.png" style="border-width:0px;" /></a>
-                    &nbsp;&nbsp;
-                <a id="ctl00_UcFooter_LnkDesign" href="http://www.porardesign.com" target="_blank"><img id="ctl00_UcFooter_ImgLogoWD" src="<?php echo base_url();?>assets/images/footer/logowebdesign_s.png" style="border-width:0px;" /></a>&nbsp;&nbsp;
-                <a id="ctl00_UcFooter_LnkeBooking" href="http://www.ebooks.in.th" target="_blank"><img id="ctl00_UcFooter_ImgLogoeBooking" src="<?php echo base_url();?>assets/images/footer/logo-ebooks_re.png" style="border-width:0px;" /></a>
-        </div>
+
         </div>
     </div>
     </div>

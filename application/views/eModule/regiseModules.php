@@ -8,10 +8,13 @@
   <br>
   <div class="row col-sm-12">
     <div class="col-sm-12">
-
-      	<h1>ลงทะเบียนระบบ eModules</h1><br/><br/><br/>
+          <div class="text-center">
+      	   <h1>ลงทะเบียนระบบ eModules</h1>
+           <hr width="10%" >
+         </div>
+        <br/>
 		<h4>เลือกระบบ:*</h4>
-      	<hr>
+      	
       	<div class="col-sm-2">
       	<div class="radio">
       		<label><input type="radio" value="ePayment" name="eModules" checked="checked"></label><img src="<?php echo base_url()?>assets/images/icons/newlogo_ep.png">
@@ -27,13 +30,12 @@
       		<label><input type="radio" value="eCart" name="eModules"></label><img src="<?php echo base_url()?>assets/images/icons/ecart_re.png">
     	</div>
     	</div>
-	
 
 	    </div>
 	        <div class="col-sm-12">
-    	<br><br><br>
+    	<br>
     	<h4>เอกสารที่ต้องเตรียม</h4>
-      	<hr>
+      	
       	<div class="border-1 ">
       	 <ol>
             <li>สำเนาบัตรประชาชน (ในกรณีเป็นชาวต่างชาติ ใช้สำเนาหนังสือเดินทางหรือสำเนาใบอนุญาตทำงาน)</li>
@@ -48,7 +50,7 @@
 
       	</div><br><br>
       	<h4>ข้อตกลงและเงื่อนไขการใช้บริการ (ฉบับย่อ)</h4>
-      	<hr>
+      	
       	<p class="indent-2">ข้อตกลงและเงื่อนไขการใช้บริการ ได้ถูกสรุปแบบย่อเพื่อให้ทำความเข้าใจได้ง่าย ดังรายละเอียดต่อไปนี้ คุณจะต้องยินยอมรับเงื่อนไขทั้งหมด ด้วยการคลิกถูกที่ตัวเลือก "ยอมรับ" เพื่อดำเนินการในลำดับต่อไปนี้ (<a href="<?php echo base_url();?>aboutCompany/aboutCompany/conditionPage">เงื่อนไขการใช้บริการฉบับเต็ม</a>)</p><br>
 
         <ol>

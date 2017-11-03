@@ -6,7 +6,7 @@
         <div class="col-sm-2"></div>
         <div class="col-sm-8">
 
-
+            <h4>ข้อมูลที่ตั้งร้าน</h4><br/>
             <div class="col-sm-4">
                 <div class="form-group">  
                     <p><?php echo label('category', $this); ?> : </p>
@@ -186,12 +186,12 @@
             </div>
         </div>
         <div class="col-sm-12"><br>
-            <h4>ข้อมูลบัญชีธนาคาร</h4>
-            <hr>
-            <p align="center">&bull; บัญชีธนาคารนี้ใช้สำหรับรับเงินรายได้ของร้านค้า โดยไทยอีเพย์จะโอนยอดรายได้ให้ตามรอบระยะเวลาที่กำหนดเอาไว้</p><br>
+            
         </div>
-        <div class="col-sm-2"></div>
-        <div class="col-sm-8">
+        
+        <div class="col-sm-8 col-sm-offset-2">
+            <h4>ข้อมูลบัญชีธนาคาร</h4>
+            <p align="center">&bull; บัญชีธนาคารนี้ใช้สำหรับรับเงินรายได้ของร้านค้า โดยไทยอีเพย์จะโอนยอดรายได้ให้ตามรอบระยะเวลาที่กำหนดเอาไว้</p>
             <div class="col-sm-4">
                 <div class="form-group">  
                     <p><?php echo label('bank', $this); ?> : </p>

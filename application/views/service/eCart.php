@@ -3,7 +3,11 @@
   <br>
   <div class="row col-sm-12">
     <div class="col-sm-12">
-      	<h1 align="left">eCart (ระบบตะกร้าสินค้า)</h1>
+    	<div class="text-center">
+      		<h1 >eCart (ระบบตะกร้าสินค้า)</h1>
+      		<hr width="10%">
+      		<br/>
+      	</div>
       		<div class="indent text-left">
       			<p> เป็นระบบอีคอมเมิร์ซแบบ "กึ่งครบวงจร" เพราะเป็นการเชื่อมต่อกันระหว่างเว็บไซต์ของร้านค้า กับระบบ eCart ของไทยอีเพย์ โดยเว็บไซต์จะเป็นของร้านค้า แต่ส่วนที่เป็นระบบอีคอมเมิร์ซที่เกี่ยวข้อง เช่น ระบบตะกร้าสินค้า ฐานข้อมูลลูกค้า การสรุปยอดเงิน และการชำระเงิน เป็นหน้าที่ของ eCart นั่นเอง</p>
       		</div><br><br>
@@ -23,7 +27,7 @@
 		<br><br>
 
 		<h4>คุณสมบัติเด่น</h4>
-		<hr>
+		
 		<div class="w3-content" style="max-width:700px">
 			  <img class="mySlides" src="<?php echo base_url()?>assets/images/service/eCart/ecart_1.png" style="width:100%">
 			  <img class="mySlides" src="<?php echo base_url()?>assets/images/service/eCart/ecart_2.png" style="width:100%">

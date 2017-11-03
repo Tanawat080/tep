@@ -3,7 +3,11 @@
   <br>
   <div class="row col-sm-12">
     <div class="col-sm-12">
-      	<h1 align="left"><?php echo label('service',$this);?></h1><br>
+      <div class="text-center">
+      	<h1><?php echo label('service',$this);?></h1>
+        <hr width="10%">
+        <br>
+      </div>
       	<p align="left" class="indent"><?php echo label('serviceDetail',$this);?></p> <br><br>
        
       	<center><img src="<?php echo base_url()?>assets/images/service/diagram.png" class="img-responsive" usemap="#Map">

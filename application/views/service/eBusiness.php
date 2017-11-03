@@ -3,7 +3,11 @@
   <br>
   <div class="row col-sm-12">
     <div class="col-sm-12">
-      	<h1 align="left">eBusiness (เว็บไซต์สำเร็จรูปสำหรับองค์กร/บริษัท)</h1>
+    	<div class="text-center">
+      		<h1>eBusiness (เว็บไซต์สำเร็จรูปสำหรับองค์กร/บริษัท)</h1>
+      		<hr width="10%">
+      		<br/>
+      	</div>
       		<div class="indent text-left">
       			<p >คือเว็บไซต์สำเร็จรูปสำหรับองค์กรและบริษัท เพื่อใช้ประชาสัมพันธ์และเพื่อนำเสนอข้อมูลข่าวสารต่างๆขององค์กรและบริษัทของคุณ รวมไปถึงการจัดจำหน่ายผลิตภัณฑ์สินค้าขององค์กรและบริษัททางเว็บไซต์อีกด้วย ทั้งนี้ เพื่อป็นการเพิ่มช่องทางการประชาสัมพันธ์องค์กรและบริษัท และสร้างภาพลักษณ์ที่ดีให้เป็นที่รู้จักแก่บุคคลทั่วไป โดยคุณสามารถเพิ่มเติมรายละเอียด เมนูการใช้งาน ภาพประกอบ รวมไปถึงจัดการแก้ไขเว็บไซต์สำเร็จรูปนี้ได้ง่ายๆด้วยตัวคุณเอง โดยมีทีมงานไทยอีเพย์เป็นผู้ให้คำแนะนำและคำปรึกษา</p>
       			<p  class="border-1" ><font color="red">&bull; สำหรับผู้ลงทะเบียน eBusiness วันนี้ เพิ่มอายุการใช้บริการฟรี 15 วัน</font></p>
@@ -27,7 +31,7 @@
 		</ul>
 		<br><br>
 		<h4>คุณสมบัติเด่น</h4>
-		<hr>
+		
 		<div class="w3-content" style="max-width:700px">
 			  <img class="mySlides" src="<?php echo base_url()?>assets/images/service/eBusiness/ebusiness_01.png" style="width:100%">
 			  <img class="mySlides" src="<?php echo base_url()?>assets/images/service/eBusiness/ebusiness_02.png" style="width:100%">

@@ -3,7 +3,11 @@
   <br>
   <div class="row col-sm-12">
     <div class="col-sm-12">
-      	<h1 align="left">eBooking PLUS (ระบบการจองห้องพักออนไลน์แบบครบวงจร)</h1>
+    	<div class="text-center">
+      		<h1 >eBooking PLUS (ระบบการจองห้องพักออนไลน์แบบครบวงจร)</h1>
+      		<hr width="10%">
+      		<br/>
+      	</div>
       		<div class="indent">
       			<p >ระบบการจองห้องพักออนไลน์รูปแบบใหม่ ที่รวบรวมทั้งระบบการจองห้องพักและระบบเว็บไซต์สำเร็จรูปเข้าด้วยกันอย่างสมบูรณ์แบบ โดยระบบนี้ถูกออกแบบมาให้ใช้งานไม่ยุ่งยาก มีขั้นตอนการจองโรงแรมและห้องพักไม่ซับซ้อน สามารถปรับปรุงและแก้ไขหน้าตาเว็บไซต์ได้อย่างง่ายดายและเหมาะสมกับความต้องการ ด้วยระบบธีมและฟีทเจอร์ต่างๆ ทำให้คุณสร้างเว็บไซต์ของคุณได้อย่างง่ายดาย ทำให้เจ้าของกิจการสามารถดำเนินธุรกิจได้โดยไม่ติดขัด เพราะระบบการจองห้องพักของเราใช้งานง่าย มีเมนูที่จะช่วยเพิ่มประสิทธิภาพในการบริหารจัดการห้องพักได้ดีขึ้นอีกด้วย</p>
       			<p  class="border-1" ><font color="red">&bull; สำหรับผู้ลงทะเบียน eBooking PLUS วันนี้ ใช้งานฟรี!! 15 วัน</font></p>
@@ -27,7 +31,7 @@
 		<br><br>
 
 		<h4>คุณสมบัติเด่น</h4>
-		<hr>
+		
 		<div class="w3-content" style="max-width:700px">
 			  <img class="mySlides" src="<?php echo base_url()?>assets/images/service/eBookingPlus/ebooking_1.png" style="width:100%">
 			  <img class="mySlides" src="<?php echo base_url()?>assets/images/service/eBookingPlus/ebooking_2.png" style="width:100%">

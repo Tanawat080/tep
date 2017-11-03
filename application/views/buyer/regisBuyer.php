@@ -5,15 +5,20 @@
     <div class="row col-sm-12">
         <div class="col-sm-12">
             <form method="post" action="" >
-                <h1>ผู้ซื้อใหม่ (ลงทะเบียน)</h1><br><br>
-                <p class="indent">โปรดกรอกข้อมูลของคุณลงในฟอร์มด้านล่างนี้  (<?php echo label('ps', $this); ?>)</p>
+                <div class="text-center">
+                    <h1>ผู้ซื้อใหม่ (ลงทะเบียน)</h1>
+                    <hr width="10%">
+                    <br>
+                    <p>โปรดกรอกข้อมูลของคุณลงในฟอร์มด้านล่างนี้  (<?php echo label('ps', $this); ?>)</p>
+                </div>
+                
                 <br>
 
-                <div class="col-sm-2"></div>
-                <div class="col-sm-8">
+                
+                <div class="col-sm-8 col-sm-offset-2">
 
-                    <h5>บัญชีผู้ใช้</h5>
-                    <hr>
+                    <h4>บัญชีผู้ใช้</h4>
+                    <br/>
                     <div class="col-sm-4">
                         <div class="form-group">  
                                 <p><?php echo label('email', $this); ?> : </p>
@@ -52,12 +57,10 @@
                         <input id="ctl00_CphBody_ChkMailingList" type="checkbox" name="ctl00$CphBody$ChkMailingList" /><label for="ctl00_CphBody_ChkMailingList">&nbsp;<?php echo label('recieveNews', $this); ?></label>
                     </center>
                     </div>
-                    
-                    <h5>ข้อมูลบัญชีผู้ใช้</h5>
-                    <hr>
-
-                  
+                            <h4>ข้อมูลบัญชีผู้ใช้</h4>
+                            <br>
                         <div class="col-sm-4 ">
+
                             <div class="form-group"> 
                                 <p><?php echo label('country', $this); ?> : </p>
                             </div>

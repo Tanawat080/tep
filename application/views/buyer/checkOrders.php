@@ -4,10 +4,14 @@
   <br>
   <div class="row col-sm-12">
     <div class="col-sm-12">
-     	<h1 align="left">ตรวจสอบสถานะรายการสั่งซื้อ</h1>
-     	<p align="left" class="indent">โปรดกรอกหมายเลขการสั่งซื้อและอีเมลของคุณลงในแบบฟอร์มด้านล่างนี้ เพื่อตรวจสอบดูสถานะการสั่งซื้อและข้อมูลที่เกี่ยวข้อง</p>
+    	<div class="text-center">
+     		<h1>ตรวจสอบสถานะรายการสั่งซื้อ</h1>
+     		<hr width="10%">
+     		<br/>
+     	</div>
+     	<p  class="indent">โปรดกรอกหมายเลขการสั่งซื้อและอีเมลของคุณลงในแบบฟอร์มด้านล่างนี้ เพื่อตรวจสอบดูสถานะการสั่งซื้อและข้อมูลที่เกี่ยวข้อง</p>
       </div>
-     <div class="col-sm-4">
+     <div class="col-sm-4 col-md-offset-2">
 	     <form name="frm" action="">
 	     	<div class="form-group">
 	     		<input type="email" class="form-control" name="email" placeholder="Email" required>
@@ -31,10 +35,10 @@
 	     </form>
 
      </div>
-     <div class="col-sm-8">
+     <div class="col-sm-4">
 	     <img id="myImg" src="../../assets/images/orderno.png" alt="หมายเลขการสั่งซื้อปรากฏที่อีเมลยืนยันการสั่งซื้อ" width="360" height="240">
 	     <p align="center"><i><b>หมายเลขการสั่งซื้อปรากฏที่อีเมลยืนยันการสั่งซื้อ</b></i></p>
-
+<br><br>
 		<!-- The Modal -->
 		<div id="myModal" class="modal">
 		  <span class="close">×</span>
@@ -45,6 +49,7 @@
      </div>
   </div>
   <br>
+
 </div>
 <script>
 // Get the modal

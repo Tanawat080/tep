@@ -2,14 +2,17 @@
   <br>
   <div class="row col-sm-12">
   	<div class="col-sm-12">
-  		<h1 align="left">ลงทะเบียน</h1>
-  		<br><br>
+      <div class="text-center">
+    		<h1 >ลงทะเบียน</h1>
+        <hr width="10%">
+    		<br>
+      </div>
   		<p class="indent">กรอกข้อมูลรายละเอียดและที่อยู่ร้านค้าของคุณลงในแบบฟอร์มด้านล่างนี้ รายละเอียดจะปรากฎเป็นข้อมูลติดต่อให้แก่ลูกค้าที่ซื้อสินค้า (สามารถแก้ไขได้ภายหลัง)</p> <br><br>
-  		<h4>ข้อมูลที่ตั้งร้าน</h4>
-  		<hr>
+
   	</div>
-  	<div class="col-sm-3"></div>
-  	<div class="col-sm-6">
+  	
+  	<div class="col-sm-6 col-sm-offset-3">
+
   		 <table class="table table-bordered table-hover">
   		 	<caption>แพ็คเกจ</caption>
   		 	 <thead>

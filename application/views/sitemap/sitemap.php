@@ -3,7 +3,10 @@
   <br>
   <div class="row">
     <div class="col-sm-12">
-      	<h1><?php echo label('siteMap',$this);?></h1><br><br>
+    	<div class="text-center">
+	      	<h1><?php echo label('siteMap',$this);?></h1>
+	      	<hr width="10%">
+	    </div>
       </div>
       <div class="col-sm-12 border-4">
      <div class="col-sm-6 " >

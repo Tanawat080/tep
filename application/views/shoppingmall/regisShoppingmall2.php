@@ -4,7 +4,11 @@
     <div class="row col-sm-12">
         <form action="">
             <div class="col-sm-12">
-                <h1>ลงทะเบียน Shopping Mall</h1><br><br>
+                <div class="text-center">
+                    <h1>ลงทะเบียน Shopping Mall</h1>
+                    <hr width="10%">
+                    <br>
+                </div>
                 <p class="indent">ตั้งชื่อร้านและเลือกธีมที่เหมาะสมกับร้านค้าของคุณได้จากตัวเลือกด้านล่างนี้ คุณสามารถคลิกที่ปุ่ม Preview เพื่อดูภาพรวมของธีมนั้นๆได้ (สามารถเปลี่ยนธีมผ่านระบบ Shop Admin ได้ภายหลัง)</p>
                 <div class="messageblue">
                     <div class="idea">
