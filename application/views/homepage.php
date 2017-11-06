@@ -10,18 +10,13 @@
 <hr>
 </div> -->
 <br>
-<div class="border-bottom-content">
+<div class="">
   <div class="container text-left ">  
     <div class="row">
-        <div class="col-sm-6 ">
-            <h4>Shopping Mall</h4>
+        <div class="col-sm-8 font-blue">
+          
             <p class="indent">บริการช้อปปิ้งมอลล์ของไทยอีเพย์ เหมาะสำหรับผู้ที่สนใจระบบอีคอมเมิร์ซแบบครบวงจร ซึ่งจะรวบรวมทุกส่วนที่ประกอบกันขึ้นเป็นเว็บไซต์อีคอมเมิร์ซมาอยู่ในบริการนี้ เพียงแค่คุณมีความคิดดีๆที่จะทำธุรกิจออนไลน์ ก็สามารถเปิดร้านค้าออนไลน์ได้ทันที บริการช้อปปิ้งมอลล์ของไทยอีเพย์</p>
-            <b>ระบบนี้เหมาะสำหรับ</B>
-              <ul>
-                <li>ท่านที่สนใจเปิดเว็บไซต์เพื่อขายสินค้าหรือให้บริการจองห้องพักออนไลน์ แต่ไม่รู้จะเริ่มต้นอย่างไร</li>
-                <li>ท่านต้องการประหยัดค่าใช้จ่ายในจัดทำเว็บไซต์และระบบชำระเงินออนไลน์</li>
-                <li>ท่านที่ต้องการความสะดวกสบายและความเป็นมืออาชีพในการทำธุรกิจออนไลน์</li>
-              </ul>
+            
             <B>บริการธุรกิจออนไลน์พร้อมระบบชำระเงิน</B>
             <ul>
               <li><a href="<?php echo base_url()?>service/service/eShop">eShop</a> ระบบร้านค้าออนไลน์ <font color="red">ฟรี.!</font></li>
@@ -31,7 +26,14 @@
 
             <a href="<?php echo base_url();?>service/service/servicePage"><B>รายละเอียดเพิ่มเติม</B></a><br><br>
         </div>
-        <div class="col-sm-6 ">
+       <div class="col-sm-4">
+        <center>
+          <img class="img-responsive" src="assets/images/icons/Commercial.png" width="65%" height="65%">
+        </center>
+       </div>
+        <!-- 
+
+           <div class="col-sm-6 ">
             <h4 >eModules</h4>
               <div align="left">
                 <p class="indent">บริการอีโมดูลส์ของเรา ออกแบบมาสำหรับร้านค้าที่มีเว็บไซต์อยู่แล้วและต้องการเติมเต็มธุรกิจออนไลน์ของด้วยระบบชำระเงิน หรือระบบจองห้องพักออนไลน์ ซึ่งบริการอีโมดูลส์ของเราได้ถูกแบ่งออกตามความเหมาะสมและประเภทของธุรกิจของลูกค้า.</p>
@@ -45,7 +47,7 @@
              
               </div>
         </div>  
-        <!-- 
+
         <div class="col-sm-6 ">
           <div class="">
             <h4>ทำไมต้องใช้ไทยอีเพย์?</h4>
@@ -58,12 +60,56 @@
       </div>  <!-- end of content -->
   </div>
 </div> <!-- background -->
+
+<div class="border-bottom-content font-blue">
+   <div class="container text-left ">  
+    <div class="row">
+      <div class="col-sm-12">
+        <br/>
+        <div class="col-sm-12 ">
+           <p class="indent">บริการอีโมดูลส์ของเรา ออกแบบมาสำหรับร้านค้าที่มีเว็บไซต์อยู่แล้วและต้องการเติมเต็มธุรกิจออนไลน์ของด้วยระบบชำระเงิน หรือระบบจองห้องพักออนไลน์ ซึ่งบริการอีโมดูลส์ของเราได้ถูกแบ่งออกตามความเหมาะสมและประเภทของธุรกิจของลูกค้า</p>
+        </div>
+      
+      </div>
+
+      <div class="col-sm-12 text-center"><br/>
+        <div class="col-sm-3">
+          <img src="assets/images/icons/epayment.png">
+          <p>ระบบชำระเงินผ่านบัตรเครดิตออนไลน์</p>
+          <a href="<?php echo base_url();?>service/service/ePayment"><button class="tm-green-btn btn-content-width">ePayment</button></a>
+          <br/><br/>
+        </div>
+        <div class="col-sm-3">
+          <img src="assets/images/icons/ecart.png">
+          <p>ระบบตะกร้าสินค้า อีคอมเมิร์ซแบบ "กึ่งครบวงจร"</p>
+          <a href="<?php echo base_url();?>service/service/eCart"><button class="tm-green-btn btn-content-width">eCart</button></a>
+          <br/><br/>
+        </div>
+        <div class="col-sm-3">
+          <img src="assets/images/icons/ebooking.png">
+          <p>ระบบสำหรับการจองโรงแรมและห้องพักออนไลน์</p>
+          <a href="<?php echo base_url();?>service/service/eBooking"><button class="tm-green-btn btn-content-width">eBooking</button></a>
+          <br/><br/>
+        </div>
+        <div class="col-sm-3">
+          <img src="assets/images/icons/echarity_2.png">
+          <p>ระบบสำหรับมูลนิธิหรือองค์กรไม่แสวงหาผลกำไรต่างๆ</p>
+            <a href="<?php echo base_url();?>service/service/eCharity"><button class="tm-green-btn btn-content-width">eCharity</button></a>
+            <br/><br/>
+        </div>
+      </div>
+     
+    </div> <br/>
+  </div>
+</div>
+
+
+
 <div class="bg-color-blue" >
 <div class="container">
   <div class="col-sm-12">
     <br><br><br>
   </div>
-  <div class="col-sm-12">
     <div class="col-sm-3">
          <img src="assets/images/whyThaiepay/Ycontent.png">
     </div>
@@ -82,15 +128,15 @@
           <a href="<?php echo base_url();?>buyer/buyer/regisBuyer"><button class="tm-red-btn">สมัครใช้บริการ</button></a>
         </div>
     </div>
-  </div>
 </div>
 </div>
 
-<div class="bg-img">
+<div class="bg-img2" >
 <div class="container text-center">  
 <div class="col-sm-12">
  <br>
   <h2 ><B>รองรับระบบ CMS ได้หลากหลายหน้า ในหน้า Download...</B></h2>
+  <hr width="10%">
 </div>
   
   <div class="row"><br>
