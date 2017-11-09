@@ -1,4 +1,4 @@
-<!-- 
+<!--
 <div id="bgCard" class="well">
       <h4><B>ทำไมต้องไทยอีเพย์?</B></h4>
       <p>&nbsp;&nbsp;&nbsp;เนื่องจากมีผู้สอบถามมาเป็นจำนวนมาก และอยากให้ไทยอีเพย์ทำสรุปจุดเด่นเปรียบเทียบระบบการให้บริการของเรา เทียบกับผู้ให้บริการรายอื่น ดังนั้นไทยอีเพย์จึงได้จัดทำข้อมูลเปรียบเทียบ โดยสรุปจุดเด่นของเราเป็นข้อๆ ดังนี้</p>
@@ -11,19 +11,18 @@
 </div> -->
 <br>
 <div class="">
-  <div class="container text-left ">  
+  <div class="container text-left ">
     <div class="row">
         <div class="col-sm-8 font-blue">
-          
+
             <p class="indent">บริการช้อปปิ้งมอลล์ของไทยอีเพย์ เหมาะสำหรับผู้ที่สนใจระบบอีคอมเมิร์ซแบบครบวงจร ซึ่งจะรวบรวมทุกส่วนที่ประกอบกันขึ้นเป็นเว็บไซต์อีคอมเมิร์ซมาอยู่ในบริการนี้ เพียงแค่คุณมีความคิดดีๆที่จะทำธุรกิจออนไลน์ ก็สามารถเปิดร้านค้าออนไลน์ได้ทันที บริการช้อปปิ้งมอลล์ของไทยอีเพย์</p>
-            
+
             <B>บริการธุรกิจออนไลน์พร้อมระบบชำระเงิน</B>
             <ul>
               <li><a href="<?php echo base_url()?>service/service/eShop">eShop</a> ระบบร้านค้าออนไลน์ <font color="red">ฟรี.!</font></li>
               <li><a href="<?php echo base_url()?>service/service/eBookingPlus">eBooking PLUS</a> ระบบจองโรงแรม/ที่พัก</li>
               <li><a href="<?php echo base_url()?>service/service/eBusiness">eBusiness</a> เว็บไซต์สำเร็จรูปสำหรับองค์กรหรือบริษัท</li>
             </ul>
-
             <a href="<?php echo base_url();?>service/service/servicePage"><B>รายละเอียดเพิ่มเติม</B></a><br><br>
         </div>
        <div class="col-sm-4">
@@ -31,7 +30,7 @@
           <img class="img-responsive" src="assets/images/icons/Commercial.png" width="65%" height="65%">
         </center>
        </div>
-        <!-- 
+        <!--
 
            <div class="col-sm-6 ">
             <h4 >eModules</h4>
@@ -44,9 +43,9 @@
                   <li>ท่านที่มีความรู้ด้านโปรแกรมขั้นสูง หรือมีโปรแกรมเมอร์ดูแลการเชื่อมต่อ</li>
                 </ul>
                 <a href="<?php echo base_url();?>service/service/servicePage"><B>รายละเอียดเพิ่มเติม</B></a>
-             
+
               </div>
-        </div>  
+        </div>
 
         <div class="col-sm-6 ">
           <div class="">
@@ -62,14 +61,14 @@
 </div> <!-- background -->
 
 <div class="border-bottom-content font-blue">
-   <div class="container text-left ">  
+   <div class="container text-left ">
     <div class="row">
       <div class="col-sm-12">
         <br/>
         <div class="col-sm-12 ">
            <p class="indent">บริการอีโมดูลส์ของเรา ออกแบบมาสำหรับร้านค้าที่มีเว็บไซต์อยู่แล้วและต้องการเติมเต็มธุรกิจออนไลน์ของด้วยระบบชำระเงิน หรือระบบจองห้องพักออนไลน์ ซึ่งบริการอีโมดูลส์ของเราได้ถูกแบ่งออกตามความเหมาะสมและประเภทของธุรกิจของลูกค้า</p>
         </div>
-      
+
       </div>
 
       <div class="col-sm-12 text-center"><br/>
@@ -98,7 +97,6 @@
             <br/><br/>
         </div>
       </div>
-     
     </div> <br/>
   </div>
 </div>
@@ -132,69 +130,69 @@
 </div>
 
 <div class="bg-img2" >
-<div class="container text-center">  
+<div class="container text-center">
 <div class="col-sm-12">
- <br>
+ <br><br><br>
   <h2 ><B>รองรับระบบ CMS ได้หลากหลายหน้า ในหน้า Download...</B></h2>
   <hr width="10%">
 </div>
-  
+
   <div class="row"><br>
     <div class="col-sm-2">
       <img src="assets/images/module/Magento_logo.png" class="img-responsive" style="width:100%; " alt="Image">
     </div>
-    <div class="col-sm-2"> 
+    <div class="col-sm-2">
       <img src="assets/images/module/virtuemart.png" class="img-responsive" style="width:100%; " alt="Image">
     </div>
-    <div class="col-sm-2"> 
+    <div class="col-sm-2">
       <img src="assets/images/module/woocommerce_logo.png" class="img-responsive" style="width:100%" alt="Image">
     </div>
-    <div class="col-sm-2"> 
+    <div class="col-sm-2">
       <img src="assets/images/module/zen_cart_logo.gif" class="img-responsive" style="width:100%" alt="Image">
-    </div> 
-    <div class="col-sm-2"> 
+    </div>
+    <div class="col-sm-2">
       <img src="assets/images/module/oscommerce-logo.jpg" class="img-responsive" style="width:100%" alt="Image">
-    </div>     
-    <div class="col-sm-2"> 
+    </div>
+    <div class="col-sm-2">
       <img src="assets/images/module/logo-prestashop.png" class="img-responsive" style="width:100%" alt="Image">
-    </div> 
+    </div>
   </div>
 </div> <!-- end of support CMS system -->
-<br><br>
+<br><br><br>
 </div>
 
 
 
 
-<!-- --------------------------------------------------------------------------- 
-<div class="container text-center">    
+<!-- ---------------------------------------------------------------------------
+<div class="container text-center">
   <h4 align="left"><B>รายชื่อลูกค้า</B></h4>
   <br>
   <div class="row">
     <div class="col-sm-2">
       <img src="assets/images/customer/Gulfcharters.jpg" class="img-responsive" style="width:75%; " alt="Image">
- 
+
     </div>
-    <div class="col-sm-2"> 
+    <div class="col-sm-2">
       <img src="assets/images/customer/Mahe.jpg" class="img-responsive" style="width:75%; " alt="Image">
-  
+
     </div>
-    <div class="col-sm-2"> 
+    <div class="col-sm-2">
       <img src="assets/images/customer/Kenan.gif" class="img-responsive" style="width:75%" alt="Image">
 
     </div>
-    <div class="col-sm-2"> 
+    <div class="col-sm-2">
       <img src="assets/images/customer/TheYorkshire.jpg" class="img-responsive" style="width:100%" alt="Image">
- 
-    </div> 
-    <div class="col-sm-2"> 
+
+    </div>
+    <div class="col-sm-2">
       <img src="assets/images/customer/lagunaphuket.gif" class="img-responsive" style="width:100%" alt="Image">
-      
-    </div>     
-    <div class="col-sm-2"> 
+
+    </div>
+    <div class="col-sm-2">
       <img src="assets/images/customer/doorforpet.gif" class="img-responsive" style="width:100%" alt="Image">
-     
-    </div> 
+
+    </div>
   </div>
   <a href=""><B>ดูเพิ่มเติม</B></a>
 </div><br>
@@ -205,7 +203,7 @@
  <div class="container text-left" >
         <div class="col-sm-12 "  >
             <ul class="footer-service-link">
-                <li> 
+                <li>
                     <h4><B><?php echo label("service",$this)?></B></h4>
                         <ul class="col-sm-10">
                             <div class="border-bottom"></div><br>
@@ -242,8 +240,8 @@
                             </li>
                         </div><br>
                             <li>
-                                <b><a id="ctl00_UcPageContext_UcNewsDetail_RptNewsDetail_ctl02_LnkNewsTopic" href="news/84/Subject__Changing_New_Company_Telephone_No/">เรื่อง แจ้งเปลี่ยนหมายเลขโทรศัพท์ของบริษัท</a></b><br>   ่อสารใหม่  
-                            ที่สามารถให้ทุกท่านได้ติดตามข่าวสาร สอบถามบริการ หรือแจ้งปัญหาการใช้งาน จากทางเราได้อีก 1 ช่องทาง คือทาง  
+                                <b><a id="ctl00_UcPageContext_UcNewsDetail_RptNewsDetail_ctl02_LnkNewsTopic" href="news/84/Subject__Changing_New_Company_Telephone_No/">เรื่อง แจ้งเปลี่ยนหมายเลขโทรศัพท์ของบริษัท</a></b><br>   ่อสารใหม่
+                            ที่สามารถให้ทุกท่านได้ติดตามข่าวสาร สอบถามบริการ หรือแจ้งปัญหาการใช้งาน จากทางเราได้อีก 1 ช่องทาง คือทาง
                             ...</p>
                             </li>
                         </ul>

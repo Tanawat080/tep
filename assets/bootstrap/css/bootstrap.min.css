@@ -108,7 +108,7 @@ code,
 kbd,
 pre,
 samp {
-   
+
     font-size: 1em
 }
 
@@ -1114,7 +1114,7 @@ img {
 .thumbnail a>img,
 .thumbnail>img {
     display: block;
-  
+
     height: auto
 }
 .img-rounded {
@@ -1524,7 +1524,7 @@ code,
 kbd,
 pre,
 samp {
-   
+
 }
 code {
     padding: 2px 4px;
@@ -4255,7 +4255,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 }
 @media (min-width: 768px) {
     .navbar {
-        
+
     }
 }
 @media (min-width: 768px) {
@@ -4358,7 +4358,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 }
 .navbar-brand {
 
-    float: left;    
+    float: left;
     width: 160px;
     padding: 25px 30px;
     background-position: center;
@@ -4740,7 +4740,7 @@ fieldset[disabled] .navbar-default .btn-link:hover {
 @media (max-width: 767px) {
     .navbar-inverse .navbar-nav .open .dropdown-menu>.dropdown-header {
         border-color: #080808;
-        
+
     }
     .navbar-inverse .navbar-nav .open .dropdown-menu .divider {
         background-color: #166398
@@ -4799,7 +4799,7 @@ fieldset[disabled] .navbar-inverse .btn-link:hover {
     padding: 0 5px;
     color: #ccc;
     content: "/\00a0";
-  
+
 }
 .breadcrumb>.active {
     color: #777
@@ -6086,7 +6086,7 @@ button.close {
     position: absolute;
     z-index: 1070;
     display: block;
- 
+
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
@@ -6507,7 +6507,7 @@ button.close {
     border: 1px solid #fff;
     border-radius: 10px;
 
-    
+
 }
 .carousel-indicators .active {
     width: 12px;
@@ -6525,22 +6525,22 @@ button.close {
             z-index: 10;
             padding-top: 20px;
             padding-bottom: 20px;
-            color: #fff; 
+            color: #fff;
             font-size: 50px;
             text-align: center;
             text-shadow: 0 0 0.01em #000, 0 0 0.01em #000,
             0 0 0.01em #000;
-           
+
       }
 .carousel-caption .btn {
-    
+
 }
 @media screen and (min-width: 768px) {
     .carousel-control .glyphicon-chevron-left,
     .carousel-control .glyphicon-chevron-right,
     .carousel-control .icon-next,
     .carousel-control .icon-prev {
-       
+
         margin-top: -10px;
         font-size: 30px
     }
@@ -6558,8 +6558,8 @@ button.close {
         padding-bottom: 30px
     }
     .carousel-indicators {
-        
-        
+
+
     }.tm-red-btn{
         font-size: 16px;
     }
