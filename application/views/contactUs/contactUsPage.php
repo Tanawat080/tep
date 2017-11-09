@@ -1,7 +1,7 @@
 
 
 <body>
-    <div class="container text-left">    
+    <div class="container text-left">
 
         <br>
         <div class="row">
@@ -46,7 +46,7 @@
                 </div>
                 <div class ="col-sm-12" align= "Center">
                     <p><B>Google Maps</B></p>
-                    <iframe width="650" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=th&amp;geocode=&amp;q=522+%E0%B8%AD%E0%B8%B2%E0%B8%84%E0%B8%B2%E0%B8%A3%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94+%E0%B8%94%E0%B8%AD%E0%B8%97+%E0%B8%84%E0%B8%AD%E0%B8%A1+%E0%B8%96%E0%B8%99%E0%B8%99%E0%B8%A3%E0%B8%B1%E0%B8%8A%E0%B8%94%E0%B8%B2%E0%B8%A0%E0%B8%B4%E0%B9%80%E0%B8%A9%E0%B8%81+%E0%B9%81%E0%B8%82%E0%B8%A7%E0%B8%87%E0%B8%AA%E0%B8%B2%E0%B8%A1%E0%B9%80%E0%B8%AA%E0%B8%99%E0%B8%99%E0%B8%AD%E0%B8%81+%E0%B9%80%E0%B8%82%E0%B8%95%E0%B8%AB%E0%B9%89%E0%B8%A7%E0%B8%A2%E0%B8%82%E0%B8%A7%E0%B8%B2%E0%B8%87++%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%AF+&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=38.911557,86.572266&amp;ie=UTF8&amp;hq=522+%E0%B8%AD%E0%B8%B2%E0%B8%84%E0%B8%B2%E0%B8%A3%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94+%E0%B8%94%E0%B8%AD%E0%B8%97+%E0%B8%84%E0%B8%AD%E0%B8%A1+%E0%B8%96%E0%B8%99%E0%B8%99%E0%B8%A3%E0%B8%B1%E0%B8%8A%E0%B8%94%E0%B8%B2%E0%B8%A0%E0%B8%B4%E0%B9%80%E0%B8%A9%E0%B8%81+%E0%B9%81%E0%B8%82%E0%B8%A7%E0%B8%87%E0%B8%AA%E0%B8%B2%E0%B8%A1%E0%B9%80%E0%B8%AA%E0%B8%99%E0%B8%99%E0%B8%AD%E0%B8%81+%E0%B9%80%E0%B8%82%E0%B8%95%E0%B8%AB%E0%B9%89%E0%B8%A7%E0%B8%A2%E0%B8%82%E0%B8%A7%E0%B8%B2%E0%B8%87++%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%AF&amp;hnear=&amp;radius=15000&amp;ll=13.799594,100.575842&amp;spn=0.011669,0.021136&amp;t=m&amp;z=14&amp;iwloc=A&amp;cid=4992800752286621502&amp;output=embed"></iframe><br />
+                    <iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=th&amp;geocode=&amp;q=522+%E0%B8%AD%E0%B8%B2%E0%B8%84%E0%B8%B2%E0%B8%A3%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94+%E0%B8%94%E0%B8%AD%E0%B8%97+%E0%B8%84%E0%B8%AD%E0%B8%A1+%E0%B8%96%E0%B8%99%E0%B8%99%E0%B8%A3%E0%B8%B1%E0%B8%8A%E0%B8%94%E0%B8%B2%E0%B8%A0%E0%B8%B4%E0%B9%80%E0%B8%A9%E0%B8%81+%E0%B9%81%E0%B8%82%E0%B8%A7%E0%B8%87%E0%B8%AA%E0%B8%B2%E0%B8%A1%E0%B9%80%E0%B8%AA%E0%B8%99%E0%B8%99%E0%B8%AD%E0%B8%81+%E0%B9%80%E0%B8%82%E0%B8%95%E0%B8%AB%E0%B9%89%E0%B8%A7%E0%B8%A2%E0%B8%82%E0%B8%A7%E0%B8%B2%E0%B8%87++%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%AF+&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=38.911557,86.572266&amp;ie=UTF8&amp;hq=522+%E0%B8%AD%E0%B8%B2%E0%B8%84%E0%B8%B2%E0%B8%A3%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94+%E0%B8%94%E0%B8%AD%E0%B8%97+%E0%B8%84%E0%B8%AD%E0%B8%A1+%E0%B8%96%E0%B8%99%E0%B8%99%E0%B8%A3%E0%B8%B1%E0%B8%8A%E0%B8%94%E0%B8%B2%E0%B8%A0%E0%B8%B4%E0%B9%80%E0%B8%A9%E0%B8%81+%E0%B9%81%E0%B8%82%E0%B8%A7%E0%B8%87%E0%B8%AA%E0%B8%B2%E0%B8%A1%E0%B9%80%E0%B8%AA%E0%B8%99%E0%B8%99%E0%B8%AD%E0%B8%81+%E0%B9%80%E0%B8%82%E0%B8%95%E0%B8%AB%E0%B9%89%E0%B8%A7%E0%B8%A2%E0%B8%82%E0%B8%A7%E0%B8%B2%E0%B8%87++%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%AF&amp;hnear=&amp;radius=15000&amp;ll=13.799594,100.575842&amp;spn=0.011669,0.021136&amp;t=m&amp;z=14&amp;iwloc=A&amp;cid=4992800752286621502&amp;output=embed"></iframe><br />
                     <small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=th&amp;geocode=&amp;q=522+%E0%B8%AD%E0%B8%B2%E0%B8%84%E0%B8%B2%E0%B8%A3%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94+%E0%B8%94%E0%B8%AD%E0%B8%97+%E0%B8%84%E0%B8%AD%E0%B8%A1+%E0%B8%96%E0%B8%99%E0%B8%99%E0%B8%A3%E0%B8%B1%E0%B8%8A%E0%B8%94%E0%B8%B2%E0%B8%A0%E0%B8%B4%E0%B9%80%E0%B8%A9%E0%B8%81+%E0%B9%81%E0%B8%82%E0%B8%A7%E0%B8%87%E0%B8%AA%E0%B8%B2%E0%B8%A1%E0%B9%80%E0%B8%AA%E0%B8%99%E0%B8%99%E0%B8%AD%E0%B8%81+%E0%B9%80%E0%B8%82%E0%B8%95%E0%B8%AB%E0%B9%89%E0%B8%A7%E0%B8%A2%E0%B8%82%E0%B8%A7%E0%B8%B2%E0%B8%87++%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%AF+&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=38.911557,86.572266&amp;ie=UTF8&amp;hq=522+%E0%B8%AD%E0%B8%B2%E0%B8%84%E0%B8%B2%E0%B8%A3%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94+%E0%B8%94%E0%B8%AD%E0%B8%97+%E0%B8%84%E0%B8%AD%E0%B8%A1+%E0%B8%96%E0%B8%99%E0%B8%99%E0%B8%A3%E0%B8%B1%E0%B8%8A%E0%B8%94%E0%B8%B2%E0%B8%A0%E0%B8%B4%E0%B9%80%E0%B8%A9%E0%B8%81+%E0%B9%81%E0%B8%82%E0%B8%A7%E0%B8%87%E0%B8%AA%E0%B8%B2%E0%B8%A1%E0%B9%80%E0%B8%AA%E0%B8%99%E0%B8%99%E0%B8%AD%E0%B8%81+%E0%B9%80%E0%B8%82%E0%B8%95%E0%B8%AB%E0%B9%89%E0%B8%A7%E0%B8%A2%E0%B8%82%E0%B8%A7%E0%B8%B2%E0%B8%87++%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%AF&amp;hnear=&amp;radius=15000&amp;ll=13.799594,100.575842&amp;spn=0.011669,0.021136&amp;t=m&amp;z=14&amp;iwloc=A&amp;cid=4992800752286621502" style="color:#0000FF;text-align:left" target="_blank">View Larger Map</a></small>
                     <input type="hidden" name="ctl00$CphBody$HdnLang" id="ctl00_CphBody_HdnLang" value="TH" />
                 </div>
@@ -79,7 +79,7 @@
 
                         <div class="col-sm-4">
                             <div class="form-group">
-                                <?php echo label('phoneNum', $this); ?> : 
+                                <?php echo label('phoneNum', $this); ?> :
                             </div>
                         </div>
                         <div class="col-sm-8">
@@ -91,7 +91,7 @@
 
                         <div class="col-sm-4">
                             <div class="form-group">
-                                <?php echo label('email', $this); ?> : 
+                                <?php echo label('email', $this); ?> :
                             </div>
                         </div>
                         <div class="col-sm-8">
@@ -103,7 +103,7 @@
 
                                                 <div class="col-sm-4">
                             <div class="form-group">
-                                หัวข้อ : 
+                                หัวข้อ :
                             </div>
                         </div>
                         <div class="col-sm-8">
@@ -116,7 +116,7 @@
 
                         <div class="col-sm-4">
                             <div class="form-group">
-                                <?php echo label('description', $this); ?> : 
+                                <?php echo label('description', $this); ?> :
                             </div>
                         </div>
                         <div class="col-sm-8">
@@ -142,7 +142,7 @@
                                     <span>+</span>
                                     <span class="digital" style="background-position:<?= ($_SESSION['num_to_check'][1] * -30) ?>px 0px;"></span>
                                     <span>
-                                        
+
                                             <span>=</span>
                                             </span>
                                     </div>
@@ -151,7 +151,7 @@
                                 <div class="col-sm-6" >
                                     <input name="i_verify" class="form-control" type="text" id="i_verify" required><br><br>
                                 </div>
-                               
+
                              <div class="form-group">
                                 <center><input type="submit" name="button2" class="btn btn-primary" id="button2" value="Submit" /></center>
                             </div>
@@ -160,9 +160,9 @@
                             </div>
                         </div>
                     </form>
-                </div> 
+                </div>
             </div>
-        </div>  
+        </div>
     </div>
 </div>
 </div>
@@ -188,5 +188,3 @@
 </script>
 
 </body>
-
-

@@ -1,5 +1,5 @@
 
-<div class="container text-left">    
+<div class="container text-left">
 
   <br>
   <div class="row col-sm-12 ">
@@ -66,8 +66,8 @@
 			    </div>
 			    <div class="w3-col s2">
 			      <img class="demo w3-opacity w3-hover-opacity-off" src="<?php echo base_url()?>assets/images/service/eShop/eshop_6.png" style="width:100%" onclick="currentDiv(6)">
-			    </div> 
-			   
+			    </div>
+
 			  </div>
 			  <div class="w3-row-padding w3-section">
  				<div class="w3-col s2">
@@ -124,7 +124,7 @@
 		</div>
  		<div class="col-sm-1">
       	</div>
-		<div class="col-sm-10"><br>
+		<div class="col-sm-10 table-responsive"><br>
 			<table class="table table-bordered table-hover" id="mytable">
 			<caption>ตารางเปรียบเทียบคุณสมบัติและค่าบริการของแพ็กเกจแบบย่อ</caption>
 			    <thead >
@@ -165,7 +165,7 @@
 		    <p align="right"><a href="<?php echo base_url(); ?>service/service/comparePackage">ข้อมูลแพ็คเกจเพิ่มเติม &raquo;</a></p><br><br>
     	</div>
     	<div class="col-sm-12">
-    		
+
       <h4>การรับเงินรายได้ร้านค้า (กรณีใช้ระบบชำระเงินออนไลน์)</h4>
 		<div class="indent text-left">
 			<p >ไทยอีเพย์จะสรุปยอดรายได้ของร้านค้าในแต่ละเดือน แล้วโอนยอดรายได้หลังจากหักค่าธรรมเนียมเข้าบัญชีของร้านค้าในวันที่ 10 ของเดือนถัดไป</p>

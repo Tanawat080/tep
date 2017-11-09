@@ -1,5 +1,5 @@
 
-<div class="container text-center">    
+<div class="container text-center">
 
   <br>
   <div class="row">
@@ -15,47 +15,50 @@
         <h4>eModules</h4>
         <p class="indent">บริการ eModules นั้นถูกออกแบบมาสำหรับร้านค้าที่มีเว็บไซต์อยู่แล้ว แต่ต้องการเติมเต็มธุรกิจออนไลน์ของคุณด้วยระบบชำระเงินออนไลน์และระบบอีคอมเมิร์ซอื่น เช่น ระบบตะกร้าสินค้า และระบบจองห้องพักออนไลน์ โดยค่าบริการได้ถูกแบ่งตามที่ระบบที่คุณเลือกใช้ ตามตารางข้างล่างนี้</p>
     	</div>
-        <table class="table table-bordered table-hover" id="mytable">
-            <thead>
-                <tr class="info">
-                    <th style="text-align:center"><h5>รายละเอียด / ระบบ</h5></th>
-                    <th style="text-align:center"><h5>ePayment</h5><th>
-                    <h5 style="text-align:center">eBooking</h5></th>
-                    <th style="text-align:center"><h5>eCart</h5></th>
-                    <th style="text-align:center"><h5>eCharity</h5></th>
-                </tr>
-            </thead>
-                <tr>
-                    <th class="spec">ค่าบริการรายเดือน(บาท/เดือน)</th>
-                    <td>295</td>
-                    <td>395</td>
-                    <td>495</td>
-                    <td rowspan="4" class="free">
-                        <b>Free!!</b>
-                    </td>
-                </tr>
-                <tr>
-                    <th class="specalt">ชำระราย 3 เดือน
-                    </th>
-                    <td class="alt">885</td>
-                    <td class="alt">1185</td>
-                    <td >1485</td>
-                </tr>
-                <tr>
-                    <th class="spec">ชำระราย 6 เดือน</th>
-                    <td>1770</td>
-                    <td>2370</td>
-                    <td>2970</td>
-                </tr>
-                <tr>
-                    <th class="specalt">ชำระราย 1 ปี</th>
-                    <td class="alt">2950</td>
-                    <td class="alt">3950</td>
-                    <td class="alt">4950</td>
-                </tr>
-        </table>
-
-<!-- 
+      <div class="col-sm-12">
+        <div class="table-responsive">
+          <table class="table table-bordered" id="mytable">
+              <thead>
+                  <tr class="info">
+                      <th style="text-align:center"><h5>รายละเอียด / ระบบ</h5></th>
+                      <th style="text-align:center"><h5>ePayment</h5><th>
+                      <h5 style="text-align:center">eBooking</h5></th>
+                      <th style="text-align:center"><h5>eCart</h5></th>
+                      <th style="text-align:center"><h5>eCharity</h5></th>
+                  </tr>
+              </thead>
+                  <tr>
+                      <th class="spec">ค่าบริการรายเดือน(บาท/เดือน)</th>
+                      <td>295</td>
+                      <td>395</td>
+                      <td>495</td>
+                      <td rowspan="4" class="free">
+                          <b>Free!!</b>
+                      </td>
+                  </tr>
+                  <tr>
+                      <th class="specalt">ชำระราย 3 เดือน
+                      </th>
+                      <td class="alt">885</td>
+                      <td class="alt">1185</td>
+                      <td >1485</td>
+                  </tr>
+                  <tr>
+                      <th class="spec">ชำระราย 6 เดือน</th>
+                      <td>1770</td>
+                      <td>2370</td>
+                      <td>2970</td>
+                  </tr>
+                  <tr>
+                      <th class="specalt">ชำระราย 1 ปี</th>
+                      <td class="alt">2950</td>
+                      <td class="alt">3950</td>
+                      <td class="alt">4950</td>
+                  </tr>
+          </table>
+        </div>
+      </div>
+<!--
 
         <div style="display:none">
         <h3>Shopping Mall</h3>
@@ -75,7 +78,7 @@
                         <h4>
                             eBooking PLUS</h4>
                     </th>
-                </tr> 
+                </tr>
                 <tr>
                     <th class="spec">
                         ค่าบริการรายเดือน(บาท/เดือน)
@@ -115,7 +118,7 @@
 
         <h3>แพคเกจ eShop</h3>
         <p>eShop แบ่งออกเป็น 3 แพ็คเกจง่ายๆ คือ M และ L ซึ่งแต่ละแพ็คเกจจะมีคุณสมบัติการใช้งานและราคาที่แตกต่างกันออกไป ซึ่งสรุปได้ดังตารางด้านล่างนี้</p>
-        
+
         <table id="mytable">
                 <tr>
                     <th>
@@ -140,7 +143,7 @@
                         ค่าบริการ (บาท/เดือน)
                     </th>
                     <td class="price">
-                        
+
                     </td>
                     <td class="price">
                         380
@@ -149,13 +152,13 @@
                         390
                     </td>
                 </tr>
-    
+
                 <tr>
                     <th class="specalt">
                         - ชำระราย 6 เดือน
                     </th>
                     <td class="priceS">
-                   
+
                     </td>
                     <td class="priceM">
                         2280
@@ -363,7 +366,7 @@
                         <img id="ctl00_CphBody_Image27" title="Yes" src="App_Themes/DefaultTheme/images/24-em-check.png" alt="Yes" style="border-width:0px;" />
                     </td>
                 </tr>
-           
+
                 <tr>
                     <th colspan="4">
                         <h4>

@@ -45,18 +45,18 @@
     height: 150px;
 }
 /* Add Animation */
-.modal1-content1, #caption1 {    
+.modal1-content1, #caption1 {
     -webkit-animation-name: zoom;
     -webkit-animation-duration: 0.6s;
     animation-name: zoom;
     animation-duration: 0.6s;
 }
 @-webkit-keyframes zoom {
-    from {-webkit-transform:scale(0)} 
+    from {-webkit-transform:scale(0)}
     to {-webkit-transform:scale(1)}
 }
 @keyframes zoom {
-    from {transform:scale(0)} 
+    from {transform:scale(0)}
     to {transform:scale(1)}
 }
 /* The Close Button */
@@ -207,7 +207,7 @@ img.hover-shadow {
 
 <body>
 
-<div class="container text-center">    
+<div class="container text-center">
 
   <br>
   <div class="row">
@@ -223,7 +223,7 @@ img.hover-shadow {
 
 
               <div class="col-sm-12" align="left">
-        
+
                     <h4>
                         1. ไทยอีเพย์คือผู้บุกเบิกและเป็นต้นแบบ</h4>
                     <div class="col-sm-8">
@@ -232,7 +232,7 @@ img.hover-shadow {
                 <p>&nbsp;&nbsp;&nbsp;ดังนั้น ไทยอีเพย์จึงอยากให้ร้านค้าที่ต้องการใช้ระบบของไทยอีเพย์มั่นใจว่าเราเป็นต้นแบบ และเรามีประสบการณ์อย่างแท้จริงในธุรกิจ ยิ่งไปกว่านั้นเรามั่นใจว่าเราสามารถพัฒนาระบบและการให้บริการ ได้ดีขึ้นไปเรื่อยๆ อย่างแน่นอน</p>
                     </div>
                     <div class="col-sm-4">
-                      
+
 
                         <img id="myImg" src="../assets/images/thaiepayv1.jpg" alt="ปี 2003 THAIEPAY ได้เปิดตัวเว็บไซต์เวอร์ชันแรก" width="300" height="200">
 
@@ -250,7 +250,7 @@ img.hover-shadow {
                     <br />
                     <br />
 
-                
+
                   </div>
 
             <div class="col-sm-12" align="left"><br><br>
@@ -306,7 +306,7 @@ img.hover-shadow {
                               <div class="numbertext">3 / 9</div>
                               <img src="../assets/images/whythaiepay/eshop_3.png" style="width:100%">
                             </div>
-                            
+
                             <div class="mySlides">
                               <div class="numbertext">4 / 9</div>
                               <img src="../assets/images/whythaiepay/eshop_4.png" style="width:100%">
@@ -336,7 +336,7 @@ img.hover-shadow {
                               <div class="numbertext">9 / 9</div>
                               <img src="../assets/images/whythaiepay/eshop_9.png" style="width:100%">
                             </div>
-                            
+
                             <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                             <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
@@ -383,7 +383,7 @@ img.hover-shadow {
               <li>ระบบแสดงผล 2 ภาษาทั้งภาษาไทย ภาษาอังกฤษและระบบรองรับสกุลเงินได้ถึง 9 สกุลเงิน โดยที่ร้านค้าสามารถกำหนดค่าเหล่านี้ได้ด้วยตนเอง </li>
               <li>คุณสามารถแสดงข้อมูลร้านค้า สินค้า บนระบบของไทยอีเพย์ช้อปปิ้งมอลล์ได้</li>
             </div>
-          
+
       <div class="col-sm-12" align="left"><br><br>
 
                     <h4>
@@ -395,35 +395,36 @@ img.hover-shadow {
         </ul>
         <p>&nbsp;&nbsp;&nbsp; อัตราค่าบริการที่คงที่ จะสามารถช่วยให้คุณประเมินต้นทุน และค่าใช้จ่ายได้ ซึ่งต่างจากผู้ให้บริการบางแห่ง ที่มีการคิดค่าบริการเพิ่มเติม ตามจำนวนรายการสั่งซื้อ (Charge Per Transaction) อีก เราจะยกตัวอย่างผู้ให้บริการรายหนึ่งในไทย ที่คิดค่าธรรมเนียมเป็น 3.99% + 49 บาท/รายการ ลองคิดง่ายๆ ว่าถ้าเดือนหนึ่งคุณมีจำนวนรายการสั่งซื้อประมาณ 100 รายการ คุณจะต้องเสียค่าบริการเพิ่มเติมอีก (49x100) 4,900 บาท ซึ่งเป็นค่าบริการที่สูงมากทีเดียว (ดูตารางด้านล่าง)</p>
         <p>&nbsp;&nbsp;&nbsp;หรือถ้าคุณจะคิดในแง่ของ อัตราส่วนเปอร์เซนต์ การบวก 49 บาท/รายการ ก็คือการบวกอีก 4.9% ถ้าสินค้าของคุณราคา 1,000 บาทนั่นเอง ซึ่งถ้ารวมกับ 3.99% แล้ว คุณจะต้องเสียค่าธรรมเนียมสูงถึงเกือบ 9% ทีเดียว</p>
-                    
-    <table class="table table-bordered table-hover">
-        <tr class="info">
-          <th>ผู้ให้บริการ</th>
-          <th>ค่าบริการ</th>
-          <th>เปอร์เซนต์ยอดขาย</th>
-          <th>ซื้อ/ขาย 100 รายการ</th>
-          <th>ซื้อ/ขาย 500 รายการ</th>
-        </tr>
-        <tr>
-          <td>ไทยอีเพย์</td>
-          <td>ค่าบริการคงที่</td>
-          <td>3.60% Visa, MasterCard 4.75% AMEX</td>
-          <td>ค่าบริการ + 3.60%, 4.75%</td>
-          <td>ค่าบริการ + 3.60%, 4.75%</td>
-        </tr>
-        <tr>
-          <td>ผู้ให้บริการอื่นๆ</td>
-          <td>-</td>
-          <td> 3.99% + 49 บาท/รายการ</td>
-          <td>ค่าบริการ <font color="red"><b>4,900</b></font> บาท + 3.99%</td>
-          <td>ค่าบริการ <font color="red"><b>24,500</b></font> บาท + 3.99%</td>
-        </tr>
-        <caption >*เปรียบเทียบค่าบริการของไทยอีเพย์กับผู้ให้บริการอื่น</caption>
-        </table>
-      </div> 
+    <div class="table-responsive">
+      <table class="table table-bordered table-hover">
+          <tr class="info">
+            <th>ผู้ให้บริการ</th>
+            <th>ค่าบริการ</th>
+            <th>เปอร์เซนต์ยอดขาย</th>
+            <th>ซื้อ/ขาย 100 รายการ</th>
+            <th>ซื้อ/ขาย 500 รายการ</th>
+          </tr>
+          <tr>
+            <td>ไทยอีเพย์</td>
+            <td>ค่าบริการคงที่</td>
+            <td>3.60% Visa, MasterCard 4.75% AMEX</td>
+            <td>ค่าบริการ + 3.60%, 4.75%</td>
+            <td>ค่าบริการ + 3.60%, 4.75%</td>
+          </tr>
+          <tr>
+            <td>ผู้ให้บริการอื่นๆ</td>
+            <td>-</td>
+            <td> 3.99% + 49 บาท/รายการ</td>
+            <td>ค่าบริการ <font color="red"><b>4,900</b></font> บาท + 3.99%</td>
+            <td>ค่าบริการ <font color="red"><b>24,500</b></font> บาท + 3.99%</td>
+          </tr>
+          <caption >*เปรียบเทียบค่าบริการของไทยอีเพย์กับผู้ให้บริการอื่น</caption>
+          </table>
+        </div>
+      </div>
 
       <div class="col-sm-12" align="left"><br>
-        
+
                     <h4>4. ไทยอีเพย์มีความปลอดภัยสูงสุด</h4>
                     <ul class="normal">
                         <li>ระบบของไทยอีเพย์มีการติดตั้ง SSL Certificate แบบ 128bit ซึ่งเป็นมาตรฐานสากลใช้สำหรับเข้ารหัสปกป้องการโจรกรรมข้อมูล โดย Certificate ที่เราใช้งานเป็น Certificate ที่อนุมัติโดย Verisign ซึ่งเป็น Certificate Authority ที่ได้รับการยอมรับกันทั่วโลก และเป็นแบบเดียวกับที่ธนาคารพาณิชย์และสถาบันการเงินใช้อยู่ </li>
@@ -437,15 +438,15 @@ img.hover-shadow {
                     </div>
                     <br/>
                     <br/>
-      </div> 
+      </div>
 
-      
+
             <br>
 </div>
-       
+
 </div>
 </div>
-       
+
 </div>
 
 
@@ -500,10 +501,10 @@ img.onclick = function(){
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
 // When the user clicks on <span> (x), close the modal
-span.onclick = function() { 
+span.onclick = function() {
     modal1.style.display = "none";
 }
 </script>
-    
+
 </body>
 </html>

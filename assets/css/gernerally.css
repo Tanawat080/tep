@@ -1,4 +1,4 @@
-/* Add a gray background color and some padding to the footer 
+/* Add a gray background color and some padding to the footer
 
 ----------------
 .demo {
@@ -203,7 +203,7 @@
 .w3-section {
     margin-top: 16px!important;
     margin-bottom: 16px!important;
-    background-blend-mode: 
+    background-blend-mode:
 }
 .w3-col,
 .w3-half,
@@ -352,10 +352,10 @@
       border: 1px dashed ;
   border-color: black;
 }
-    footer {     
+    footer {
       background-color: #166398;
       padding: 25px;
-      
+
     }
     .carousel-inner img {
       width: 100%; /* Set width to 100% */
@@ -365,7 +365,7 @@
     /* Hide the carousel text when the screen is less than 600 pixels wide */
     @media (max-width: 600px) {
       .carousel-caption {
-        display: block; 
+        display: block;
         font-size: 16px;
     }.tm-red-btn{
         font-size: 16px;
@@ -385,7 +385,7 @@
 }.tm-green-btn:hover,
   .tm-green-btn:focus {
         box-shadow: 0 5px 5px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
-       
+
         border-color: #166398;
         background-color: #166398;
         color: #fff;
@@ -476,7 +476,7 @@
 }
 
 /* Add Animation */
-.modal-content, #caption {    
+.modal-content, #caption {
     -webkit-animation-name: zoom;
     -webkit-animation-duration: 0.6s;
     animation-name: zoom;
@@ -484,12 +484,12 @@
 }
 
 @-webkit-keyframes zoom {
-    from {-webkit-transform: scale(0)} 
+    from {-webkit-transform: scale(0)}
     to {-webkit-transform: scale(1)}
 }
 
 @keyframes zoom {
-    from {transform: scale(0.1)} 
+    from {transform: scale(0.1)}
     to {transform: scale(1)}
 }
 
@@ -554,7 +554,7 @@ div.messageblue
   background-color: #f5fffa;
   -moz-border-radius: 7px;
   -webkit-border-radius: 7px;
- 
+
 }div.messageblue div.idea
 {
   color: #003399;
@@ -579,7 +579,7 @@ div.messageblue div.idea label
     border-radius: 8px;
     padding-top:  15px;
 }.border-4{
-  
+
     border-color: #cc0000;
     background-color: #ededed;
     border-radius: 8px;
@@ -588,7 +588,7 @@ div.messageblue div.idea label
    border: 1px #3366CC solid;
    background-color: #f2ffff;
    color: #000066;
-   
+
 }select:focus{
     border: 1px #3366CC solid;
    color: #3366CC;
@@ -686,11 +686,11 @@ hr{
     color: white;
   }#verify_math{
     display:block;
-    height:21px;    
+    height:21px;
 }
 #verify_math span{
     display:block;
-    height:21px;    
+    height:21px;
     width:30px;
     position:relative;
     float:left;
@@ -699,7 +699,7 @@ hr{
     color:#000;
 }
 #verify_math span.digital{
-    background:url(../../assets/images/captcha/digi_img.jpg) left top no-repeat; 
+    background:url(../../assets/images/captcha/digi_img.jpg) left top no-repeat;
 }
 
   #myImg {
@@ -741,18 +741,18 @@ hr{
                 height: 150px;
             }
             /* Add Animation */
-            .modal1-content1, #caption1 {    
+            .modal1-content1, #caption1 {
                 -webkit-animation-name: zoom;
                 -webkit-animation-duration: 0.6s;
                 animation-name: zoom;
                 animation-duration: 0.6s;
             }
             @-webkit-keyframes zoom {
-                from {-webkit-transform:scale(0)} 
+                from {-webkit-transform:scale(0)}
                 to {-webkit-transform:scale(1)}
             }
             @keyframes zoom {
-                from {transform:scale(0)} 
+                from {transform:scale(0)}
                 to {transform:scale(1)}
             }
             /* The Close Button */
@@ -813,6 +813,14 @@ hr{
                 border-left-width: 0px;
                 border-right-width: 0px;
                 border-bottom-width: 1px;
+            }.border-right-blue{
+                border-style: dotted;
+                border-color: #166398;
+                border-top-width: 0px;
+                border-left-width: 0px;
+                border-right-width: 0px;
+                border-bottom-width: 1px;
+                
             }
             }.border-content{
                 border-style: dotted;
@@ -833,15 +841,15 @@ hr{
                 border-right-width: 0px;
                 border-bottom-width: 5px;
                 background-color: #f4f4f4; /* f4f4f4 */
-               
+
             }.bg-img{
                 /* background-image: url(../../assets/images/bg3.png);
                 background-position: center;
                 text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
                  166398 */
-                
+
                 background-color: #f4f4f4;
-               
+
             }.bg-img2{
                 background-image: url(../../assets/images/footer/second.png);
                 width: 100%;
@@ -855,14 +863,14 @@ hr{
                 border-top-width: 5px;
                 border-left-width: 0px;
                 border-right-width: 0px;
-                border-bottom-width: 0px;  
+                border-bottom-width: 0px;
             }.border-bottom-blue{
                  border-style: inset;
                 border-color: #166398;
                 border-top-width: 0px;
                 border-left-width: 0px;
                 border-right-width: 0px;
-                border-bottom-width: 4px;  
+                border-bottom-width: 4px;
             }
             #scroll {
     position:fixed;
@@ -915,7 +923,7 @@ hr{
     }#content-footer a,#content-footer h4,#content-footer h5,#content-footer h2{
     color: #99CCCC;
 }.tm-red-btn{
-        
+
         background-color: #fff;
         border: solid;
         border-width: 2px;
@@ -939,7 +947,7 @@ hr{
       }
       .bg-color-blue{
         background-color: #166398;
-        
+
       }
       .bg-content-1{
         background-image: url(../../assets/images/bg-content.png);

@@ -1,5 +1,5 @@
 <form >
-    <div class="container text-left">    
+    <div class="container text-left">
 
         <br>
         <div class="row col-sm-12">
@@ -15,7 +15,7 @@
                     <div class="col-sm-2"></div>
                     <div class="col-sm-4 border-right-blue">
                         <h4>ผู้ซื้อเก่า</h4>
-                        
+
                         <p align="left">โปรดกรอกอีเมลและรหัสผ่าน เพื่อเข้าสู่ระบบผู้ซื้อ</p>
 
                         <div class="form-group">
@@ -28,11 +28,12 @@
                         </div>
                         <p align="right"><a href="<?php echo base_url(); ?>buyer/buyer/forgotPassword">ลืมรหัสผ่าน?</a></p>
                         <center><button type="submit" class="btn btn-primary">Sign In</button></center>
+                        <br/>
                 </form>
             </div>
             <div class="col-sm-4">
                 <h4>ผู้ซื้อใหม่</h4>
-                
+
                 <P align="left">สำหรับผู้ซื้อใหม่ โปรดคลิก Create Account เพื่อทำการลงทะเบียน</P>
 
                 <center><a href="<?php echo base_url() ?>/buyer/buyer/regisBuyer"><button type="button" class="btn btn-primary">Create Account</button></a></center>

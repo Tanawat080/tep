@@ -1,5 +1,5 @@
 
-<div class="container text-center">    
+<div class="container text-center">
 
   <br>
   <div class="row col-sm-12">
@@ -30,8 +30,8 @@
 	     		</tr>
 	     		</table>
 	     		<p align="left">(ตัวอย่าง 000111-123456 หรือ 000222-12345678)</p><br>
-	     		<button type="submit" class="btn btn-primary">Create Account</button><br>
-	
+	     		<button type="submit" class="btn btn-primary">Submit</button><br><br/>
+
 	     </form>
 
      </div>
@@ -45,7 +45,7 @@
 		  <img class="modal-content" id="img01">
 		  <div id="caption"></div>
 		</div>
-     	
+
      </div>
   </div>
   <br>
@@ -69,7 +69,7 @@ img.onclick = function(){
 var span = document.getElementsByClassName("close")[0];
 
 // When the user clicks on <span> (x), close the modal
-span.onclick = function() { 
+span.onclick = function() {
     modal.style.display = "none";
 }
 </script>
