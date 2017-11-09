@@ -15,6 +15,7 @@
         <h4>eModules</h4>
         <p class="indent">บริการ eModules นั้นถูกออกแบบมาสำหรับร้านค้าที่มีเว็บไซต์อยู่แล้ว แต่ต้องการเติมเต็มธุรกิจออนไลน์ของคุณด้วยระบบชำระเงินออนไลน์และระบบอีคอมเมิร์ซอื่น เช่น ระบบตะกร้าสินค้า และระบบจองห้องพักออนไลน์ โดยค่าบริการได้ถูกแบ่งตามที่ระบบที่คุณเลือกใช้ ตามตารางข้างล่างนี้</p>
     	</div>
+    	<div class="table-responsive">
         <table class="table table-bordered table-hover" id="mytable">
             <thead>
                 <tr class="info">
@@ -54,7 +55,7 @@
                     <td class="alt">4950</td>
                 </tr>
         </table>
-
+</div>
 <!-- 
 
         <div style="display:none">
