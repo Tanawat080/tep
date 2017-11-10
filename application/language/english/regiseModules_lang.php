@@ -26,12 +26,12 @@
         $lang['contentSer']='You will get 15 days free (or depend on promotion) after you submitted all required documents.';
         $lang['contentSer2']='Fee for each transaction at the rate of 3.60% for Visa, MasterCard and the rate of 4.75% for American Express';
 
-        $lang['Income Remittance']='Income Remittance';
+        $lang['IncomeRemittance']='Income Remittance';
         $lang['contentIncome']='ThaiePay will summarize all income of merchant’s products or services each month and remit the income after deducting the service charge into merchant’s bank account as indicated when registered on the 10th of the following month.';
 
         $lang['confirm']='I confirm that I have read and understood the terms & conditions.';
- 
 
 
-   
+
+
     ?>

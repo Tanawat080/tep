@@ -5,11 +5,11 @@
   <div class="row col-sm-12">
     <div class="col-sm-12">
     	<div class="text-center">
-     		<h1>ตรวจสอบสถานะรายการสั่งซื้อ</h1>
+     		<h1><?= label('header1', $this); ?></h1>
      		<hr width="10%">
      		<br/>
      	</div>
-     	<p  class="indent">โปรดกรอกหมายเลขการสั่งซื้อและอีเมลของคุณลงในแบบฟอร์มด้านล่างนี้ เพื่อตรวจสอบดูสถานะการสั่งซื้อและข้อมูลที่เกี่ยวข้อง</p>
+     	<p  class="indent"><?php echo label('content1', $this); ?></p>
       </div>
      <div class="col-sm-4 col-md-offset-2">
 	     <form name="frm" action="">
@@ -17,7 +17,7 @@
 	     		<input type="email" class="form-control" name="email" placeholder="Email" required>
 	     	</div>
 
-	     		<h5>หมายเลขการสั่งซื้อ:*</h5>
+	     		<h5><?php echo label('content2', $this); ?></h5>
 	     		<table><tr>
 	     		<td>
 	     		<input type="number" class="form-control" name="orderid"  required>
@@ -29,7 +29,7 @@
 	     		<td></td>
 	     		</tr>
 	     		</table>
-	     		<p align="left">(ตัวอย่าง 000111-123456 หรือ 000222-12345678)</p><br>
+	     		<p align="left">(<?php echo label('example', $this); ?> 000111-123456 หรือ 000222-12345678)</p><br>
 	     		<button type="submit" class="btn btn-primary">Submit</button><br><br/>
 
 	     </form>
@@ -37,7 +37,7 @@
      </div>
      <div class="col-sm-4">
 	     <img id="myImg" src="../../assets/images/orderno.png" alt="หมายเลขการสั่งซื้อปรากฏที่อีเมลยืนยันการสั่งซื้อ" width="360" height="240">
-	     <p align="center"><i><b>หมายเลขการสั่งซื้อปรากฏที่อีเมลยืนยันการสั่งซื้อ</b></i></p>
+	     <p align="center"><i><b><?php echo label('content3', $this); ?></b></i></p>
 <br><br>
 		<!-- The Modal -->
 		<div id="myModal" class="modal">

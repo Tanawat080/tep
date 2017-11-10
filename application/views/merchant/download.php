@@ -1,46 +1,46 @@
 
-<div class="container text-center">    
+<div class="container text-center">
 
   <br>  <div class="row">
 
   <div class="col-sm-12">
     <div class="text-center">
-		<h1>ดาวน์โหลด</h1>
+		<h1><?= label('header',$this);?></h1>
         <hr width="10%">
         <br/>
     </div>
-		<p >ไฟล์เอกสารที่เกี่ยวข้องกับระบบของไทยอีเพย์ทั้งหมด สามารถดาวน์โหลดได้จากลิงค์ด้านล่างนี้</p>
-		
+		<p ><?= label('content',$this);?></p>
+
 	</div>
 
     <div class="col-sm-12">
      <div class="row">
     <div class="col-sm-2">
       <img src="<?php echo base_url();?>assets/images/module/Magento_logo.png" class="img-responsive" style="width:100%; " alt="Image">
- 
+
     </div>
-    <div class="col-sm-2"> 
+    <div class="col-sm-2">
       <img src="<?php echo base_url();?>assets/images/module/virtuemart.png" class="img-responsive" style="width:100%; " alt="Image">
-  
+
     </div>
-    <div class="col-sm-2"> 
+    <div class="col-sm-2">
       <img src="<?php echo base_url();?>assets/images/module/woocommerce_logo.png" class="img-responsive" style="width:100%" alt="Image">
 
     </div>
-    <div class="col-sm-2"> 
+    <div class="col-sm-2">
       <img src="<?php echo base_url();?>assets/images/module/zen_cart_logo.gif" class="img-responsive" style="width:100%" alt="Image">
- 
-    </div> 
-    <div class="col-sm-2"> 
+
+    </div>
+    <div class="col-sm-2">
       <img src="<?php echo base_url();?>assets/images/module/oscommerce-logo.jpg" class="img-responsive" style="width:100%" alt="Image">
-      
-    </div>     
-    <div class="col-sm-2"> 
+
+    </div>
+    <div class="col-sm-2">
       <img src="<?php echo base_url();?>assets/images/module/logo-prestashop.png" class="img-responsive" style="width:100%" alt="Image">
-     
-    </div> 
+
+    </div>
   </div>
-    
+
       <div class="col-sm-1">
       </div>
 

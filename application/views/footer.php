@@ -4,7 +4,7 @@
     <div class="container text-left" >
         <div class="col-sm-12 "  >
             <ul class="footer-service-link">
-                <li> 
+                <li>
                     <h4><B><?php echo label("service", $this) ?></B></h4>
                     <ul class="col-sm-10">
                         <div class="border-bottom"></div><br>
@@ -27,7 +27,7 @@
                     </ul>
                 </li>
                 <li>
-                    <h4><B>ข่าวสารและโปรโมชั่นใหม่ๆ</B></h4>
+                    <h4><B><?= label('LatestNewsPromotion',$this);?></B></h4>
                     <ul class="col-sm-10">
                         <div class="border-bottom"></div><br>
                         <div class="border-bottom">
@@ -41,14 +41,14 @@
                             </li>
                         </div><br>
                         <li>
-                            <b><a id="ctl00_UcPageContext_UcNewsDetail_RptNewsDetail_ctl02_LnkNewsTopic" href="news/84/Subject__Changing_New_Company_Telephone_No/">เรื่อง แจ้งเปลี่ยนหมายเลขโทรศัพท์ของบริษัท</a></b><br>   ่อสารใหม่  
-                            ที่สามารถให้ทุกท่านได้ติดตามข่าวสาร สอบถามบริการ หรือแจ้งปัญหาการใช้งาน จากทางเราได้อีก 1 ช่องทาง คือทาง  
+                            <b><a id="ctl00_UcPageContext_UcNewsDetail_RptNewsDetail_ctl02_LnkNewsTopic" href="news/84/Subject__Changing_New_Company_Telephone_No/">เรื่อง แจ้งเปลี่ยนหมายเลขโทรศัพท์ของบริษัท</a></b><br>   ่อสารใหม่
+                            ที่สามารถให้ทุกท่านได้ติดตามข่าวสาร สอบถามบริการ หรือแจ้งปัญหาการใช้งาน จากทางเราได้อีก 1 ช่องทาง คือทาง
                             ...</p>
                         </li>
                     </ul>
                 </li>
                 <li>
-                    <h4><B>บทความ</B></h4>
+                    <h4><B><?= label('HotArticles',$this);?></B></h4>
                     <ul class="col-sm-10">
                         <div class="border-bottom"></div><br>
                         <div class="border-bottom">
@@ -83,17 +83,17 @@
                 <div class="col-md-2 col-md-offset-2 ">
                     <h5>We also accept</h5>
                     <img id="ctl00_UcFooter_ImgAllcard" src="<?php echo base_url(); ?>assets/images/footer/allcards2.png" style="border-width:0px;" />
-                </div> 
+                </div>
                 <div class="col-md-4 ">
                     <h5> Award & Securities</h5>
                     <div >
-                        <a id="ctl00_UcFooter_HyperLink4" href="<?php echo base_url() ?>home/Securities"><img src="<?php echo base_url(); ?>assets/images/footer/allaward.png" style="border-width:0px;" /></a>  
+                        <a id="ctl00_UcFooter_HyperLink4" href="<?php echo base_url() ?>home/Securities"><img src="<?php echo base_url(); ?>assets/images/footer/allaward.png" style="border-width:0px;" /></a>
                     </div>
-                </div>               
+                </div>
                 <div class="col-md-2 ">
                     <h5>Follow Us</h5>
                     <a id="ctl00_UcFooter_HyperLink3"><img id="ctl00_UcFooter_ImgGoogleplus" src="<?php echo base_url(); ?>assets/images/footer/gplus_re.png" style="border-width:0px;" /></a>
-                    <a id="ctl00_UcFooter_HyperLink1" href="http://www.facebook.com/THAIEPAY"><img id="ctl00_UcFooter_ImgFB" src="<?php echo base_url(); ?>assets/images/footer/fb2.png" style="border-width:0px;" /></a> 
+                    <a id="ctl00_UcFooter_HyperLink1" href="http://www.facebook.com/THAIEPAY"><img id="ctl00_UcFooter_ImgFB" src="<?php echo base_url(); ?>assets/images/footer/fb2.png" style="border-width:0px;" /></a>
                     <a id="ctl00_UcFooter_HyperLink2" href="http://twitter.com/#!/thaiepay"><img id="ctl00_UcFooter_ImgTW" src="<?php echo base_url(); ?>assets/images/footer/tweet2.png" style="border-width:0px;" /></a>
                 </div>
             </div>
@@ -106,10 +106,10 @@
     <div class="row" >
         <div class="col-lg-12" >
             <div class="col-md-2">
-            </div>    
+            </div>
             <div class="col-md-2 text-left">
                 <dl class="clWhite">
-                    <dt><B>ร้านค้า</B></dt><br>
+                    <dt><B><?= label('merchant',$this);?></B></dt><br>
                     <dd>
                         <a href="<?php echo base_url(); ?>merchantList/merchantList/merchantListPage"><font color="white"><?php echo label("clientList", $this) ?></font></a>
                     </dd>
@@ -127,30 +127,30 @@
                     </dd>
                     <dd>
                         <a href="<?php echo base_url(); ?>aboutCompany/aboutCompany/conditionPage"><font color="white"><?php echo label("conditions", $this) ?></font></a>
-                    </dd>  
+                    </dd>
                     <dd>
                         <a href="<?php echo base_url(); ?>aboutCompany/aboutCompany/policyPage"><font color="white"><?php echo label("privacy", $this) ?></font></a>
-                    </dd>  
+                    </dd>
                     <dd>
-                        <a href="<?php echo base_url(); ?>home/whyThaiepay"><font color="white">ทำไมต้องใช้ไทยอีเพย์?</font></a>
+                        <a href="<?php echo base_url(); ?>home/whyThaiepay"><font color="white"><?= label('whyThaiePay',$this)?></font></a>
                     </dd>
                 </dl>
             </div>
 
             <div class="col-md-4 text-left">
                 <address class="footer-contact">
-                    <strong>บริษัท เพย์ โซลูชั่น จำกัด</strong>
-                    <p>522 ซอยรัชดาภิเษก 26 ถนนรัชดาภิเษก แขวงสามเสนนอก เขตห้วยขวาง กรุงเทพ 10310</p>
-                    <p>โทร  : 02-515-2324 <br/>
+                    <strong><?= label('Paysolutions',$this)?></strong>
+                    <p><?= label('Address',$this)?></p>
+                    <p><?= label('tel',$this);?>  : 02-515-2324 <br/>
                         095-3722151  ,  095-3722152  ,  095-3722153  ,  095-3722154</p>
-                    <p>อีเมล  : <a href="mailto:sale.paysolutions@efrainc.com"><font color="white" >sale.paysolutions@efrainc.com</font></a></p>
+                    <p><?= label('Email',$this);?>  : <a href="mailto:sale.paysolutions@efrainc.com"><font color="white" >sale.paysolutions@efrainc.com</font></a></p>
                 </address>
 
-            </div>  
+            </div>
             <div class="col-md-2">
-            </div> 
+            </div>
             <div class="col-md-2">
-            </div> 
+            </div>
         </div>
     </div>
     <hr width="30%">

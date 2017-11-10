@@ -1,4 +1,4 @@
-<div class="container text-left">    
+<div class="container text-left">
 
   <br>
   <div class="row">
@@ -30,8 +30,8 @@
 	<li><a href="<?php echo base_url();?>aboutCompany/aboutCompany/policyPage"><?php echo label("privacy",$this);?></a></li>
 	<li><a href="<?php echo base_url();?>aboutCompany/aboutCompany/themePage"><?php echo label("theme",$this);?></a></li>
 	<li><a href="<?php echo base_url();?>aboutCompany/aboutCompany/aboutUsPage"><?php echo label("aboutUs",$this);?></a></li>
-	<li><a href="<?php echo base_url();?>"><?php echo label("news",$this);?></a></li>
-</ul> 
+	<li><a href="<?php echo base_url();?>home/news"><?php echo label("news",$this);?></a></li>
+</ul>
      </div>
     <div class="col-sm-6">
 <ul>
@@ -50,7 +50,7 @@
 	  <li><a href="<?php echo base_url();?>buyer/buyer/forgotPassword"><?php echo label("forgotPassword",$this);?></a></li>
 	</ul>
 	<li><a href="<?php echo base_url();?>contactUs/contactUs/contactUsPage"><?php echo label("contactUs",$this);?></a></li>
-</ul> 
+</ul>
 </div>
 </div>
 </div><br><br>

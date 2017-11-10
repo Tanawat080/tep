@@ -1,39 +1,40 @@
-<div class="container text-left">    
+<div class="container text-left">
 
   <br>
   <div class="row col-sm-12">
     <div class="col-sm-12">
         <div class="text-center">
-      	   <h1 >ชำระเงิน/ต่ออายุบริการ</h1>
+      	   <h1><?= label('header',$this);?></h1>
            <hr width="10%">
            <br/>
         </div>
-      	<p class="indent">เมื่อคุณตกลงใช้บริการระบบจริงของไทยอีเพย์ คุณจำเป็นต้องชำระเงินค่าบริการตามระบบที่คุณเลือกใช้งาน โดยคุณสามารถชำระเงินผ่านช่องทางต่างๆ ดังนี้</p><br>
-      	<h4>วิธีการชำระเงิน</h4>
-      	<p class="indent">โปรดเลือกวิธีการชำระเงินดังต่อไปนี้ เมื่อดำเนินการเรียบร้อยแล้ว โปรดแจ้งเจ้าหน้าที่ของเราให้ตรวจสอบทันทีผ่านทางอีเมล billing@thaiepay.com หรือทางโทรศัพท์ 02-5414100 กด 2 , 09 4218 5600</p>
-      	
+      	<p class="indent"><?= label('content1',$this);?>ี้</p><br>
+      	<h4><?= label('paymentMethod',$this);?></h4>
+      	<p class="indent"><?= label('contentPaymentMethod',$this);?></p>
+
       	<br>
         <ol>
-          <li>ชำระเงินผ่านบัตรเครดิตออนไลน์
+          <li><b><?= label('paymentCreditCard',$this);?></b>
             <ol>
-              <p>เรายินดีรับบัตรเครดิต VISA, MasterCard และ American Express <img src="<?php echo base_url();?>assets/images/icons/allcards.png">  ของทุกธนาคาร สามารถชำระเงินค่าบริการผ่านระบบออนไลน์ได้ที่นี่</p>
-              <p ><B>ระบบ Shopping Mall :</B></p>
+              <p><?= label('contentpaymentCreditCard',$this);?> <img src="<?php echo base_url();?>assets/images/icons/allcards.png"> <?= label('contentpaymentCreditCard2',$this);?></p>
+              <p ><B><?= label('shoppingMall',$this);?> :</B></p>
               <p class="border-1"><a href="https://shopadmin.thaiepay.com/renewserviceonline.aspx ">https://shopadmin.thaiepay.com/renewserviceonline.aspx</a></p>
-              <p ><B>ระบบ eModules :</B></p>
+              <p ><B><?= label('eModules',$this);?> :</B></p>
               <p class="border-1"><a href="https://control.thaiepay.com/renewserviceonline.aspx ">https://control.thaiepay.com/renewserviceonline.aspx </a></p>
-         
+
             </ol>
           </li>
-          <li>ชำระด้วยเช็คขีดคร่อมสั่งจ่าย หรือเงินสดที่
+          <li><b><?= label('payByCash',$this);?></b>
             <ol>
-              <p>บริษัท เพย์โซลูชั่น จำกัด 522 ถนนรัชดาภิเษก แขวงสามเสนนอก เขตห้วยขวาง กรุงเทพฯ 10310 ประเทศไทย</p>
+              <p><?= label('address',$this);?></p>
+              <p><?= label('address2',$this);?></p>
             </ol>
           </li>
-          <li>ชำระเงินผ่านธนาคารหรือตู้ ATM
+          <li><b><?= label('payByATM',$this);?></b>
             <ol>
-              <p >ชื่อบัญชี: บริษัท เพย์โซลูชั่น จำกัด</p>
-              <p ><img src="<?php echo base_url();?>assets/images/icons/krungsri.gif"> ธ. กรุงศรีอยุธยา ธ. กรุงศรีอยุธยา สาขารัชดา-โอลิมเปียไทย 284-1-29079-7</p>
-              <p ><img src="<?php echo base_url();?>assets/images/icons/tfb.gif"> ธ. กสิกรไทย ธ. กสิกรไทย สาขารัชดา-ห้วยขวาง 807-2-10866-4</p>
+              <p ><?= label('accountBank',$this);?></p>
+              <p ><img src="<?php echo base_url();?>assets/images/icons/krungsri.gif"><?= label('krungsri',$this);?></p>
+              <p ><img src="<?php echo base_url();?>assets/images/icons/tfb.gif"><?= label('Kbank',$this);?></p>
             </ol>
           </li>
         </ol>

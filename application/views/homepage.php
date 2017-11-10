@@ -15,15 +15,15 @@
     <div class="row">
         <div class="col-sm-8 font-blue">
 
-            <p class="indent">บริการช้อปปิ้งมอลล์ของไทยอีเพย์ เหมาะสำหรับผู้ที่สนใจระบบอีคอมเมิร์ซแบบครบวงจร ซึ่งจะรวบรวมทุกส่วนที่ประกอบกันขึ้นเป็นเว็บไซต์อีคอมเมิร์ซมาอยู่ในบริการนี้ เพียงแค่คุณมีความคิดดีๆที่จะทำธุรกิจออนไลน์ ก็สามารถเปิดร้านค้าออนไลน์ได้ทันที บริการช้อปปิ้งมอลล์ของไทยอีเพย์</p>
+            <p class="indent"><?= label('ShoppingMall',$this);?></p>
 
-            <B>บริการธุรกิจออนไลน์พร้อมระบบชำระเงิน</B>
+            <B><?= label('OnlineBusinesswithOnlinePayment',$this);?></B>
             <ul>
-              <li><a href="<?php echo base_url()?>service/service/eShop">eShop</a> ระบบร้านค้าออนไลน์ <font color="red">ฟรี.!</font></li>
-              <li><a href="<?php echo base_url()?>service/service/eBookingPlus">eBooking PLUS</a> ระบบจองโรงแรม/ที่พัก</li>
-              <li><a href="<?php echo base_url()?>service/service/eBusiness">eBusiness</a> เว็บไซต์สำเร็จรูปสำหรับองค์กรหรือบริษัท</li>
+              <li><a href="<?php echo base_url()?>service/service/eShop">eShop</a> <?= label('OnlineShop',$this);?><font color="red"> <?= label('Free',$this);?></font></li>
+              <li><a href="<?php echo base_url()?>service/service/eBookingPlus">eBooking PLUS</a> <?= label('OnlineReservation',$this);?></li>
+              <li><a href="<?php echo base_url()?>service/service/eBusiness">eBusiness</a> <?= label('Readywebsiteforbusinessandcompany',$this);?></li>
             </ul>
-            <a href="<?php echo base_url();?>service/service/servicePage"><B>รายละเอียดเพิ่มเติม</B></a><br><br>
+            <a href="<?php echo base_url();?>service/service/servicePage"><B><?= label('Learnmore',$this);?></B></a><br><br>
         </div>
        <div class="col-sm-4">
         <center>
@@ -66,7 +66,7 @@
       <div class="col-sm-12">
         <br/>
         <div class="col-sm-12 ">
-           <p class="indent">บริการอีโมดูลส์ของเรา ออกแบบมาสำหรับร้านค้าที่มีเว็บไซต์อยู่แล้วและต้องการเติมเต็มธุรกิจออนไลน์ของด้วยระบบชำระเงิน หรือระบบจองห้องพักออนไลน์ ซึ่งบริการอีโมดูลส์ของเราได้ถูกแบ่งออกตามความเหมาะสมและประเภทของธุรกิจของลูกค้า</p>
+           <p class="indent"><?= label('eModules',$this);?></p>
         </div>
 
       </div>
@@ -74,25 +74,25 @@
       <div class="col-sm-12 text-center"><br/>
         <div class="col-sm-3">
           <img src="assets/images/icons/epayment.png">
-          <p>ระบบชำระเงินผ่านบัตรเครดิตออนไลน์</p>
+          <p><?= label('PaymentGatewaySystem',$this);?></p>
           <a href="<?php echo base_url();?>service/service/ePayment"><button class="tm-green-btn btn-content-width">ePayment</button></a>
           <br/><br/>
         </div>
         <div class="col-sm-3">
           <img src="assets/images/icons/ecart.png">
-          <p>ระบบตะกร้าสินค้า อีคอมเมิร์ซแบบ "กึ่งครบวงจร"</p>
+          <p><?= label('ShoppingCartSystem',$this);?></p>
           <a href="<?php echo base_url();?>service/service/eCart"><button class="tm-green-btn btn-content-width">eCart</button></a>
           <br/><br/>
         </div>
         <div class="col-sm-3">
           <img src="assets/images/icons/ebooking.png">
-          <p>ระบบสำหรับการจองโรงแรมและห้องพักออนไลน์</p>
+          <p><?= label('BookingSystem',$this);?></p>
           <a href="<?php echo base_url();?>service/service/eBooking"><button class="tm-green-btn btn-content-width">eBooking</button></a>
           <br/><br/>
         </div>
         <div class="col-sm-3">
           <img src="assets/images/icons/echarity_2.png">
-          <p>ระบบสำหรับมูลนิธิหรือองค์กรไม่แสวงหาผลกำไรต่างๆ</p>
+          <p><?= label('OnlineDonationSystem',$this);?></p>
             <a href="<?php echo base_url();?>service/service/eCharity"><button class="tm-green-btn btn-content-width">eCharity</button></a>
             <br/><br/>
         </div>
@@ -114,16 +114,16 @@
     <div class="col-sm-9 font-white">
         <br><br>
         <ol>
-          <p class="indent">จุดเด่นเปรียบเทียบระบบการให้บริการของเรา เทียบกับผู้ให้บริการรายอื่น โดยสรุปจุดเด่นของเราเป็นข้อๆ ดังนี้</p>
-          <li>ไทยอีเพย์คือผู้บุกเบิกและเป็นต้นแบบ</li>
-          <li>ไทยอีเพย์มีระบบที่ดีกว่าและใช้งานได้ง่าย</li>
-          <li>ค่าบริการของไทยอีเพย์ถูกและคุ้มค่า</li>
-          <li>ไทยอีเพย์มีความปลอดภัยสูงสุด</li>
+          <p class="indent"><?= label('features',$this);?></p>
+          <li><?= label('ThaiePayisapioneerandprototype',$this);?></li>
+          <li><?= label('ThaiePayoffersbetterserviceanduser',$this);?></li>
+          <li><?= label('ThaiePayservicechargeisinexpensiveandworthusing',$this);?></li>
+          <li><?= label('ThaiePayprovidesthehighestsecuritysystem',$this);?></li>
         </ol>
         <div class="form-group">
           <br>
           <center>
-          <a href="<?php echo base_url();?>buyer/buyer/regisBuyer"><button class="tm-red-btn">สมัครใช้บริการ</button></a>
+          <a href="<?php echo base_url();?>buyer/buyer/regisBuyer"><button class="tm-red-btn"><?= label('register',$this);?></button></a>
         </div>
     </div>
 </div>
@@ -133,7 +133,7 @@
 <div class="container text-center">
 <div class="col-sm-12">
  <br><br><br>
-  <h2 ><B>รองรับระบบ CMS ได้หลากหลายหน้า ในหน้า Download...</B></h2>
+  <h2 ><B><?= label('supportCMS',$this);?></B></h2>
   <hr width="10%">
 </div>
 

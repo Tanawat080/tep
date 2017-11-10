@@ -1,36 +1,32 @@
-
-
 <body>
     <div class="container text-left">
-
         <br>
         <div class="row">
             <div class="col-sm-12">
                 <div class="col-sm-12">
                     <div class="text-center">
-                        <h1 >ติดต่อเรา</h1>
+                        <h1><?= label('header',$this);?></h1>
                         <hr width="10%">
                         <br/>
                     </div>
-                    <p align="left" class="indent">ลูกค้าทุกท่านสามารถติดต่อ THAIEPAY ได้หลายทาง ทั้งเดินทางด้วยตนเองมาที่บริษัท ติดต่อผ่านโทรศัพท์ หรือติดต่อทางอีเมล ซึ่งเจ้าหน้าที่ของเราทุกคน ยินดีให้ข้อมูล คำปรึกษา พร้อมความช่วยเหลือเป็นอย่างดี รายละเอียดช่องทางในการติดต่อกับเราเป็นดังนี้
-                    </p><br>
+                    <p align="left" class="indent"><?= label('content',$this);?></p><br>
                 </div>
                 <div class="col-sm-12 text-left">
-                    <h4>ที่อยู่และแผนที่</h4>
-                    <p><b>บริษัท เพย์ โซลูชั่น จำกัด</b></p>
+                    <h4><?= label('title1',$this);?></h4>
+                    <p><b><?= label('companyName',$this);?></b></p>
                 </div>
                 <div class="col-sm-6 text-left" >
-                    <p class="indent">522 ซอยรัชดาภิเษก 26  ถนนรัชดาภิเษก แขวงสามเสนนอก เขตห้วยขวาง  กรุงเทพฯ 10310 ประเทศไทย <br />
-                        โทร 0 2515  2324 ,  09 5372 2151, 09 5372 2152, 09 5372 2153  <br />
-                        แฟกซ์  0 2541 4098 </p>
-                    <p>ติดต่อทาง LINE@ :<a href="https://line.me/R/ti/p/%40pay.sn" target="_blank"> คลิกที่นี่</a></p>
-                    <p><b>เลขประจำตัวผู้เสียภาษีอากร  0-1055-56096-53-7</b></p><br />
-                    <p><b>อีเมล:</b></p>
+                    <p class="indent"><?= label('address',$this);?><br />
+                        <?= label('tel',$this);?> 0 2515  2324 ,  09 5372 2151, 09 5372 2152, 09 5372 2153  <br />
+                        <?= label('fax',$this);?>  0 2541 4098 </p>
+                    <p><?= label('contactChanel',$this);?> LINE@ :<a href="https://line.me/R/ti/p/%40pay.sn" target="_blank"> <?= label('clickHere',$this);?></a></p>
+                    <p><b><?= label('license',$this);?>  0-1055-56096-53-7</b></p><br />
+                    <p><b><?= label('email',$this);?>:</b></p>
                     <fieldset>
                         <ul>
-                            <li><label>สอบถามข้อมูล</label><a id="ctl00_CphBody_LnkEmailInfo" href="contactus.aspx#contactform"> info@thaiepay.com</a></li>
-                            <li><label>ฝ่ายดูแลลูกค้า</label><a id="ctl00_CphBody_LnkEmailSupport" href="contactus.aspx#contactform"> support@thaiepay.com</a></li>
-                            <li><label>ฝ่ายบัญชี</label><a id="ctl00_CphBody_LnkEmailBilling" href="contactus.aspx#contactform"> billing@thaiepay.com</a></li>
+                            <li><label><?= label('informationCenter',$this);?></label><a id="ctl00_CphBody_LnkEmailInfo" href="contactus.aspx#contactform"> info@thaiepay.com</a></li>
+                            <li><label><?= label('customerService',$this);?></label><a id="ctl00_CphBody_LnkEmailSupport" href="contactus.aspx#contactform"> support@thaiepay.com</a></li>
+                            <li><label><?= label('billing',$this);?></label><a id="ctl00_CphBody_LnkEmailBilling" href="contactus.aspx#contactform"> billing@thaiepay.com</a></li>
 
                         </ul>
                     </fieldset>
@@ -52,8 +48,8 @@
                 </div>
                 <div class="col-sm-12 text-left" align = "center" >
                     <a name="contactform"></a><br><br>
-                    <h4>แบบฟอร์มกรอกข้อมูลเพื่อติดต่อเรา</h4>
-                    <P class="indent-2">คุณสามารถกรอกข้อมูลคำถาม หรือข้อความที่ต้องการติดต่อทีมงานของเราผ่านแบบฟอร์มดังต่อไปนี้ ระบบจะจัดส่งข้อความของคุณไปยังเจ้าหน้าที่ของเราโดยตรง และจะดำเนินการในลำดับต่อไป</p>
+                    <h4><?= label('contactForm',$this)?></h4>
+                    <P class="indent-2"><?= label('content-contactForm',$this)?></p>
                 </div >
                 <div class="col-sm-3">
                 </div>
@@ -63,12 +59,7 @@
 
                         <div class="col-sm-4">
                             <div class="form-group">
-                                <?php
-                            echo label('name', $this);
-                            echo "-";
-                            echo label('surname', $this);
-                            ?>
-                            :
+                                <?php echo label('name', $this); ?> :
                             </div>
                         </div>
                         <div class="col-sm-8">
@@ -76,7 +67,6 @@
                                 <input type="text" class="form-control" name="ctl00$CphBody$TxtName" required>
                             </div>
                         </div>
-
                         <div class="col-sm-4">
                             <div class="form-group">
                                 <?php echo label('phoneNum', $this); ?> :
@@ -87,8 +77,6 @@
                                 <input type="text" class="form-control" name="ctl00$CphBody$TxtPhoneNumber" required>
                             </div>
                         </div>
-
-
                         <div class="col-sm-4">
                             <div class="form-group">
                                 <?php echo label('email', $this); ?> :
@@ -103,20 +91,20 @@
 
                                                 <div class="col-sm-4">
                             <div class="form-group">
-                                หัวข้อ :
+                                <?=label('subjects',$this);?> :
                             </div>
                         </div>
                         <div class="col-sm-8">
                             <div class="form-group">
                                 <select  class="form-control" name="ctl00$CphBody$DdlSubject"  onchange="javascript:setTimeout( & #39; __doPostBack(\ & #39; ctl00$CphBody$DdlSubject\ & #39; , \ & #39; \ & #39; ) & #39; , 0)" id="ctl00_CphBody_DdlSubject" required>
-                                <option selected="selected" value="0"><?php echo label('title', $this); ?></option>
+                                <option selected="selected" value="0"><?php echo label('subjects', $this); ?></option>
                             </select>
                             </div>
                         </div>
 
                         <div class="col-sm-4">
                             <div class="form-group">
-                                <?php echo label('description', $this); ?> :
+                                <?php echo label('detail', $this); ?> :
                             </div>
                         </div>
                         <div class="col-sm-8">

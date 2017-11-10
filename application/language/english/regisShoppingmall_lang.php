@@ -1,7 +1,7 @@
-<?php 
+<?php
 
 	$lang['RegisterShoppingMall']='Register Shopping Mall';
-	
+
 	$lang['SelectedService']='Selected Service';
 	$lang['RequiredDocuments']='Required Documents';
 	$lang['RequiredDocumentscontent1']='Copy of ID card (For foreigner: Passport or Work Permit)';
@@ -12,7 +12,8 @@
 
 
 	$lang['TermsConditions']='Terms & Conditions (brief version)';
-	$lang['contentTerms']='The following terms & conditions are shortened in order to be easier for seller to briefly read on the surface. Seller must accept all terms and conditions before clicking “Submit” and processing to next steps. (Full version of Terms & Conditions)';
+	$lang['contentTerms']='The following terms & conditions are shortened in order to be easier for seller to briefly read on the surface. Seller must accept all terms and conditions before clicking “Submit” and processing to next steps. ';
+	$lang['fullTerms']='(Full version of Terms & Conditions)';
 
 	$lang['QualificationsofSeller']='Qualifications of Seller';
 	$lang['contentQualification1']='No involvement in criminal or anti-social activities like Gambling, Pornography, Alcohol drinks, Drugs, Replica and pirated products, medicines';
