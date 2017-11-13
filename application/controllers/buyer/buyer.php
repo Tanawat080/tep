@@ -11,7 +11,7 @@ class buyer extends CI_Controller {
 		$lang=$this->session->userdata('lang')==null?"thailand":$this->session->userdata('lang');
 		$this->lang->load($lang,$lang);
 		$this->lang->load('navbar',$lang);
-		$this->lang->load('loginBuyer',$lang);
+		$this->lang->load('buyer/loginBuyer',$lang);
 		$this->load->view("navbar");
 		$this->load->view("buyer/loginBuyer");
 		$this->load->view("footer");
@@ -21,7 +21,7 @@ class buyer extends CI_Controller {
 		$lang=$this->session->userdata('lang')==null?"thailand":$this->session->userdata('lang');
 		$this->lang->load($lang,$lang);
 		$this->lang->load('navbar',$lang);
-		$this->lang->load('checkOrder',$lang);
+		$this->lang->load('buyer/checkOrder',$lang);
 		$this->load->view("navbar");
 		$this->load->view("buyer/checkOrders");
 		$this->load->view("footer");
@@ -31,7 +31,7 @@ class buyer extends CI_Controller {
 		$lang=$this->session->userdata('lang')==null?"thailand":$this->session->userdata('lang');
 		$this->lang->load($lang,$lang);
 		$this->lang->load('navbar',$lang);
-		$this->lang->load('forgetPassword',$lang);
+		$this->lang->load('buyer/forgetPassword',$lang);
 		$this->load->view("navbar");
 		$this->load->view("buyer/forgotPassword");
 		$this->load->view("footer");
@@ -41,7 +41,7 @@ class buyer extends CI_Controller {
 		$this->lang->load($lang,$lang);
 		$this->lang->load('navbar',$lang);
 		$this->lang->load('form',$lang);
-		$this->lang->load('regisBuyer',$lang);
+		$this->lang->load('buyer/regisBuyer',$lang);
 		$this->load->view("navbar");
 		$this->load->view("buyer/regisBuyer");
 		$this->load->view("footer");

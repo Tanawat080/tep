@@ -18,9 +18,14 @@
             <ol>
               <p><?= label('contentpaymentCreditCard',$this);?> <img src="<?php echo base_url();?>assets/images/icons/allcards.png"> <?= label('contentpaymentCreditCard2',$this);?></p>
               <p ><B><?= label('shoppingMall',$this);?> :</B></p>
-              <p class="border-1"><a href="https://shopadmin.thaiepay.com/renewserviceonline.aspx ">https://shopadmin.thaiepay.com/renewserviceonline.aspx</a></p>
+
+              <p class="border-1">
+                <a href="https://shopadmin.thaiepay.com/renewserviceonline.aspx ">https://shopadmin.thaiepay.com/renewserviceonline.aspx</a>
+              </p>
               <p ><B><?= label('eModules',$this);?> :</B></p>
-              <p class="border-1"><a href="https://control.thaiepay.com/renewserviceonline.aspx ">https://control.thaiepay.com/renewserviceonline.aspx </a></p>
+              <p class="border-1">
+                <a href="https://control.thaiepay.com/renewserviceonline.aspx ">https://control.thaiepay.com/renewserviceonline.aspx </a>
+              </p>
 
             </ol>
           </li>
@@ -33,8 +38,8 @@
           <li><b><?= label('payByATM',$this);?></b>
             <ol>
               <p ><?= label('accountBank',$this);?></p>
-              <p ><img src="<?php echo base_url();?>assets/images/icons/krungsri.gif"><?= label('krungsri',$this);?></p>
-              <p ><img src="<?php echo base_url();?>assets/images/icons/tfb.gif"><?= label('Kbank',$this);?></p>
+              <p ><img src="<?php echo base_url();?>assets/images/icons/krungsri.gif"> <?= label('krungsri',$this);?></p>
+              <p ><img src="<?php echo base_url();?>assets/images/icons/tfb.gif"> <?= label('Kbank',$this);?></p>
             </ol>
           </li>
         </ol>

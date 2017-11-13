@@ -518,6 +518,7 @@
 }p.border-1{
     border: 1px solid #cc0000;
     border-radius: 8px;
+    width: auto;
     padding: 5px;
 
 }.indent>p,p.indent,hr.indent,.indent>hr{
@@ -820,7 +821,7 @@ hr{
                 border-left-width: 0px;
                 border-right-width: 0px;
                 border-bottom-width: 1px;
-                
+
             }
             }.border-content{
                 border-style: dotted;

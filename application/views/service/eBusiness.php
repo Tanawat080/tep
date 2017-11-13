@@ -1,37 +1,33 @@
-<div class="container text-left">    
-
+<div class="container text-left">
   <br>
   <div class="row col-sm-12">
     <div class="col-sm-12">
     	<div class="text-center">
-      		<h1>eBusiness (เว็บไซต์สำเร็จรูปสำหรับองค์กร/บริษัท)</h1>
+      		<h1><?= label('header',$this); ?></h1>
       		<hr width="10%">
       		<br/>
       	</div>
       		<div class="indent text-left">
-      			<p >คือเว็บไซต์สำเร็จรูปสำหรับองค์กรและบริษัท เพื่อใช้ประชาสัมพันธ์และเพื่อนำเสนอข้อมูลข่าวสารต่างๆขององค์กรและบริษัทของคุณ รวมไปถึงการจัดจำหน่ายผลิตภัณฑ์สินค้าขององค์กรและบริษัททางเว็บไซต์อีกด้วย ทั้งนี้ เพื่อป็นการเพิ่มช่องทางการประชาสัมพันธ์องค์กรและบริษัท และสร้างภาพลักษณ์ที่ดีให้เป็นที่รู้จักแก่บุคคลทั่วไป โดยคุณสามารถเพิ่มเติมรายละเอียด เมนูการใช้งาน ภาพประกอบ รวมไปถึงจัดการแก้ไขเว็บไซต์สำเร็จรูปนี้ได้ง่ายๆด้วยตัวคุณเอง โดยมีทีมงานไทยอีเพย์เป็นผู้ให้คำแนะนำและคำปรึกษา</p>
-      			<p  class="border-1" ><font color="red">&bull; สำหรับผู้ลงทะเบียน eBusiness วันนี้ เพิ่มอายุการใช้บริการฟรี 15 วัน</font></p>
+      			<p><?= label('content1',$this);?></p>
+      			<p  class="border-1" ><font color="red">&bull; <?= label('content2-free',$this);?></font></p>
       		</div><br><br>
-      		<h4>eBusiness ประกอบด้วย</h4>
-		
+      		<h4><?= label('title1',$this); ?></h4>
 		<ul>
-			<li>เว็บไซต์สำเร็จรูป (สำหรับประชาสัมพันธ์บริษัท)</li>
-			<li>ระบบจัดการเว็บไซต์ eBUS Admin</li>
-			<li>จดทะเบียนโดเมนเนม 1 ชื่อ</li>
-			<li>อีเมลแพลน @yourcompany.com (2 GB)</li>
+			<li><?= label('content1-title1',$this);?></li>
+			<li><?= label('content2-title1',$this);?></li>
+			<li><?= label('content3-title1',$this);?></li>
+			<li><?= label('content4-title1',$this);?></li>
 		</ul>
-
-		<br><br>
-      		<h4>eBusiness เหมาะสำหรับ</h4>
-		
+		<br>
+      		<h4><?= label('title2',$this);?></h4>
 		<ul>
-			<li>ท่านที่สนใจเปิดเว็บไซต์เพื่อองค์กรหรือบริษัทของท่านเอง และประชาสัมพันธ์ให้เป็นที่รู้จัก</li>
-			<li>ท่านที่ยังไม่มีเว็บไซต์ และต้องการประหยัดค่าใช้จ่ายในการจัดทำเว็บไซต์</li>
-			<li>ท่านที่ต้องการความสะดวกสบายและความเป็นมืออาชีพในการทำธุรกิจออนไลน์</li>
+			<li><?= label('content1-title2',$this);?></li>
+			<li><?= label('content2-title2',$this);?>์</li>
+			<li><?= label('content3-title2',$this);?>์</li>
 		</ul>
-		<br><br>
-		<h4>คุณสมบัติเด่น</h4>
-		
+		<br>
+		<h4><?= label('title3',$this);?></h4>
+    <hr>
 		<div class="w3-content" style="max-width:700px">
 			  <img class="mySlides" src="<?php echo base_url()?>assets/images/service/eBusiness/ebusiness_01.png" style="width:100%">
 			  <img class="mySlides" src="<?php echo base_url()?>assets/images/service/eBusiness/ebusiness_02.png" style="width:100%">
@@ -41,7 +37,6 @@
 			  <img class="mySlides" src="<?php echo base_url()?>assets/images/service/eBusiness/ebusiness_06.png" style="width:100%">
 			  <img class="mySlides" src="<?php echo base_url()?>assets/images/service/eBusiness/ebusiness_07.png" style="width:100%">
 			  <img class="mySlides" src="<?php echo base_url()?>assets/images/service/eBusiness/ebusiness_08.png" style="width:100%">
-			  
 
 			  <div class="w3-row-padding w3-section">
 			    <div class="w3-col s2">
@@ -61,8 +56,7 @@
 			    </div>
 			    <div class="w3-col s2">
 			      <img class="demo w3-opacity w3-hover-opacity-off" src="<?php echo base_url()?>assets/images/service/eBusiness/ebusiness_06.png" style="width:100%" onclick="currentDiv(6)">
-			    </div> 
-			   
+			    </div>
 			  </div>
 			  <div class="w3-row-padding w3-section">
  				<div class="w3-col s2">
@@ -71,37 +65,31 @@
 			    <div class="w3-col s2">
 			      <img class="demo w3-opacity w3-hover-opacity-off" src="<?php echo base_url()?>assets/images/service/eBusiness/ebusiness_08.png" style="width:100%" onclick="currentDiv(8)">
 			    </div>
-			    
 			    </div>
-
-
 			</div>
 			<ul>
-				<li>ธีมและรูปแบบเว็บไซต์มีความสวยงาม และสามารถปรับเปลี่ยนได้ตามต้องการ</li>
-				<li>รองรับการแสดงผลสองภาษาหลัก ไทยและอังกฤษ และสามารถเพิ่มเติมได้ตามต้องการ</li>
-				<li>สร้างหน้าเว็บเพจเนื้อหาเมนูเพิ่มเติมได้ไม่จำกัด พร้อมหน้า Preface และไฟล์ Html</li>
-				<li>มีระบบ Free Text ที่ง่ายต่อการอัพโหลดข้อมูลและภาพประกอบต่างๆ</li>
-				<li>เว็บไซต์สำเร็จรูปรองรับไฟล์มัลติมีเดียต่างๆ</li>
-				<li>มีเมนูสำหรับนักพัฒนาเพื่อแก้ไข CSS</li>
+				<li><?= label('content1-title3',$this);?></li>
+				<li><?= label('content2-title3',$this);?></li>
+				<li><?= label('content3-title3',$this);?></li>
+				<li><?= label('content4-title3',$this);?></li>
+				<li><?= label('content5-title3',$this);?></li>
+				<li><?= label('content6-title3',$this);?></li>
 			</ul>
 			<br><br>
-		<h4>การทำงานของระบบ</h4>
-		
+		<h4><?= label('title4',$this);?></h4>
 		<ol>
-			<li>เจ้าของเว็บไซต์เข้าสู่ระบบ eBUS Admin เพื่อดำเนินการเพิ่มข้อมูลเกี่ยวกับองค์กร/บริษัท และเพิ่มรูปภาพ</li>
-			<li>จากนั้น อาจมีการปรับแก้สีและธีมของเว็บไซต์ตามแบบที่ต้องการ และตรวจสอบความเรียบร้อยก่อนเปิดเว็บไซต์จริง</li>
-			<li>เมื่อทำการเปิดเว็บไซต์แล้ว บริษัท/องค์กรสามารถแจ้งให้ลูกค้าหรือผู้ติดต่อเข้าเยี่ยมชมเว็บไซต์ได้ทันที เพื่อศึกษาข้อมูลเพิ่มเติมขององค์กร/บริษัท</li>
-			<li>ในกรณีที่ต้องการปรับธีม เพิ่มข้อมูลและเมนูใหม่ๆ หรือเพิ่มไฟล์มัลติมีเดียต่างๆ ก็สามารถทำเพิ่มเติมได้ไม่จำกัด</li>
+			<li><?= label('content1-title4',$this);?></li>
+			<li><?= label('content2-title4',$this);?></li>
+			<li><?= label('content3-title4',$this);?></li>
+			<li><?= label('content4-title4',$this);?></li>
 		</ol>
 		<div class="indent-3 text-left">
-		<p>* หากการชำระเงินอนุมัติ ระบบจะแสดงผลว่า complete พร้อมทั้งส่งอีเมลยืนยันการชำระเงินเรียบร้อยไปให้ทั้งลูกค้าและเจ้าของเว็บไซต์ทราบ (ระบบ eBooking จะทำการล๊อคห้องพักดังกล่าวไว้ทันที)</p><br><br>
+		<p><?= label('content5-title4',$this);?></p><br>
 		</div>
-
-		<h4>ค่าธรรมเนียมและอัตราค่าบริการ</h4>
-		<ol>
-			<li>ค่าบริการใช้งานระบบ 5500 บาท/ปี</li>
-		</ol>
-	
+		<h4><?= label('title5',$this);?></h4>
+  		<ol>
+  			<li><?= label('content1-title5',$this);?></li>
+  		</ol>
 		<br>
 		<center><a href="<?php echo base_url();?>shoppingmall/shoppingmall/regisShoppingmall"><button type="button" class="btn btn-primary">ลงทะเบียนใช้งาน</button></a></center>
       </div>

@@ -26,7 +26,7 @@
                             <?php //echo label('password', $this); ?>
                             <input type="password" class="form-control" name="password" placeholder="<?php echo label('password', $this); ?>" required>
                         </div>
-                        <p align="right"><a href="<?php echo base_url(); ?>buyer/buyer/forgotPassword"><?php echo label('forgetPassword', $this); ?>?</a></p>
+                        <p align="right"><a href="<?php echo base_url(); ?>buyer/buyer/forgotPassword"><?php echo label('forgetPassword', $this); ?></a></p>
                         <center><button type="submit" class="btn btn-primary">Sign In</button></center>
                         <br/>
                 </form>

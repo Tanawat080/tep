@@ -1,37 +1,27 @@
-<!--
-<div id="bgCard" class="well">
-      <h4><B>ทำไมต้องไทยอีเพย์?</B></h4>
-      <p>&nbsp;&nbsp;&nbsp;เนื่องจากมีผู้สอบถามมาเป็นจำนวนมาก และอยากให้ไทยอีเพย์ทำสรุปจุดเด่นเปรียบเทียบระบบการให้บริการของเรา เทียบกับผู้ให้บริการรายอื่น ดังนั้นไทยอีเพย์จึงได้จัดทำข้อมูลเปรียบเทียบ โดยสรุปจุดเด่นของเราเป็นข้อๆ ดังนี้</p>
-      <p>&nbsp;&nbsp;&nbsp;1. ไทยอีเพย์คือผู้บุกเบิกและเป็นต้นแบบ</p>
-      <p>&nbsp;&nbsp;&nbsp;2. ไทยอีเพย์มีระบบที่ดีกว่าและใช้งานได้ง่าย</p>
-      <p>&nbsp;&nbsp;&nbsp;3. ค่าบริการของไทยอีเพย์ถูกและคุ้มค่า</p>
-      <p>&nbsp;&nbsp;&nbsp;4. ไทยอีเพย์มีความปลอดภัยสูงสุด</p>
-      <a href=""><B>&nbsp;ดูเพิ่มเติม</B></a></div>
-<hr>
-</div> -->
+
 <br>
-<div class="">
-  <div class="container text-left ">
-    <div class="row">
+
+  <div class="container text-left">
+    <div class="row ">
         <div class="col-sm-8 font-blue">
-
+          <br/>
             <p class="indent"><?= label('ShoppingMall',$this);?></p>
-
             <B><?= label('OnlineBusinesswithOnlinePayment',$this);?></B>
             <ul>
               <li><a href="<?php echo base_url()?>service/service/eShop">eShop</a> <?= label('OnlineShop',$this);?><font color="red"> <?= label('Free',$this);?></font></li>
               <li><a href="<?php echo base_url()?>service/service/eBookingPlus">eBooking PLUS</a> <?= label('OnlineReservation',$this);?></li>
               <li><a href="<?php echo base_url()?>service/service/eBusiness">eBusiness</a> <?= label('Readywebsiteforbusinessandcompany',$this);?></li>
             </ul>
-            <a href="<?php echo base_url();?>service/service/servicePage"><B><?= label('Learnmore',$this);?></B></a><br><br>
+            <a href="<?php echo base_url();?>service/service/servicePage"><B><?= label('Learnmore',$this);?></B></a>
         </div>
        <div class="col-sm-4">
+        <br/>
         <center>
           <img class="img-responsive" src="assets/images/icons/Commercial.png" width="65%" height="65%">
         </center>
+        <br/>
        </div>
         <!--
-
            <div class="col-sm-6 ">
             <h4 >eModules</h4>
               <div align="left">
@@ -43,10 +33,8 @@
                   <li>ท่านที่มีความรู้ด้านโปรแกรมขั้นสูง หรือมีโปรแกรมเมอร์ดูแลการเชื่อมต่อ</li>
                 </ul>
                 <a href="<?php echo base_url();?>service/service/servicePage"><B>รายละเอียดเพิ่มเติม</B></a>
-
               </div>
         </div>
-
         <div class="col-sm-6 ">
           <div class="">
             <h4>ทำไมต้องใช้ไทยอีเพย์?</h4>
@@ -58,7 +46,7 @@
         </div>  -->
       </div>  <!-- end of content -->
   </div>
-</div> <!-- background -->
+
 
 <div class="border-bottom-content font-blue">
    <div class="container text-left ">
@@ -97,6 +85,7 @@
             <br/><br/>
         </div>
       </div>
+
     </div> <br/>
   </div>
 </div>
@@ -104,29 +93,29 @@
 
 
 <div class="bg-color-blue" >
-<div class="container">
-  <div class="col-sm-12">
-    <br><br><br>
+  <div class="container">
+    <div class="col-sm-12">
+      <br><br><br>
+    </div>
+      <div class="col-sm-3">
+           <center><img src="assets/images/whyThaiepay/Ycontent.png"></center>
+      </div>
+      <div class="col-sm-9 font-white">
+          <br><br>
+          <ol>
+            <p class="indent"><?= label('features',$this);?></p>
+            <li><?= label('ThaiePayisapioneerandprototype',$this);?></li>
+            <li><?= label('ThaiePayoffersbetterserviceanduser-friendlysystem',$this);?></li>
+            <li><?= label('ThaiePayservicechargeisinexpensiveandworthusing',$this);?></li>
+            <li><?= label('ThaiePayprovidesthehighestsecuritysystem',$this);?></li>
+          </ol>
+          <div class="form-group">
+            <br>
+            <center>
+            <a href="<?php echo base_url();?>buyer/buyer/regisBuyer"><button class="tm-red-btn"><?= label('register',$this);?></button></a>
+          </div>
+      </div>
   </div>
-    <div class="col-sm-3">
-         <img src="assets/images/whyThaiepay/Ycontent.png">
-    </div>
-    <div class="col-sm-9 font-white">
-        <br><br>
-        <ol>
-          <p class="indent"><?= label('features',$this);?></p>
-          <li><?= label('ThaiePayisapioneerandprototype',$this);?></li>
-          <li><?= label('ThaiePayoffersbetterserviceanduser',$this);?></li>
-          <li><?= label('ThaiePayservicechargeisinexpensiveandworthusing',$this);?></li>
-          <li><?= label('ThaiePayprovidesthehighestsecuritysystem',$this);?></li>
-        </ol>
-        <div class="form-group">
-          <br>
-          <center>
-          <a href="<?php echo base_url();?>buyer/buyer/regisBuyer"><button class="tm-red-btn"><?= label('register',$this);?></button></a>
-        </div>
-    </div>
-</div>
 </div>
 
 <div class="bg-img2" >
@@ -159,6 +148,7 @@
   </div>
 </div> <!-- end of support CMS system -->
 <br><br><br>
+
 </div>
 
 

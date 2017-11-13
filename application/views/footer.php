@@ -1,5 +1,6 @@
 
 <div class="border-bottom-hr" ></div>
+
 <div class="bg-img"  >
     <div class="container text-left" >
         <div class="col-sm-12 "  >
@@ -80,17 +81,17 @@
                 </li>
             </ul>
             <div class="col-sm-12">
-                <div class="col-md-2 col-md-offset-2 ">
+                <div class="col-sm-2 col-sm-offset-2 ">
                     <h5>We also accept</h5>
                     <img id="ctl00_UcFooter_ImgAllcard" src="<?php echo base_url(); ?>assets/images/footer/allcards2.png" style="border-width:0px;" />
                 </div>
-                <div class="col-md-4 ">
+                <div class="col-sm-4 ">
                     <h5> Award & Securities</h5>
-                    <div >
-                        <a id="ctl00_UcFooter_HyperLink4" href="<?php echo base_url() ?>home/Securities"><img src="<?php echo base_url(); ?>assets/images/footer/allaward.png" style="border-width:0px;" /></a>
-                    </div>
+
+                        <a id="ctl00_UcFooter_HyperLink4" href="<?php echo base_url() ?>home/Securities"><img class="img-responsive" src="<?php echo base_url(); ?>assets/images/footer/allaward.png" style="border-width:0px;" /></a>
+
                 </div>
-                <div class="col-md-2 ">
+                <div class="col-sm-2 ">
                     <h5>Follow Us</h5>
                     <a id="ctl00_UcFooter_HyperLink3"><img id="ctl00_UcFooter_ImgGoogleplus" src="<?php echo base_url(); ?>assets/images/footer/gplus_re.png" style="border-width:0px;" /></a>
                     <a id="ctl00_UcFooter_HyperLink1" href="http://www.facebook.com/THAIEPAY"><img id="ctl00_UcFooter_ImgFB" src="<?php echo base_url(); ?>assets/images/footer/fb2.png" style="border-width:0px;" /></a>
@@ -99,15 +100,16 @@
             </div>
         </div>
     </div><br>
+    <a href="javascript:void(0);" id="scroll" title="BACK TO TOP" style="display: none;">Top<span></span></a>
 </div>
-</div>
+
 <!-- ------------------------------------------------------ -->
 <footer class="container-fluid text-center border-top" >
     <div class="row" >
         <div class="col-lg-12" >
-            <div class="col-md-2">
+            <div class="col-sm-2">
             </div>
-            <div class="col-md-2 text-left">
+            <div class="col-sm-2 text-left">
                 <dl class="clWhite">
                     <dt><B><?= label('merchant',$this);?></B></dt><br>
                     <dd>
@@ -119,7 +121,7 @@
                 </dl>
             </div>
 
-            <div class="col-md-2 text-left">
+            <div class="col-sm-2 text-left">
                 <dl class="clWhite">
                     <dt><B><?php echo label("aboutUs", $this) ?></B></dt><br>
                     <dd >
@@ -137,7 +139,7 @@
                 </dl>
             </div>
 
-            <div class="col-md-4 text-left">
+            <div class="col-sm-4 text-left">
                 <address class="footer-contact">
                     <strong><?= label('Paysolutions',$this)?></strong>
                     <p><?= label('Address',$this)?></p>
@@ -147,9 +149,9 @@
                 </address>
 
             </div>
-            <div class="col-md-2">
+            <div class="col-sm-2">
             </div>
-            <div class="col-md-2">
+            <div class="col-sm-2">
             </div>
         </div>
     </div>
@@ -163,7 +165,6 @@
         </div>
     </div>
 </footer>
-
 <!--  script back to top -->
 <script type='text/javascript'>
     $(document).ready(function () {
@@ -181,7 +182,7 @@
     });
 
 </script>
-<a href="javascript:void(0);" id="scroll" title="BACK TO TOP" style="display: none;">Top<span></span></a>
+
 <script>
     var amountScrolled = 300;
     $(window).scroll(function () {
@@ -192,5 +193,6 @@
         }
     });
 </script><!--  script back to top -->
+
 </body>
 </html>

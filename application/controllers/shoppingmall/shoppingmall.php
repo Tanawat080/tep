@@ -11,7 +11,7 @@ class shoppingmall extends CI_Controller {
 		$lang=$this->session->userdata('lang')==null?"thailand":$this->session->userdata('lang');
 		$this->lang->load($lang,$lang);
 		$this->lang->load('navbar',$lang);
-		$this->lang->load('regisShoppingmall',$lang);
+		$this->lang->load('shoppingMall/regisShoppingmall',$lang);
 		$this->load->view("navbar");
 		$this->load->view("shoppingmall/regisShoppingmall");
 		$this->load->view("footer");
@@ -20,7 +20,7 @@ class shoppingmall extends CI_Controller {
 		$lang=$this->session->userdata('lang')==null?"thailand":$this->session->userdata('lang');
 		$this->lang->load($lang,$lang);
 		$this->lang->load('navbar',$lang);
-		$this->lang->load('regisShoppingmall2',$lang);
+		$this->lang->load('shoppingMall/regisShoppingmall2',$lang);
 		$this->load->view("navbar");
 		$this->load->view("shoppingmall/regisShoppingmall2");
 		$this->load->view("footer");

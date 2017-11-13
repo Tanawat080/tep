@@ -11,7 +11,7 @@ class aboutCompany extends CI_Controller {
 		$lang=$this->session->userdata('lang')==null?"thailand":$this->session->userdata('lang');
 		$this->lang->load($lang,$lang);
 		$this->lang->load('navbar',$lang);
-		$this->lang->load('aboutUs',$lang);
+		$this->lang->load('aboutCompany/aboutUs',$lang);
 		$this->load->view("navbar");
 		$this->load->view("aboutCompany/aboutUsPage");
 		$this->load->view("footer");
@@ -21,7 +21,7 @@ class aboutCompany extends CI_Controller {
 		$lang=$this->session->userdata('lang')==null?"thailand":$this->session->userdata('lang');
 		$this->lang->load($lang,$lang);
 		$this->lang->load('navbar',$lang);
-		$this->lang->load('theme',$lang);
+		$this->lang->load('aboutCompany/theme',$lang);
 		$this->load->view("navbar");
 		$this->load->view("aboutCompany/themePage");
 		$this->load->view("footer");
@@ -30,7 +30,7 @@ class aboutCompany extends CI_Controller {
 		$lang=$this->session->userdata('lang')==null?"thailand":$this->session->userdata('lang');
 		$this->lang->load($lang,$lang);
 		$this->lang->load('navbar',$lang);
-		$this->lang->load('conditions',$lang);
+		$this->lang->load('aboutCompany/conditions',$lang);
 		$this->load->view("navbar");
 		$this->load->view("aboutCompany/conditionPage");
 		$this->load->view("footer");
@@ -39,7 +39,7 @@ class aboutCompany extends CI_Controller {
 		$lang=$this->session->userdata('lang')==null?"thailand":$this->session->userdata('lang');
 		$this->lang->load($lang,$lang);
 		$this->lang->load('navbar',$lang);
-		$this->lang->load('policy',$lang);
+		$this->lang->load('aboutCompany/policy',$lang);
 		$this->load->view("navbar");
 		$this->load->view("aboutCompany/policyPage");
 		$this->load->view("footer");

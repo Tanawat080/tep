@@ -11,7 +11,7 @@ class eModules extends CI_Controller {
 		$lang=$this->session->userdata('lang')==null?"thailand":$this->session->userdata('lang');
 		$this->lang->load($lang,$lang);
 		$this->lang->load('navbar',$lang);
-		$this->lang->load('regiseModules',$lang);
+		$this->lang->load('eModules/regiseModules',$lang);
 		$this->load->view("navbar");
 		$this->load->view("eModule/regiseModules");
 		$this->load->view("footer");
@@ -21,8 +21,8 @@ class eModules extends CI_Controller {
 		$lang=$this->session->userdata('lang')==null?"thailand":$this->session->userdata('lang');
 		$this->lang->load($lang,$lang);
 		$this->lang->load('navbar',$lang);
-		$this->lang->load('formeModule',$lang);
-		$this->lang->load('packageePayment',$lang);
+		$this->lang->load('eModules/formeModule',$lang);
+		$this->lang->load('eModules/packageePayment',$lang);
 		$radio_value = $this->input->post('eModules');
 		if($radio_value=='ePayment' || $radio_value=='eCart'){
 			$this->load->view("navbar");
